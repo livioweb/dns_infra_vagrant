@@ -1,0 +1,9 @@
+network:
+    version: 2
+    ethernets:
+        eth1:                                 # Private network interface
+            nameservers:
+                addresses:
+                - 172.12.177.53               # Private IP for ns1
+                - 172.12.177.54              # Private IP for ns2
+                search: [ devops ]  # DNS zone

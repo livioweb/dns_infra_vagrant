@@ -1,0 +1,25 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA      ns1.devops. admin.devops. (
+                              2         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      ns1.devops.
+@       IN      NS      ns2.devops.
+
+
+53.177   IN      PTR     172.17.177.53.
+
+; PTR Records
+53.177   IN      PTR     ns1.devops.    ; 172.17.177.53
+54.177   IN      PTR     ns2.devops.    ; 172.17.177.54
+
+200.177   IN      PTR     xwing.devops.     ; 172.17.177.200
+120.177   IN      PTR     gitlab.devops.    ; 172.17.177.120
+130.177   IN      PTR     jenkins.devops.   ; 172.17.177.130
+140.177   IN      PTR     sonar.devops.     ; 172.17.177.140
