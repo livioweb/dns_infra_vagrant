@@ -1,0 +1,22 @@
+---
+  - name: Install Sonar
+    docker_container:
+      docker_host: unix://var/run/docker.sock
+      name: sonarqube-cicd
+      hostname: sonar.pulse
+      image: sonarqube:latest
+      state: started
+      recreate: yes
+      ports:
+        - "9082:9000"
+        - "80:9000"
+      volumes:
+        - sonarqube_conf:/opt/sonarqube/conf
+        - sonarqube_data:/opt/sonarqube/data
+        - sonarqube_logs:/opt/sonarqube/logs
+        - sonarqube_extensions:/opt/sonarqube/extensions
+        - /etc/hosts:/etc/hosts:ro
+      env:
+         SONAR_JDBC_USERNAME: "sonarqube"
+         SONAR_JDBC_PASSWORD: "sonarqube"
+

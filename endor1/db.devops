@@ -1,0 +1,23 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA     ns1.devops. admin.devops. (
+                              3         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      ns1.devops.
+@       IN      NS      ns2.devops.
+
+; name servers - A records
+ns1.devops.          IN      A       172.17.177.53
+ns2.devops.          IN      A       172.17.177.54
+
+; - A records
+xwing.devops.        IN      A      172.17.177.200
+gitlab.devops.       IN      A      172.17.177.120
+jenkins.devops.      IN      A      172.17.177.130
+sonar.devops.        IN      A      172.17.177.140
