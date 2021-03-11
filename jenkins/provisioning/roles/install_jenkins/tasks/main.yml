@@ -1,0 +1,29 @@
+---
+  - name: Install Jenkins
+    docker_container:
+      docker_host: unix://var/run/docker.sock
+      name: jenkins-cicd
+      image: liviorodrigues/jenkins:latest
+      state: started
+      hostname: jenkins.docker
+      user: jenkins
+      privileged: yes
+      recreate: yes
+      ##TO-DO: Precisa insalar o maven dentro do container
+      ## install docker : https://docs.docker.com/engine/install/debian/
+      #command: "apt update && apt install maven"
+      ports:
+         - "9080:8080"
+         - "80:8080"
+         - "5000:5000"
+         - "50000:50000"
+      volumes:
+         - /home/vagrant/jenkins/jenkins-maven_home:/var/jenkins_home
+         - /etc/hosts:/etc/hosts:ro
+         - /var/run/docker.sock:/var/run/docker.sock:ro
+         - /usr/bin/docker:/usr/bin/docker:ro
+         #- /usr/bin/mvn:/usr/bin/mvn:ro
+         #- /usr/share/maven:/usr/share/maven
+      env:
+         JENKINS_HOST_HOME: "/data/jenkins"
+

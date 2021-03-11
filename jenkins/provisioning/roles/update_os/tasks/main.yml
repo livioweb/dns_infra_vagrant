@@ -1,0 +1,27 @@
+---
+  - name: Update and upgrade apt packages
+    become: yes
+    apt:
+      state: latest
+      upgrade: yes
+      update_cache: yes
+      force_apt_get: yes
+      cache_valid_time: 86400
+
+  #- name: Install required system packages
+  #  apt: name={{ item }} state=latest update_cache=yes
+  #  loop: [ 'apt-transport-https', 'ca-certificates', 'curl', 'software-properties-common']
+  #  become: yes
+
+  - name: Install required system packages
+    apt:
+      name:
+        - apt-transport-https
+        - ca-certificates
+        - curl
+        - software-properties-common
+        - default-jdk
+        - maven
+      state: latest
+      update_cache: yes
+    become: yes

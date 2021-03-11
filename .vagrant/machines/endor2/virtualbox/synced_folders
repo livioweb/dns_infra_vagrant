@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/endor2":{"guestpath":"/home/vagrant/endor2","hostpath":"/home/anakin/Projects/dns_infra_vagrant/endor2","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/anakin/Projects/dns_infra_vagrant","disabled":false,"__vagrantfile":true}}}

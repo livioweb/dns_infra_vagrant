@@ -1,1 +1,1 @@
-{"virtualbox":{"/home/vagrant/endor1":{"guestpath":"/home/vagrant/endor1","hostpath":"/home/anakin/Projects/DNS/endor1","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/anakin/Projects/DNS","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/home/vagrant/endor1":{"guestpath":"/home/vagrant/endor1","hostpath":"/home/anakin/Projects/dns_infra_vagrant/endor1","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/anakin/Projects/dns_infra_vagrant","disabled":false,"__vagrantfile":true}}}

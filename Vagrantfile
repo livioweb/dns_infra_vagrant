@@ -8,18 +8,45 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.ssh.insert_key = true
   #config.disksize.size = '20GB'
 
-    config.vm.provision "shell", inline: <<-SHELL
-        export DEBIAN_FRONTEND=noninteractive
-        apt-get update
-        sudo apt-get install -y bind9 bind9utils bind9-doc
-        #sudo groupadd endor
-        #sudo usermod -aG bind vagrant
-        #sudo usermod -aG bind ${USER}
-    SHELL
+    config.vm.define "jenkins" do |jenkins|
+      jenkins.vm.box = "ubuntu/bionic64"
+      jenkins.vm.network "private_network", ip: "172.17.177.130"
+  
+      jenkins.vm.hostname = "jenkins"
+      jenkins.vm.synced_folder "jenkins/", "/home/vagrant/jenkins"
+      jenkins.vm.provision "shell", path: "jenkins/script.sh"
+  
+          jenkins.vm.provider :virtualbox do |jenkins|
+              jenkins.customize ["modifyvm", :id, "--memory", "4096"]
+              jenkins.customize ["modifyvm", :id, "--cpus", "4"]
+          end
+  
+          jenkins.vm.provision "ansible" do |jenkins|
+              jenkins.verbose = "vv"
+              jenkins.compatibility_mode = "2.0"
+              jenkins.playbook = "jenkins/provisioning/playbook.yml"
+              jenkins.inventory_path = "jenkins/provisioning/inventory"
+              jenkins.become = true
+              jenkins.limit = "jenkins"
+           end
+    end
+
+
 
   config.vm.define "endor1" do |endor1|
       endor1.vm.box = "ubuntu/bionic64"
       endor1.vm.network "private_network", ip: "172.17.177.53"
+
+
+      endor1.vm.provision "shell", inline: <<-SHELL
+      export DEBIAN_FRONTEND=noninteractive
+      apt-get update
+      sudo apt-get install -y bind9 bind9utils bind9-doc
+      #sudo groupadd endor
+      #sudo usermod -aG bind vagrant
+      #sudo usermod -aG bind ${USER}
+      SHELL
+
       #endor1.disksize.size = '2GB'
       endor1.vm.hostname = "endor1"
       endor1.vm.synced_folder "endor1/", "/home/vagrant/endor1"
@@ -27,11 +54,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
 
         endor1.vm.provision "shell", inline: <<-SHELL
-            #rm /etc/bind/named.conf.options
-            #rm /etc/bind/named.conf.local
-            #rm /etc/default/bind9
-            #rm -r /etc/bind/zones
-            #            rm /etc/netplan/00-private-nameservers.yaml
+            rm /etc/bind/named.conf.options
+            rm /etc/bind/named.conf.local
+            rm /etc/default/bind9
+            rm -r /etc/bind/zones
+            rm /etc/netplan/00-private-nameservers.yaml
         SHELL
 
 
@@ -68,6 +95,15 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.define "endor2" do |endor2|
       endor2.vm.box = "ubuntu/bionic64"
       endor2.vm.network "private_network", ip: "172.17.177.54"
+
+
+      endor2.vm.provision "shell", inline: <<-SHELL
+      export DEBIAN_FRONTEND=noninteractive
+      apt-get update
+      sudo apt-get install -y bind9 bind9utils bind9-doc
+      SHELL
+     
+
       #endor2.disksize.size = '2GB'
       endor2.vm.hostname = "endor2"
       endor2.vm.synced_folder "endor2/", "/home/vagrant/endor2"

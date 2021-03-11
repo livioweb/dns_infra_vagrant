@@ -1,6 +1,6 @@
 zone "endor.devops" {
     type master;
-    file "/etc/bind/zones/db.devops"; # zone file path
+    file "/etc/bind/zones/db.endor.devops"; # zone file path
     allow-transfer { 172.17.177.53; };           # ns1 private IP address - secondary
 };
 

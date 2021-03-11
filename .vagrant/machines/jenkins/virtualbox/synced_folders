@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/jenkins":{"guestpath":"/home/vagrant/jenkins","hostpath":"/home/anakin/Projects/dns_infra_vagrant/jenkins","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/anakin/Projects/dns_infra_vagrant","disabled":false,"__vagrantfile":true}}}
