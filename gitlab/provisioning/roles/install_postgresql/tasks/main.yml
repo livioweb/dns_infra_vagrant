@@ -1,0 +1,22 @@
+---
+  - name: Install PostgreSql
+    vars:
+      gitlab: gitlab
+      password: password
+      gitlabhq_production: gitlabhq_production
+      pg_tr: pg_trgm,btree_gist
+    docker_container:
+      docker_host: unix://var/run/docker.sock
+      name: postgresql
+      image: sameersbn/postgresql:12-20200524
+      state: started
+      recreate: yes
+      ports:
+        - '5432:5432'
+      volumes:
+        - postgresql-data:/var/lib/postgresql:Z
+      env:
+        DB_USER: "{{ gitlab }}"
+        DB_PASS: "{{ password }}"
+        DB_NAME: "{{ gitlabhq_production }}"
+        DB_EXTENSION: "{{ pg_tr }}"

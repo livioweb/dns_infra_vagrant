@@ -8,6 +8,29 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.ssh.insert_key = true
   #config.disksize.size = '20GB'
 
+  config.vm.define "gitlab" do |gitlab|
+    gitlab.vm.box = "ubuntu/bionic64"
+    gitlab.vm.network "private_network", ip: "172.17.177.120"
+
+    gitlab.vm.hostname = "gitlab"
+    gitlab.vm.synced_folder "gitlab/", "/home/vagrant/gitlab"
+    gitlab.vm.provision "shell", path: "gitlab/script.sh"
+        gitlab.vm.provider :virtualbox do |gitlab|
+            gitlab.customize ["modifyvm", :id, "--memory", "8096"]
+            gitlab.customize ["modifyvm", :id, "--cpus", "4"]
+        end
+
+        gitlab.vm.provision "ansible" do |gitlab|
+            gitlab.verbose = "v"
+            gitlab.compatibility_mode = "2.0"
+            gitlab.playbook = "gitlab/provisioning/playbook.yml"
+            gitlab.inventory_path = "gitlab/provisioning/inventory"
+            gitlab.become = true
+            gitlab.limit = "gitlab"
+         end
+  end
+
+
     config.vm.define "jenkins" do |jenkins|
       jenkins.vm.box = "ubuntu/bionic64"
       jenkins.vm.network "private_network", ip: "172.17.177.130"

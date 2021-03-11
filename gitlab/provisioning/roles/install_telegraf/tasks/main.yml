@@ -1,0 +1,12 @@
+---
+  - name: Telegraf packages
+    apt:
+      name:
+        - telegraf
+      state: present
+    register: install_telegraf
+
+  - name: Move away default configfile
+    command: mv /var/gitlab/telegraf.conf /etc/telegraf/telegraf.conf
+    when: install_telegraf.changed
+  #Instalar arquivos de configuração

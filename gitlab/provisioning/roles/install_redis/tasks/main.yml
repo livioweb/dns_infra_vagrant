@@ -1,0 +1,12 @@
+---
+  - name: Install Redis
+    docker_container:
+      docker_host: unix://var/run/docker.sock
+      name: redis
+      image:  redis:5.0.9
+      state: started
+      recreate: yes
+      ports:
+        - '6379:6379'
+      volumes:
+        - redis-data:/var/lib/redis:rw
