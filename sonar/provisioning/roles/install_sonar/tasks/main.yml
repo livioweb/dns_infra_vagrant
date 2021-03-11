@@ -11,10 +11,10 @@
         - "9082:9000"
         - "80:9000"
       volumes:
-        - sonarqube_conf:/opt/sonarqube/conf
-        - sonarqube_data:/opt/sonarqube/data
-        - sonarqube_logs:/opt/sonarqube/logs
-        - sonarqube_extensions:/opt/sonarqube/extensions
+        - /home/vagrant/sonar/sonarqube_conf:/opt/sonarqube/conf
+        - /home/vagrant/sonar/sonarqube_data:/opt/sonarqube/data
+        - /home/vagrant/sonar/sonarqube_logs:/opt/sonarqube/logs
+        - /home/vagrant/sonar/sonarqube_extensions:/opt/sonarqube/extensions
         - /etc/hosts:/etc/hosts:ro
       env:
          SONAR_JDBC_USERNAME: "sonarqube"

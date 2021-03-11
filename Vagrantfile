@@ -175,11 +175,11 @@ end
 
 
         endor1.vm.provision "shell", inline: <<-SHELL
-            rm /etc/bind/named.conf.options
-            rm /etc/bind/named.conf.local
-            rm /etc/default/bind9
-            rm -r /etc/bind/zones
-            rm /etc/netplan/00-private-nameservers.yaml
+           # rm /etc/bind/named.conf.options
+           # rm /etc/bind/named.conf.local
+           # rm /etc/default/bind9
+           # rm -r /etc/bind/zones
+           # rm /etc/netplan/00-private-nameservers.yaml
         SHELL
 
 
