@@ -1,0 +1,7 @@
+---
+- src: geerlingguy.git
+- src: geerlingguy.pip
+- src: geerlingguy.ansible
+- src: geerlingguy.docker
+- src: geerlingguy.nodejs
+- src: geerlingguy.awx
