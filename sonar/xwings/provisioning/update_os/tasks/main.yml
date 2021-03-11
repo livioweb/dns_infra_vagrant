@@ -1,0 +1,32 @@
+---
+- name: Update and upgrade apt packages
+  become: true
+  apt:
+    state: latest
+    upgrade: true
+    update_cache: true
+    cache_valid_time: 86400 #One day
+
+#- name: Install required system packages
+#  apt: name={{ item }} state=latest update_cache=yes
+#  loop: [ 'apt-transport-https', 'ca-certificates', 'curl', 'software-properties-common']
+#  become: yes
+
+- name: Install required system packages
+  apt:
+    name:
+      - apt-transport-https
+      - ca-certificates
+      - curl
+      - software-properties-common
+      - python3-pip
+      - python-pip
+      - sshpass
+      - python
+      - python3
+    state: present
+    update_cache: true
+  become: true
+#apt install python-pip
+#pip install docker-py
+#pip install docker-py

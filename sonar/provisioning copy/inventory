@@ -1,0 +1,2 @@
+[bb8]
+172.17.177.200 ansible_user=vagrant ansible_ssh_pass=vagrant # ansible_ssh_private_key_file=.vagrant/machines/bb8/virtualbox/private_key

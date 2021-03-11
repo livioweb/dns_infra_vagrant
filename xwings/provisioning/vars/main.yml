@@ -1,0 +1,5 @@
+---
+nginx:
+  install: '1'
+  docroot: /vagrant/www
+  servername: xwing.devops
