@@ -1,0 +1,3 @@
+[filesystem "Oracle Corporation|1.8.0_242|home_vagrant_jenkins"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 2631 microseconds

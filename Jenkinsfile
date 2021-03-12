@@ -173,8 +173,6 @@ pipeline {
         }
         */
 
-
-
         stage('Notify GitLab') {
             steps {
                 echo 'Notify GitLab'

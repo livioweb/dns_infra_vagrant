@@ -1,0 +1,5 @@
+[mymachine]
+10.0.2.94 ansible_ssh_port=2222 ansible_ssh_pas=el18100212
+
+[mymachine:vars]
+ansible_python_interpreter=/usr/bin/python

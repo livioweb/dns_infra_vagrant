@@ -1,0 +1,59 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: $deploymentName
+  name: $deploymentName
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: $deploymentName
+  template:
+    metadata:
+      labels:
+        run: $deploymentName
+    spec:
+      containers:
+      - name: $deploymentName
+        image: $image
+        ports:
+        - containerPort: 8080
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: $deploymentName
+  labels:
+    run: $deploymentName
+spec:
+  ports:
+    - name: port-http
+      protocol: TCP
+      port: 8080
+      targetPort: 8080
+  selector:
+    run: $deploymentName
+  type: ClusterIP
+  sessionAffinity: None
+status:
+  loadBalancer: {}
+
+---
+kind: Ingress
+apiVersion: extensions/v1beta1
+metadata:
+  name: ${deploymentName}-ingress
+spec:
+  rules:
+    - host: $ingressHost
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: $deploymentName
+              servicePort: 8080
+status:
+  loadBalancer: {}

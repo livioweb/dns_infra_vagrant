@@ -1,0 +1,20 @@
+commit d6224945677ffb447845a42c72e37b8b528f671e
+tree f079a9d22de6af504ca99a7d868f7566642bcdfb
+parent debf7ad2ff32adf06f0e59019c34b707e7b010c4
+author jenkis <jenkis@pulse.com> 2021-03-12 16:00:48 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-12 16:00:48 -0300
+
+    Add Jenkinsfile
+
+
+:100644 100644 0a5e2443d851ac6f1c8295e3d30300c197885eb4 0a5e2443d851ac6f1c8295e3d30300c197885eb4 R100	Jenkinsfile	.Jenkinsfile
+commit debf7ad2ff32adf06f0e59019c34b707e7b010c4
+tree 5d06728ceb2d0956e38b312bddf0045657615398
+parent fa4139d9583a5678ec6d315b31be0244e334dd7a
+author jenkis <jenkis@pulse.com> 2021-03-12 15:52:52 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-12 15:52:52 -0300
+
+    Add Jenkinsfile
+
+
+:100644 100644 9821d406fbc323f69c0335e528fbf8b85fbb540e 0a5e2443d851ac6f1c8295e3d30300c197885eb4 M	Jenkinsfile

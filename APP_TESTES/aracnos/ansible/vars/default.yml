@@ -1,0 +1,8 @@
+---
+default_container_name: spring-boot-hello-world
+default_container_image: '10.0.2.94:5000/tarefa/demo:latest'
+container_restart: always
+container_port: 8083
+container_cpu_period: 100000
+container_memory: 1000M
+create_containers: 1

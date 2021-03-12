@@ -1,6 +1,14 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <flow-definition plugin="workflow-job@2.40">
-  <actions/>
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.8.4"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.8.4">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties>
@@ -18,21 +26,6 @@
       <jobCredentialId></jobCredentialId>
       <useAlternativeCredential>false</useAlternativeCredential>
     </com.dabsquared.gitlabjenkins.connection.GitLabConnectionProperty>
-    <hudson.model.ParametersDefinitionProperty>
-      <parameterDefinitions>
-        <hudson.model.BooleanParameterDefinition>
-          <name>ROOLBACK</name>
-          <description></description>
-          <defaultValue>false</defaultValue>
-        </hudson.model.BooleanParameterDefinition>
-        <hudson.model.RunParameterDefinition>
-          <name>ApllyBuild</name>
-          <description>ApllyBuild</description>
-          <projectName>aracnos</projectName>
-          <filter>SUCCESSFUL</filter>
-        </hudson.model.RunParameterDefinition>
-      </parameterDefinitions>
-    </hudson.model.ParametersDefinitionProperty>
     <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
       <triggers>
         <com.dabsquared.gitlabjenkins.GitLabPushTrigger plugin="gitlab-plugin@1.5.19">
@@ -57,7 +50,7 @@
           <excludeBranchesSpec></excludeBranchesSpec>
           <sourceBranchRegex></sourceBranchRegex>
           <targetBranchRegex></targetBranchRegex>
-          <secretToken>{AQAAABAAAAAQMSveUGyU5YBSobXvCpN2fRffmXUeYJNYxLdyrAiEvJg=}</secretToken>
+          <secretToken>{AQAAABAAAAAQ0U+tfpIcUEiOm0yusMP1aVq2EHsPflpgw+9/ItkfyxU=}</secretToken>
           <pendingBuildName></pendingBuildName>
           <cancelPendingBuildsOnUpdate>false</cancelPendingBuildsOnUpdate>
         </com.dabsquared.gitlabjenkins.GitLabPushTrigger>
@@ -65,7 +58,111 @@
     </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
   </properties>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.90">
-    <script></script>
+    <script>pipeline {
+   agent any
+       environment {
+        registry = &quot;liviorodrigues/aracnos&quot;
+        registryCredential = &apos;docker_hub&apos;
+        dockerImage = &apos;aracnos&apos;
+    }
+   
+    stages {
+
+        stage(&apos;Clean Workspace&apos;) {
+            //when { expression { !params.ROOLBACK } }
+            steps {
+                deleteDir()
+              }
+        }
+    
+        stage(&apos;Cloning Git&apos;) {
+        when { expression { !params.ROOLBACK } }
+        steps {
+            gitCloneFrom(&apos;master&apos;,&apos;gitlab_jenkis&apos;,&apos;http://gitlab.devops/gitlab/aracnos.git&apos; )
+            script{
+                def pom_version = readMavenPom().getVersion()
+                echo &quot;VERSION: ${pom_version}&quot; 
+            }
+            sh &quot;mkdir -p deploy&quot;
+            dir(&quot;deploy&quot;){
+                gitCloneFrom(&apos;master&apos;,&apos;gitlab_jenkis&apos;,&apos;http://gitlab.devops/gitlab/ansible_file_deploy.git&apos; )
+            }
+          }
+        }
+        
+        
+        stage(&apos;Build JAR&apos;) {
+          when { expression { !params.ROOLBACK } }
+          steps {
+                
+            sh &quot;mvn -B -DskipTests clean package&quot;
+            //stash name:&quot;jar&quot;, includes:&quot;target/myappapi-0.0.0-SNAPSHOT.jar&quot;
+          }
+        }
+        stage(&apos;Test&apos;) {
+            when { expression { !params.ROOLBACK } }
+            steps {
+                sh &apos;mvn test&apos;
+              }
+              post {
+                always {
+                  junit &apos;target/surefire-reports/*.xml&apos;
+                }
+              }
+        }
+        
+        stage(&apos;Building image&apos;) {
+            when { expression { !params.ROOLBACK } }
+            steps{
+                script {
+                dockerImage = docker.build(registry + &quot;:$BUILD_NUMBER&quot; )
+                sh &apos;docker build -t liviorodrigues/aracnos&quot;:$BUILD_NUMBER&quot; . &apos;
+                }
+            }
+        }
+
+        stage(&apos;Register Image&apos;) {
+            when { expression { !params.ROOLBACK } }
+            steps{
+                script {
+                    docker.withRegistry( &apos;&apos;, registryCredential ) {
+                    dockerImage.push()
+                }
+            }
+          }
+        }        
+
+        stage(&apos;Deploy&apos;) {
+            when { expression { !params.ROOLBACK } }
+            steps{
+                script {
+                       dir(&quot;deploy&quot;){
+                           deployWithBuildNumber(env.BUILD_NUMBER)
+                       }
+                }
+            }
+        }
+
+    }
+    
+}
+
+
+def gitCloneFrom(branch,credentialsId,url ){
+    try{
+        git branch: &quot;${branch}&quot;, credentialsId: &quot;${credentialsId}&quot;, url: &quot;${url}&quot;
+    } catch(Exception e) {
+        println(&quot;Exception: ${e}&quot;)
+    }
+}
+
+def deployWithBuildNumber(buildNumber){
+    try{
+       sh &quot;ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=${buildNumber} -vv&quot;
+    } catch(Exception e) {
+       println(&quot;Exception: ${e}&quot;)
+    }
+}</script>
     <sandbox>true</sandbox>
   </definition>
   <triggers/>

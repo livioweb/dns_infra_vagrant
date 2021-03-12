@@ -1,0 +1,23 @@
+---
+- hosts: mymachine
+  environment:
+    PYTHONPATH: "{{ lookup('env','PYTHONPATH') }}:/usr/local/lib/python3.6/dist-packages:/usr/local/lib/python3.6/site-packages"
+    #PYTHONPATH: "/home/anakin/.local/lib/python3.6/site-packages"
+  remote_user: analivia
+  become: true
+  become_method: sudo
+  connection: ssh
+  vars_files:
+    - ansible/vars/default.yml
+  tasks:
+    - name: spring-boot-hello-world
+      docker_container:
+        name: "{{ default_container_name }}"
+        image: "{{ default_container_image }}"
+        state: started
+        restart_policy: "{{ container_restart }}"
+        pull: true
+        cpu_period: "{{ container_cpu_period }}"
+        memory: "{{ container_memory }}"
+        ports: "{{ container_port }}:8080"
+      with_sequence: count={{ create_containers }}

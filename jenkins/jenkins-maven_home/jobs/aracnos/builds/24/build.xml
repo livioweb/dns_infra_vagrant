@@ -1,0 +1,74 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.40">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause plugin="gitlab-plugin@1.5.19">
+            <data>
+              <actionType>PUSH</actionType>
+              <sourceProjectId>6</sourceProjectId>
+              <targetProjectId>6</targetProjectId>
+              <branch>master</branch>
+              <sourceBranch>master</sourceBranch>
+              <userName>gitlab</userName>
+              <userUsername>gitlab</userUsername>
+              <userEmail></userEmail>
+              <sourceRepoHomepage>http://gitlab.devops/gitlab/aracnos</sourceRepoHomepage>
+              <sourceRepoName>Aracnos</sourceRepoName>
+              <sourceNamespace>gitlab</sourceNamespace>
+              <sourceRepoUrl>git@gitlab.devops:gitlab/aracnos.git</sourceRepoUrl>
+              <sourceRepoSshUrl>git@gitlab.devops:gitlab/aracnos.git</sourceRepoSshUrl>
+              <sourceRepoHttpUrl>http://gitlab.devops/gitlab/aracnos.git</sourceRepoHttpUrl>
+              <mergeRequestTitle></mergeRequestTitle>
+              <mergeRequestDescription></mergeRequestDescription>
+              <mergeRequestState></mergeRequestState>
+              <mergedByUser></mergedByUser>
+              <mergeRequestAssignee></mergeRequestAssignee>
+              <targetBranch>master</targetBranch>
+              <targetRepoName></targetRepoName>
+              <targetNamespace></targetNamespace>
+              <targetRepoSshUrl></targetRepoSshUrl>
+              <targetRepoHttpUrl></targetRepoHttpUrl>
+              <triggeredByUser>gitlab</triggeredByUser>
+              <before>fa4139d9583a5678ec6d315b31be0244e334dd7a</before>
+              <after>d6224945677ffb447845a42c72e37b8b528f671e</after>
+              <lastCommit>d6224945677ffb447845a42c72e37b8b528f671e</lastCommit>
+              <targetProjectUrl>http://gitlab.devops/gitlab/aracnos</targetProjectUrl>
+            </data>
+          </com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <hudson.plugins.git.RevisionParameterAction plugin="git@4.6.0">
+      <commit>remotes/origin/master</commit>
+      <combineCommits>false</combineCommits>
+      <repoURL plugin="git-client@3.6.0">
+        <path>gitlab/aracnos.git</path>
+        <rawPath>gitlab/aracnos.git</rawPath>
+        <user>git</user>
+        <port>-1</port>
+        <host>gitlab.devops</host>
+      </repoURL>
+    </hudson.plugins.git.RevisionParameterAction>
+  </actions>
+  <queueId>40</queueId>
+  <timestamp>1615576000057</timestamp>
+  <startTime>1615576000074</startTime>
+  <result>FAILURE</result>
+  <description>Started by GitLab push by gitlab</description>
+  <duration>27</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.scm.NullSCM"/>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/aracnos@script</workspace>
+      <changelogFile>/var/jenkins_home/jobs/aracnos/builds/24/changelog3708231282845317121.xml</changelogFile>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

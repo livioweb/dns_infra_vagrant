@@ -52,3 +52,40 @@ cd /var/jenkins_home/
 git clone git@gitlab.devops:root/aracnos.git
 ls -la
 exit
+git clone git@gitlab.devops:root/aracnos.git
+cd /var/jenkins_home/
+git clone git@gitlab.devops:root/aracnos.git
+git clone git@gitlab.devops:root/aracnos.git
+git clone git@gitlab.devops:root/aracnos.git
+cat .ssh/id_rsa.pub 
+ls -lah
+cd .ssh/
+ls -lah
+cat id_rsa.pub 
+chmod 600 id_rsa
+git clone --help
+man git clone 
+git clone -h
+git clone git@gitlab.devops:root/aracnos.git -v
+git clone git@gitlab.devops:root/aracnos.git -vvv
+cat  /etc/resolv.conf 
+cat /etc/resolv.conf 
+dig
+ssh -T git@gitlab.devops
+pwd
+cd /var/jenkins_home/
+git clone http://gitlab.devops/root/aracnos.git  
+rm -rf aracnos/
+ls
+tail -f logs/tasks/Workspace\ clean-up.log
+cd  logs
+ls
+cd tasks/
+ls
+ls -la
+docker login
+docker login
+docker login
+docker login
+docker ps
+exit

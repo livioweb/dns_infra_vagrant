@@ -1,0 +1,6 @@
+projectKey=aracnos_l
+serverUrl=http://172.17.177.140
+serverVersion=8.6.1.40680
+dashboardUrl=http://172.17.177.140/dashboard?id=aracnos_l
+ceTaskId=AXerA6pLyzJgrwg2S-TW
+ceTaskUrl=http://172.17.177.140/api/ce/task?id=AXerA6pLyzJgrwg2S-TW

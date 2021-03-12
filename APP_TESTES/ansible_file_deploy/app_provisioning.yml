@@ -1,0 +1,90 @@
+---
+- hosts: all
+  user: vagrant
+  vars:
+    create_containers: 4
+    default_container_name: apimyhome
+    default_container_image: apimyhome
+    default_container_command: sleep 1d
+  pre_tasks:
+    - name: Set discovered Ansible Python interpreter.
+      set_fact:
+        ansible_python_interpreter: "/usr/bin/python3"
+      when: ansible_python_interpreter is not defined
+  ignore_errors: false
+  no_log: false
+  tasks:
+    - name: Deploy With Ansible
+      docker_container:
+        docker_host: unix://var/run/docker.sock
+        name: apimyhome
+        state: started
+        restart: yes
+        image: liviorodrigues/aracnos:{{REGISTER}}
+        cpu_quota: 100000
+        memory: "512MB"
+        exposed_ports:
+          - 8080:8081
+        published_ports:
+          - 8080:8081
+        volumes:
+          - /etc/hosts:/etc/hosts:ro
+          - /var/run/docker.sock:/var/run/docker.sock:ro
+          - /usr/bin/docker:/usr/bin/docker:ro
+
+
+
+    #- name: Update and upgrade apt packages
+    #  become: true
+    #  apt:
+    #    upgrade: true
+    #    update_cache: true
+    #    cache_valid_time: 86400 #One day
+
+    #- name: Install required system packages
+    #  apt: name={{ item }} state=latest update_cache=yes
+    #  loop: [ 'apt-transport-https', 'ca-certificates', 'curl', 'software-properties-common', 'python3-pip', 'virtualenv', 'python3-setuptools']
+    #  become: true
+    #  become_method: 'sudo'
+
+    #- name: Pull default Docker image
+    #  docker_image:
+    #    name: liviorodrigues/my_app_api:$REGISTER
+    #    source: pull
+
+    #- name: build_image
+    #  docker_image:
+    #    name: liviorodrigues/my_app_api:$REGISTER     # Name of image, may be with repo path.
+    #    path: .
+    #    state: present
+    #  register: image_build
+
+
+    #- name: Tag and push to docker hub
+    #  docker_image:
+    #    name: my_app_api
+    #    repository: liviorodrigues/my_app_api
+    #    tag: $REGISTER
+    #    push: yes
+
+    #- name: Build Docker image from Dockerfile
+    #  docker_image:
+    #    name: my_app_api
+    #    path: docker
+    #    state: present
+
+    #- name: Build an image and push it to a private repo
+    #  docker_image:
+    #    path: .
+    #    name: hub.docker.com/repository/docker/liviorodrigues/my_app_api
+    #    tag: v1
+    #    push: yes
+
+    #- name: Tag and push to remote registry
+    #  docker_image:
+    #    name: my_app_api
+    #    repository: liviorodrigues/my_app_api
+    #    tag: $REGISTER
+    #    push: yes
+
+

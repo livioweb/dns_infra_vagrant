@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-03-12 15:46:39.482 UTC</timestamp>
+  <md5sum>7167518d2b894276c5924cabfd3bad75</md5sum>
+  <fileName>Credential id=gitlab_jenkis name=gitlab/****** (gitlab_jenkis)</fileName>
+  <usages>
+    <entry>
+      <string>aracnos</string>
+      <ranges>8-21,26-28,33-34,36-38</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.3.15">
+      <timestamp>1615576471079</timestamp>
+      <itemFullName>aracnos</itemFullName>
+      <timestamp0>1615576249390</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

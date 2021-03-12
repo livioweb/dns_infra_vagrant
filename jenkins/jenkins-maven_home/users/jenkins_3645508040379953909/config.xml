@@ -17,6 +17,15 @@
               <hash>e14576de571a79e31ef3ca5ca1f66d697aa214dc2fabc04b5f55afacf91fc9b6</hash>
             </value>
           </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+          <jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+            <uuid>99c1cddd-1488-415b-b33b-b2e58dd423b6</uuid>
+            <name>Token created on 2021-03-12T19:03:30.3Z</name>
+            <creationDate>2021-03-12 19:03:30.301 UTC</creationDate>
+            <value>
+              <version>11</version>
+              <hash>780d1d5dc942cbe6f76621543b5f546b4a408a4f112c1f3334057ac61a382127</hash>
+            </value>
+          </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
         </tokenList>
       </tokenStore>
     </jenkins.security.ApiTokenProperty>
