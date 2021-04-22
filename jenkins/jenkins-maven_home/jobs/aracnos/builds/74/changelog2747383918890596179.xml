@@ -1,0 +1,10 @@
+commit cf4ff6127abd9b5f2c42c397c64e3a96fdfb17f1
+tree 6bfbc35e963db3cac1f8a47fbcafa41f795cb0ca
+parent c43b4edea97d5b38d5a6e3300dd28c0bfc86a31e
+author jenkis <jenkis@pulse.com> 2021-03-16 19:36:15 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-16 19:36:15 -0300
+
+    Add saida com roles
+
+
+:100644 100644 f6511092900c5f96bc044a70d793c3d18669633d 6c70448ebfb9578c15efa48cd1c450e13474f573 M	src/main/java/com/tarefa/demo/HelloWorldController.java

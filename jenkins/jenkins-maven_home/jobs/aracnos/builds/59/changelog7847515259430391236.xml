@@ -1,0 +1,10 @@
+commit 4f46af19163b64dbd65272102c999753841cb6e9
+tree d0b398288b6eeb39629739e466049abd856e036a
+parent d2f843fb1de1d16b41f0ae61cbd2fb2cee3f5ce2
+author jenkis <jenkis@pulse.com> 2021-03-16 14:37:04 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-16 14:37:04 -0300
+
+    Add Roles
+
+
+:100644 100644 dc4e280d18c3fe0d079ab393b355bbed0e2a14ba 350d7618630ae211cd8af487a016d04fe4e9c02f M	app_provisioning.yml

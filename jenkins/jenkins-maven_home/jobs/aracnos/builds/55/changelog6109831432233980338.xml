@@ -1,0 +1,10 @@
+commit 84522821d166475b082b56cb5946c571cf3c046f
+tree b86a6ace4a5893c454ebadea035703c36ae47f37
+parent 387db9966b76e41ede1fc4a50b9a51e5cf3d2146
+author jenkis <jenkis@pulse.com> 2021-03-16 14:11:31 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-16 14:11:31 -0300
+
+    Add Roles
+
+
+:100644 100644 397ef9d8271ea9f85e84d2e5ebb851c6e7a6e6ff fdfe57fce467bc0620bf33d70dad98a5f4614ceb M	ansible.cfg

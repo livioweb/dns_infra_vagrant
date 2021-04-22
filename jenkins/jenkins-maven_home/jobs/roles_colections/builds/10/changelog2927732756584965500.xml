@@ -1,0 +1,10 @@
+commit 2f4d602c7d09e8e2b19a5d94dd121cea0ef6f2fb
+tree 6b9045f9488a17abe00c9960e8ddc1a8fefb5182
+parent dd8bbec84fd4d46147033e72d31aa2763f7bc310
+author jenkis <jenkis@pulse.com> 2021-03-15 18:25:18 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-15 18:25:18 -0300
+
+    up all configuratios
+
+
+:100644 100644 3a39cf5e0b9b4ac4ccfeeb6ad672b783476cfb82 64cc9ca82b997bf7147a781403b637bbe741f438 M	requirements.yml

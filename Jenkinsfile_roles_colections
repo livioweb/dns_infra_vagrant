@@ -1,0 +1,75 @@
+import java.text.SimpleDateFormat
+def date = new Date()
+
+
+pipeline {
+   agent any
+
+    stages {
+
+        stage('Clean Workspace') {
+            steps {
+                deleteDir()
+              }
+        }
+    
+        stage('Cloning Git') {
+        steps {
+            gitCloneFrom('master','gitlab_jenkis','http://gitlab.devops/notrap/ansible_file_deploy.git' )
+
+          }
+        }
+        
+        stage('Galaxy RUN') {
+            steps{
+                script {
+                    //sh "ansible-galaxy install -r requirements.yml --force -p roles -vvvv" 
+                    runAnsibleGalaxy()
+                }
+            }
+        }
+
+        stage('PUSH RUN') {
+            steps{
+                script {
+
+                    sdf = new SimpleDateFormat("MM/dd/yyyy")
+                    def now = sdf.format(date)
+                    withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'gitlab_jenkis', usernameVariable: 'GIT_AUTHOR_NAME', passwordVariable: 'GIT_PASSWORD']]) {
+                    sh 'git config --global user.email "roles_colections@jenkins.com"'
+                    sh 'git config --global user.name "Jenkins"'
+                    sh 'git config --global push.default simple'
+                    sh 'git add .'
+                    sh 'git commit -m "$BUILD_NUMBER" '
+                    sh 'git tag -a "${BUILD_NUMBER}" -m "CREATE: date: ' + now + ' "'
+
+                    sh('git push http://${GIT_AUTHOR_NAME}:${GIT_PASSWORD}@gitlab.devops/notrap/ansible_file_deploy.git master  --tags -f --no-verify')
+
+                    //sh 'git push origin "$BUILD_NUMBER"'
+
+                    }
+                }
+            }
+        }
+
+
+    }
+    
+}
+
+
+def gitCloneFrom(branch,credentialsId,url ){
+    try{
+        git branch: "${branch}", credentialsId: "${credentialsId}", url: "${url}"
+    } catch(Exception e) {
+        println("Exception: ${e}")
+    }
+}
+
+def runAnsibleGalaxy(){
+    try{
+       sh "ansible-galaxy install -r requirements.yml --force -p roles -vvvv"
+    } catch(Exception e) {
+       println("Exception: ${e}")
+    }
+}

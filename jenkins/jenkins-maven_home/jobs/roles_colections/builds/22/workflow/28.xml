@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.8">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.90">
+    <parentIds>
+      <string>27</string>
+    </parentIds>
+    <id>28</id>
+    <descriptorId>org.jenkinsci.plugins.credentialsbinding.impl.BindingStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.90">
+      <arguments>
+        <entry>
+          <string>bindings</string>
+          <list>
+            <linked-hash-map>
+              <entry>
+                <string>$class</string>
+                <string>UsernamePasswordMultiBinding</string>
+              </entry>
+              <entry>
+                <string>credentialsId</string>
+                <string>gitlab_jenkis</string>
+              </entry>
+              <entry>
+                <string>usernameVariable</string>
+                <string>GIT_AUTHOR_NAME</string>
+              </entry>
+              <entry>
+                <string>passwordVariable</string>
+                <string>GIT_PASSWORD</string>
+              </entry>
+            </linked-hash-map>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.41">
+      <startTime>1615907550602</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

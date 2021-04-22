@@ -1,0 +1,190 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.40">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>jenkins</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.18">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.90">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+  </actions>
+  <queueId>265</queueId>
+  <timestamp>1616001344638</timestamp>
+  <startTime>1616001344643</startTime>
+  <result>FAILURE</result>
+  <duration>246</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>import java.text.SimpleDateFormat
+def date = new Date()
+
+node {
+   agent any
+       environment {
+        registry = &quot;liviorodrigues/aracnos&quot;
+        registryCredential = &apos;docker_hub&apos;
+        dockerImage = &apos;aracnos&apos;
+        pom_version = &quot;&quot;
+    }
+   
+
+        stage(&apos;Clean Workspace&apos;) {
+            //when { expression { !params.ROOLBACK } }
+            steps {
+                deleteDir()
+              }
+        }
+    
+        stage(&apos;Cloning Git&apos;) {
+        when { expression { !params.ROOLBACK } }
+        steps {
+            gitCloneFrom(&apos;master&apos;,&apos;gitlab_jenkis&apos;,&apos;http://gitlab.devops/gitlab/aracnos.git&apos; )
+            script{
+                def pom_version = readMavenPom().getVersion()
+                echo &quot;VERSION: ${pom_version}&quot; 
+            }
+            sh &quot;mkdir -p deploy&quot;
+            dir(&quot;deploy&quot;){
+                gitCloneFrom(&apos;master&apos;,&apos;gitlab_jenkis&apos;,&apos;http://gitlab.devops/gitlab/ansible_file_deploy.git&apos; )
+            }
+          }
+        }
+        
+        
+        stage(&apos;Build JAR&apos;) {
+          when { expression { !params.ROOLBACK } }
+          steps {
+                
+            sh &quot;mvn -B -DskipTests clean package&quot;
+            //stash name:&quot;jar&quot;, includes:&quot;target/myappapi-0.0.0-SNAPSHOT.jar&quot;
+          }
+        }
+        
+        stage(&apos;Test&apos;) {
+            when { expression { !params.ROOLBACK } }
+            steps {
+                sh &apos;mvn test&apos;
+              }
+              post {
+                always {
+                  junit &apos;target/surefire-reports/*.xml&apos;
+                }
+              }
+        }
+        
+        stage(&apos;Building image&apos;) {
+            when { expression { !params.ROOLBACK } }
+            steps{
+                script {
+                dockerImage = docker.build(registry + &quot;:$BUILD_NUMBER&quot; )
+                sh &apos;docker build -t liviorodrigues/aracnos&quot;:$BUILD_NUMBER&quot; . &apos;
+                }
+            }
+        }
+
+        stage(&apos;Register Image&apos;) {
+            when { expression { !params.ROOLBACK } }
+            steps{
+                script {
+                    docker.withRegistry( &apos;&apos;, registryCredential ) {
+                    dockerImage.push()
+                }
+            }
+          }
+        }        
+
+        stage(&apos;Deploy&apos;) {
+            when { expression { !params.ROOLBACK } }
+            steps{
+                script {
+                       dir(&quot;deploy&quot;){
+                           deployWithBuildNumber(env.BUILD_NUMBER)
+                       }
+                }
+            }
+        }
+
+        stage(&quot;TAGs&quot;) {
+            when { expression { !params.ROOLBACK } }
+            steps{
+                 script {
+
+                    sdf = new SimpleDateFormat(&quot;MM/dd/yyyy-HH:mm:ss&quot;)
+                    def now = sdf.format(date)
+                    withCredentials([[$class: &apos;UsernamePasswordMultiBinding&apos;, credentialsId: &apos;gitlab_jenkis&apos;, usernameVariable: &apos;GIT_AUTHOR_NAME&apos;, passwordVariable: &apos;GIT_PASSWORD&apos;]]) {
+                    sh &apos;git config --global user.email &quot;aracnos@jenkins.com&quot;&apos;
+                    sh &apos;git config --global user.name &quot;Jenkins&quot;&apos;
+                    sh &apos;git config --global push.default simple&apos;
+                    sh &apos;git tag -a &quot;v${BUILD_NUMBER}.&apos;pom_version&apos;&quot; -m &quot;CREATE: date: &apos; + now + &apos; &quot;&apos;
+
+                    sh(&apos;git push http://${GIT_AUTHOR_NAME}:${GIT_PASSWORD}@gitlab.devops/gitlab/aracnos.git  --tags -f --no-verify&apos;)
+                    }
+                }
+            }
+        }
+
+
+    }
+    
+
+
+def gitCloneFrom(branch,credentialsId,url ){
+    try{
+        git branch: &quot;${branch}&quot;, credentialsId: &quot;${credentialsId}&quot;, url: &quot;${url}&quot;
+    } catch(Exception e) {
+        println(&quot;Exception: ${e}&quot;)
+    }
+}
+
+def deployWithBuildNumber(buildNumber){
+    try{
+       sh &quot;ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=${buildNumber} -vv&quot;
+    } catch(Exception e) {
+       println(&quot;Exception: ${e}&quot;)
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>71069691</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>99411604</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>106933038</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>108657605</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>12566506</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>7</iota>
+    <head>1:7</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

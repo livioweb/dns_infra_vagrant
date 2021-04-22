@@ -1,0 +1,10 @@
+commit 7adb226bf3f52609d5a70b53b28954050716bdb7
+tree 8a989624ed5aacba3a32616dab1f620a3786958e
+parent 1453e867f91843f8a38c9482864fbf92618ccdf5
+author jenkis <jenkis@pulse.com> 2021-03-16 16:12:40 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-16 16:12:40 -0300
+
+    Add Roles
+
+
+:100644 100644 35e5efd514e4ac67160f54329a973daae76ee1b7 c9b4748454245ba8eca56c789c3754a783517f43 M	requirements.yml

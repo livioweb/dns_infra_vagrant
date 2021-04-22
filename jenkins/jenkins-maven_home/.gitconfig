@@ -1,0 +1,5 @@
+[user]
+	email = roles_colections@jenkins.com
+	name = Jenkins
+[push]
+	default = simple

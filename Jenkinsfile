@@ -161,7 +161,6 @@ pipeline {
             }
         }
 
-
         stage('Roolback Deploy') {
             when { expression { params.ROOLBACK } }
             steps {

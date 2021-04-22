@@ -1,0 +1,60 @@
+commit 2f4d602c7d09e8e2b19a5d94dd121cea0ef6f2fb
+tree 6b9045f9488a17abe00c9960e8ddc1a8fefb5182
+parent dd8bbec84fd4d46147033e72d31aa2763f7bc310
+author jenkis <jenkis@pulse.com> 2021-03-15 18:25:18 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-15 18:25:18 -0300
+
+    up all configuratios
+
+
+:100644 100644 3a39cf5e0b9b4ac4ccfeeb6ad672b783476cfb82 64cc9ca82b997bf7147a781403b637bbe741f438 M	requirements.yml
+commit dd8bbec84fd4d46147033e72d31aa2763f7bc310
+tree 8d974ceef577030d18aab523f042a326836ce6ae
+parent 5e6c9f65a87c1a217759e9eab41d773fe6923127
+author jenkis <jenkis@pulse.com> 2021-03-15 18:12:26 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-15 18:12:26 -0300
+
+    Add Roles
+
+
+:100644 000000 64cc9ca82b997bf7147a781403b637bbe741f438 0000000000000000000000000000000000000000 D	requiriments.yml
+commit 8cd5fc3397b30118a888e20258eb146acc50e848
+tree 30376734cd07941c273398043a028025ffe4dee0
+parent 629654218374a74ec481a21cadb25af85ad6c5d5
+author jenkis <jenkis@pulse.com> 2021-03-15 18:11:35 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-15 18:11:35 -0300
+
+    Add Roles
+
+
+:000000 100644 0000000000000000000000000000000000000000 64cc9ca82b997bf7147a781403b637bbe741f438 A	requiriments.yml
+commit 011042077da697f4dd3d52b1ff5591f275fed170
+tree 8d974ceef577030d18aab523f042a326836ce6ae
+parent 629654218374a74ec481a21cadb25af85ad6c5d5
+author jenkis <jenkis@pulse.com> 2021-03-15 18:06:44 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-15 18:06:44 -0300
+
+    Add Roles
+
+
+:000000 100644 0000000000000000000000000000000000000000 3a39cf5e0b9b4ac4ccfeeb6ad672b783476cfb82 A	requirements.yml
+commit 629654218374a74ec481a21cadb25af85ad6c5d5
+tree 77ce18cc2002f675eca3050e19b79f69d8bfad20
+parent 5f4d1d30ef198b2b4fc85da6b4c5941dfef1ea26
+author jenkis <jenkis@pulse.com> 2021-03-15 18:02:36 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-15 18:02:36 -0300
+
+    Add Roles
+
+
+:100644 100644 a8b7c4360a196c55e5b317e8d2f5f37e0003733c c315a09cad3ac83446a547a718b1f7de916f3982 M	app_provisioning.yml
+commit 5f4d1d30ef198b2b4fc85da6b4c5941dfef1ea26
+tree 78130a9b94091434a0a06dad8fd049a9d07e5c94
+parent 6ddfac65408a0a4e5277d1de014928447966236a
+author jenkis <jenkis@pulse.com> 2021-03-15 17:57:12 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-15 17:57:12 -0300
+
+    Add Roles
+
+
+:100644 100644 ac49458cf399b0879a8460611e333b5d871a542a a8b7c4360a196c55e5b317e8d2f5f37e0003733c M	app_provisioning.yml

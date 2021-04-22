@@ -9,6 +9,7 @@
   ignore_errors: false
   no_log: false
   become_method: sudo
+  become: yes
   roles:
     - update_os
     - install_docker

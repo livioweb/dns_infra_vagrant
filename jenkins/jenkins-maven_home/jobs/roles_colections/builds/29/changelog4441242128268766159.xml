@@ -1,0 +1,30 @@
+commit 9a120bbd3e7c790980f99a3d9de8a15427a23a1e
+tree c7fea7cf33ac8c5f0a8d166e44fbc335693f1be0
+parent bf6d3e8741237899704d8455c9774d1f6808dfc9
+author jenkis <jenkis@pulse.com> 2021-03-16 15:31:36 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-16 15:31:36 -0300
+
+    Add Roles
+
+
+:100644 100644 9a193899d30f3357a903382a6507ba321c27ceea 820edc83e69b9bed67f3c17e139e6ab57d48bc07 M	roles/deploy_roles-master/defaults/main.yml
+commit bf6d3e8741237899704d8455c9774d1f6808dfc9
+tree 5128f2664d9a6810974d7ceed63961ab52380822
+parent 42c0cf7d580c9a26a7d6f8ae8452b58777724c11
+author jenkis <jenkis@pulse.com> 2021-03-16 15:29:04 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-16 15:29:04 -0300
+
+    Add Roles
+
+
+:100644 100644 820edc83e69b9bed67f3c17e139e6ab57d48bc07 9a193899d30f3357a903382a6507ba321c27ceea M	roles/deploy_roles-master/defaults/main.yml
+commit 42c0cf7d580c9a26a7d6f8ae8452b58777724c11
+tree c7fea7cf33ac8c5f0a8d166e44fbc335693f1be0
+parent 2ed1951bfdc87ebfaa255d0c3da28e4bb849406d
+author gitlab <user@test.com> 2021-03-16 18:23:43 +0000
+committer Jenkins <user@test.com> 2021-03-16 18:23:43 +0000
+
+    28
+
+
+:100644 100644 a1b9892817ec3773bc1a3b6f50b453c440b80f53 0b2e2e154c8ac816cdf82c1b6988097f0ad5b608 M	roles/deploy_roles-master/meta/.galaxy_install_info

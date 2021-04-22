@@ -26,11 +26,36 @@
               <hash>780d1d5dc942cbe6f76621543b5f546b4a408a4f112c1f3334057ac61a382127</hash>
             </value>
           </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+          <jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+            <uuid>e1feff53-b7cf-40cc-ac2d-dce6fb5b6834</uuid>
+            <name>create_job</name>
+            <creationDate>2021-04-20 12:58:53.648 UTC</creationDate>
+            <value>
+              <version>11</version>
+              <hash>985f2ef3b59d00b6b7ff6b5d9f46973d9018c987d8b241fa479bd90d064cf3c5</hash>
+            </value>
+          </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+          <jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+            <uuid>b91f7bb6-f283-4d4f-910e-6054fdb42606</uuid>
+            <name>jenkins_gitlab_hooks</name>
+            <creationDate>2021-04-22 12:55:27.63 UTC</creationDate>
+            <value>
+              <version>11</version>
+              <hash>63629ee950551413eb2e51b7e4ea11c6f07652d37337b1311b06eff4a38c3b3d</hash>
+            </value>
+          </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
         </tokenList>
       </tokenStore>
     </jenkins.security.ApiTokenProperty>
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.3.15">
-      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash">
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain>
+            <specifications/>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <java.util.concurrent.CopyOnWriteArrayList/>
+        </entry>
+      </domainCredentialsMap>
     </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.33">
       <emailAddress>liviorodrigueslopes@gmail.com</emailAddress>

@@ -1,0 +1,389 @@
+Started by GitLab push by gitlab
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4MHWUtWpNdBB/ltPgJz0RgBJ0XXH08HnQr/+61A2k11hAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4F+WcnsaDVBljdWGXH+nUPFa9uYg3/BwMSMHn8DNnPknAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4DQkyCqJq9WfolOqmKyxuD41SoGZq5Q9E4Iptday+d63AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/aracnos
+[8mha:////4CLZeuoWtzhRQY+H7lubsyYkxx7l6qmS8klvB+uSfdMmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4IHk6owPPbQqRqD/qCkDpyYDBDihPF7n9T/1+ja9FDJYAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4FhkZqXrLj0LSVmEsbZO4wZdrqvN877RBaxzgAR1edLzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4AGHKk4mb3/AVPm8iuz9yHEZfaM8Ff2KpoOovhCFs/DFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4KHxpyl/V0jr3rQ8pp+NeYH+0/2fxB85CkMd0ypkj/ZfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Clean Workspace)
+[8mha:////4MvzH288TbbbH07JDY0jKIx1qwtgzOZjE60xffJT5DOlAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] deleteDir
+[8mha:////4Ms+NxzLnJTStt8sMpVS2g4hR9kfjW56lFRXjtqbRXh2AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8Brmfz270AAAA=[0m[Pipeline] }
+[8mha:////4GgKwSIdvWdvWZs08R4yUZlUIHHh4iEESyQQIpansN71AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMlYVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aj1Msdr0AAAA=[0m[Pipeline] // stage
+[8mha:////4PCeH4E+7OgBXZIONMsvg+vkoBfPifL0O28X4r7+d+Q6AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjKGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvfPyORMEAAAA=[0m[Pipeline] stage
+[8mha:////4KrgdMWYE/KwGsgo25b+quQTUy1CZ887v58+x2Un7XA9AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Cloning Git)
+[8mha:////4Gh46X0yb1MHK5fhNCOzBSRmY5gOh7TYfJJVFghR+TQNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] git
+The recommended git tool is: NONE
+using credential gitlab_jenkis
+Cloning the remote Git repository
+Cloning repository http://gitlab.devops/gitlab/aracnos.git
+ > git init /var/jenkins_home/workspace/aracnos # timeout=10
+Fetching upstream changes from http://gitlab.devops/gitlab/aracnos.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_ASKPASS to set credentials gitlab_jenkis
+ > git fetch --tags --progress -- http://gitlab.devops/gitlab/aracnos.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://gitlab.devops/gitlab/aracnos.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+skipping resolution of commit remotes/origin/master, since it originates from another repository
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision c43b4edea97d5b38d5a6e3300dd28c0bfc86a31e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c43b4edea97d5b38d5a6e3300dd28c0bfc86a31e # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master c43b4edea97d5b38d5a6e3300dd28c0bfc86a31e # timeout=10
+Commit message: "Add Jenkinsfile"
+ > git rev-list --no-walk c43b4edea97d5b38d5a6e3300dd28c0bfc86a31e # timeout=10
+[8mha:////4PRclTJ+dNqUmhWpjWO/GOx9+N/2tX+1YNMESU5OoPchAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDxaFw97CAAAA[0m[Pipeline] script
+[8mha:////4BQTXQL5gObaczFHjV8TWyhvHQPf/rsIjR12nsvO3WBcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] {
+[8mha:////4EX9MZY/dKnKrzGeXJDfHSxeWypP8o+uP0gVZpvdOaVXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] readMavenPom
+[8mha:////4AmLg6s0OIFsWIr8a3owyOpqLFpl+WnTo6t09nhj9zMsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGh1CMKvgAAAA==[0m[Pipeline] echo
+VERSION: 0.0.1-SNAPSHOT
+[8mha:////4C8utoFHug2wmKrpGnrRwN9VhcXpZu4DoPyzRqrUQKMVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGiSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFEU4bYvgAAAA==[0m[Pipeline] }
+[8mha:////4DprL3N28MF+wXWoeWn/bqBe57/LSnVWb0yEeMyEu47VAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICSFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGrSWhXvgAAAA==[0m[Pipeline] // script
+[8mha:////4AnnBbcgHzKVzkfJx8gn74VKWXBhRf3rG9Va3CmcW/vsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiQImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMPsEZX3Ita/9Bxb+n4u+AAAA[0m[Pipeline] sh
++ mkdir -p deploy
+[8mha:////4KccJsjxWQLMY6q1Wjtnr7Q4MV0OnRnR8iyiS/XaJ27qAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUlBExdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnK3z9Y0n2f1BjOvLvLCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/aracnos/deploy
+[8mha:////4H8LS37/KJ7qW1Gime6HiFf1Y4oErscdGNLBw4y5rj/YAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4FSDvTDISTOYCDlAbX3ML1QnpLf9j54oAE/Gz1HPYo3eAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] git
+The recommended git tool is: NONE
+using credential gitlab_jenkis
+Cloning the remote Git repository
+Cloning repository http://gitlab.devops/gitlab/ansible_file_deploy.git
+ > git init /var/jenkins_home/workspace/aracnos/deploy # timeout=10
+Fetching upstream changes from http://gitlab.devops/gitlab/ansible_file_deploy.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_ASKPASS to set credentials gitlab_jenkis
+ > git fetch --tags --progress -- http://gitlab.devops/gitlab/ansible_file_deploy.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://gitlab.devops/gitlab/ansible_file_deploy.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+skipping resolution of commit remotes/origin/master, since it originates from another repository
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2f4d602c7d09e8e2b19a5d94dd121cea0ef6f2fb (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2f4d602c7d09e8e2b19a5d94dd121cea0ef6f2fb # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 2f4d602c7d09e8e2b19a5d94dd121cea0ef6f2fb # timeout=10
+Commit message: "up all configuratios"
+ > git rev-list --no-walk 2f4d602c7d09e8e2b19a5d94dd121cea0ef6f2fb # timeout=10
+[8mha:////4I5djRdjHdzekJ/0rKa07YNs6/P6c93CKtQHVYxyivsGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+[8mha:////4BiTG8WQ46s7kU88OPJeRPTavsmGu47EOcUQMS6perFkAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // dir
+[8mha:////4GdhprpY4VwlAsm5jXOl1mowitsYvVHWOkGQdHv1qR6vAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w8m3A6jvgAAAA==[0m[Pipeline] }
+[8mha:////4GF7quvYTrHVOdUt2DzIzBrEFSy71TKU5egnJNinRZaDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrQ659/QFlXl8lvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Dy+dm1B5VLXnGLycfm3DG83B5JpU8+leWh2UboHgJ8GAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUSAhREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lGyIWoR/BAAAA[0m[Pipeline] stage
+[8mha:////4EQZt9izMalO8U9X1rFoKqluf4MRJ0VgsypSBOMYbkqFAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] { (Build JAR)
+[8mha:////4B1Wlp6QDUXFaN9aKTAcmziu/KMg7NV27AQrGPUNubM4AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfewYmQ+b4AAAA=[0m[Pipeline] sh
++ mvn -B -DskipTests clean package
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ demo ---
+[INFO] Deleting /var/jenkins_home/workspace/aracnos/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:prepare-agent (default) @ demo ---
+[INFO] argLine set to -javaagent:/var/jenkins_home/.m2/repository/org/jacoco/org.jacoco.agent/0.8.2/org.jacoco.agent-0.8.2-runtime.jar=destfile=/var/jenkins_home/workspace/aracnos/target/jacoco.exec -Xmx128m
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /var/jenkins_home/workspace/aracnos/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/aracnos/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /var/jenkins_home/workspace/aracnos/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ demo ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:report (report) @ demo ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ demo ---
+[INFO] Building jar: /var/jenkins_home/workspace/aracnos/target/demo-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.4.0-SNAPSHOT:repackage (repackage) @ demo ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.825 s
+[INFO] Finished at: 2021-03-16T13:15:26+00:00
+[INFO] Final Memory: 36M/346M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4EpuvTT52C2R7jJbH7BAya39NWJDI+cearJ55jex9VTtAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKPe7T23fGXWL/r4AAAA=[0m[Pipeline] }
+[8mha:////4BuVPRwvAYUZ7B1nHxodDM6DoA/Jy0KEwjrmgDjcsjpmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSIUQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AFZLxBVvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Fo1WriftqLOP3TTyR4C13XaHbMAY3L8RRftBmRbltqTAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTgGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvSA5IBcEAAAA=[0m[Pipeline] stage
+[8mha:////4MSMcqtCXGEdAr8vYMhmXTn2BzcoFSa9vxp6uOh3C1TxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] { (Test)
+[8mha:////4PSDWK7wXLXn0/gfCS8upSZUsjGQl5bjDihWFFml05nVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN6Ew6eS+AAAA[0m[Pipeline] sh
++ mvn test
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:prepare-agent (default) @ demo ---
+[INFO] argLine set to -javaagent:/var/jenkins_home/.m2/repository/org/jacoco/org.jacoco.agent/0.8.2/org.jacoco.agent-0.8.2-runtime.jar=destfile=/var/jenkins_home/workspace/aracnos/target/jacoco.exec -Xmx128m
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/aracnos/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ demo ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.tarefa.demo.HelloWorldControllerTests
+13:15:33.919 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:15:33.962 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:15:34.061 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.tarefa.demo.HelloWorldControllerTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:15:34.090 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tarefa.demo.HelloWorldControllerTests], using SpringBootContextLoader
+13:15:34.101 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tarefa.demo.HelloWorldControllerTests]: class path resource [com/tarefa/demo/HelloWorldControllerTests-context.xml] does not exist
+13:15:34.102 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tarefa.demo.HelloWorldControllerTests]: class path resource [com/tarefa/demo/HelloWorldControllerTestsContext.groovy] does not exist
+13:15:34.102 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.tarefa.demo.HelloWorldControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:15:34.104 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.tarefa.demo.HelloWorldControllerTests]: HelloWorldControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:15:34.196 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.tarefa.demo.HelloWorldControllerTests]
+13:15:34.392 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/jenkins_home/workspace/aracnos/target/classes/com/tarefa/demo/DemoApplication.class]
+13:15:34.423 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.tarefa.demo.DemoApplication for test class com.tarefa.demo.HelloWorldControllerTests
+13:15:34.776 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.tarefa.demo.HelloWorldControllerTests]: using defaults.
+13:15:34.778 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+13:15:34.824 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+13:15:34.825 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+13:15:34.826 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@278de2b2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1fc1c7e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@75cacb3e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@61957d9c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@29c59b6e, org.springframework.test.context.event.EventPublishingTestExecutionListener@483b7dc4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6b8bdcc6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@213835b6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@24a3d414, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@37e55819, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2bdcfcf, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6248cfab]
+13:15:34.837 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@702096ef testClass = HelloWorldControllerTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5f0d8937 testClass = HelloWorldControllerTests, locations = '{}', classes = '{class com.tarefa.demo.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@306f6f1d, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3ae126d1, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5f95f1e1, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@5edc70ed, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@14998e21, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5115f590, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4426bff1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+13:15:34.939 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v2.4.0-SNAPSHOT)
+
+2021-03-16 13:15:35.784  INFO 4126 --- [           main] c.tarefa.demo.HelloWorldControllerTests  : Starting HelloWorldControllerTests using Java 1.8.0_242 with PID 4126 (started by jenkins in /var/jenkins_home/workspace/aracnos)
+2021-03-16 13:15:35.788  INFO 4126 --- [           main] c.tarefa.demo.HelloWorldControllerTests  : No active profile set, falling back to default profiles: default
+2021-03-16 13:15:38.204  INFO 4126 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-16 13:15:39.400  INFO 4126 --- [           main] c.tarefa.demo.HelloWorldControllerTests  : Started HelloWorldControllerTests in 4.437 seconds (JVM running for 6.832)
+2021-03-16 13:15:40.017  INFO 4126 --- [           main] com.tarefa.demo.HelloWorldController     : 200 OK
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.284 s - in com.tarefa.demo.HelloWorldControllerTests
+[INFO] Running com.tarefa.demo.DemoApplicationTests
+2021-03-16 13:15:40.027  INFO 4126 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tarefa.demo.DemoApplicationTests], using SpringBootContextLoader
+2021-03-16 13:15:40.030  INFO 4126 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.tarefa.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-03-16 13:15:40.031  INFO 4126 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.tarefa.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-03-16 13:15:40.033  INFO 4126 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.tarefa.demo.DemoApplication for test class com.tarefa.demo.DemoApplicationTests
+2021-03-16 13:15:40.040  INFO 4126 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-03-16 13:15:40.042  INFO 4126 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@29c26959, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4ca17241, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2c1e726b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1f6e7714, org.springframework.test.context.support.DirtiesContextTestExecutionListener@25dc4d01, org.springframework.test.context.event.EventPublishingTestExecutionListener@62281081, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3dfabb85, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@51c0bdf9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@16335685, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@34bdf0da, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c73535b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@8880259]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v2.4.0-SNAPSHOT)
+
+2021-03-16 13:15:40.129  INFO 4126 --- [           main] com.tarefa.demo.DemoApplication          : Starting DemoApplication using Java 1.8.0_242 with PID 4126 (started by jenkins in /var/jenkins_home/workspace/aracnos)
+2021-03-16 13:15:40.130  INFO 4126 --- [           main] com.tarefa.demo.DemoApplication          : No active profile set, falling back to default profiles: default
+2021-03-16 13:15:40.617  INFO 4126 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-03-16 13:15:40.642  INFO 4126 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 13:15:40.642  INFO 4126 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-16 13:15:40.796  INFO 4126 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 13:15:40.797  INFO 4126 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 661 ms
+2021-03-16 13:15:40.948  INFO 4126 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-16 13:15:41.026  INFO 4126 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-03-16 13:15:41.028  INFO 4126 --- [           main] com.tarefa.demo.DemoApplication          : Started DemoApplication in 0.975 seconds (JVM running for 8.461)
+Soma
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.971 s - in com.tarefa.demo.DemoApplicationTests
+2021-03-16 13:15:41.070  INFO 4126 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-16 13:15:42.386  INFO 4126 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:report (report) @ demo ---
+[INFO] Loading execution data file /var/jenkins_home/workspace/aracnos/target/jacoco.exec
+[INFO] Analyzed bundle 'demo' with 2 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 15.116 s
+[INFO] Finished at: 2021-03-16T13:15:42+00:00
+[INFO] Final Memory: 26M/317M
+[INFO] ------------------------------------------------------------------------
+Post stage
+[8mha:////4FNVJLBKXojUCtHsElAYTrnGaRO3ii5X91jzMtf04C53AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHgAfL9vgAAAA==[0m[Pipeline] junit
+Recording test results
+[Checks API] No suitable checks publisher found.
+[8mha:////4IvkyJIdmiZ8LqJctSquhncDX8qz+hLr8dJ7nL4emk/HAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3wonovvgAAAA==[0m[Pipeline] }
+[8mha:////4NB0HO9Z/wVCFlKXv/6cR9zRGjES/zXgFTpZvrwQZeZJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIMQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8NBIZO+AAAA[0m[Pipeline] // stage
+[8mha:////4MYu1+vHUJ6e6xGGvWzpMcj4kqGnuCsEo0H4+wS8YAY3AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRDgWgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZv0HJ+W8EAAAA=[0m[Pipeline] stage
+[8mha:////4EQ0QkVxv/ydVtpOsZuz7qLlZrunZg43omC5gAbmp3v/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] { (Building image)
+[8mha:////4N2n/k7z/143yPrhyN7XTow4qltpxZr8ymDIaVBHXJGRAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] script
+[8mha:////4JCWyM+N0vaK41SucQZJFXYE6e/FtXyIdoojlKQtOxbZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] {
+[8mha:////4LdRcURqoJGUdVi+zeWDe8tlEMYYn3TGOpFPtxBjA8qYAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkA5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fhXiFur4AAAA=[0m[Pipeline] isUnix
+[8mha:////4Kl8HIfCa6LKOLhKb4SYmI1Vxv9OVSVlMssE+UpW1zhRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBsRJnqO+AAAA[0m[Pipeline] sh
++ docker build -t liviorodrigues/aracnos:47 .
+Sending build context to Docker daemon  18.57MB
+Step 1/6 : FROM openjdk:8-jdk-alpine
+ ---> a3562aa0b991
+Step 2/6 : RUN addgroup -S spring && adduser -S spring -G spring
+ ---> Using cache
+ ---> d31c799ae6d8
+Step 3/6 : USER spring:spring
+ ---> Using cache
+ ---> 1d8ca9245fda
+Step 4/6 : ARG JAR_FILE=target/*.jar
+ ---> Using cache
+ ---> b9243f73f8b3
+Step 5/6 : COPY ${JAR_FILE} app.jar
+ ---> 632b848c13e6
+Step 6/6 : ENTRYPOINT ["java","-jar","/app.jar"]
+ ---> Running in 9c093abd8ffa
+Removing intermediate container 9c093abd8ffa
+ ---> b23f690d2fb5
+Successfully built b23f690d2fb5
+Successfully tagged liviorodrigues/aracnos:47
+[8mha:////4PTgu74WgSyxQmtz8EQahenJGsLgUpFeXg3Zh/99aQJhAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHNwcas4i+AAAA[0m[Pipeline] sh
++ docker build -t liviorodrigues/aracnos:47 .
+Sending build context to Docker daemon  18.57MB
+Step 1/6 : FROM openjdk:8-jdk-alpine
+ ---> a3562aa0b991
+Step 2/6 : RUN addgroup -S spring && adduser -S spring -G spring
+ ---> Using cache
+ ---> d31c799ae6d8
+Step 3/6 : USER spring:spring
+ ---> Using cache
+ ---> 1d8ca9245fda
+Step 4/6 : ARG JAR_FILE=target/*.jar
+ ---> Using cache
+ ---> b9243f73f8b3
+Step 5/6 : COPY ${JAR_FILE} app.jar
+ ---> Using cache
+ ---> 632b848c13e6
+Step 6/6 : ENTRYPOINT ["java","-jar","/app.jar"]
+ ---> Using cache
+ ---> b23f690d2fb5
+Successfully built b23f690d2fb5
+Successfully tagged liviorodrigues/aracnos:47
+[8mha:////4PIMD7tqmyS0vUjkjrCpMY/mWroYeogYm9Qj+h8C//t0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFZHam9vgAAAA==[0m[Pipeline] }
+[8mha:////4DFYBFJ2WDzmWVtgZD2VXNlVp99r4gC5Qw74D2nPFsItAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g0an/g7vgAAAA==[0m[Pipeline] // script
+[8mha:////4CsJl42DS8f4yQzECoMS3M/DYgcFvyXBcE5HsxozTZeeAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEFHa1pvgAAAA==[0m[Pipeline] }
+[8mha:////4PBslwiOvm7oPkNrwX6sqr+Seuvt+LdhS4KZyk97yLVNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKSAipEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP+930p++AAAA[0m[Pipeline] // stage
+[8mha:////4N4Yy2iGRn++RolQTW/F1vIXVFqJdOtJRpYVSrS91xSIAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjCmgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZvwapVNsEAAAA=[0m[Pipeline] stage
+[8mha:////4MfHI9dttTpAw1JN8NmPs2mqchZr0xMD8kxaZR0DwBWTAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwMT42zCAAAA[0m[Pipeline] { (Register Image)
+[8mha:////4L9363a8xVXaCKjgWliKmoDV7WbJ18SoCs4lLqiuOMQ5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD6emXT7CAAAA[0m[Pipeline] script
+[8mha:////4OmupC9Gw8Tyr+PSURfmjh4PO5CGogsz4sZUbG8Ny+uFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] {
+[8mha:////4OAT8xvrf0Hp1j2fHLVpSGN0WnFRymXITzbtK21j2oBfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] withEnv
+[8mha:////4P/w5ImYxOKEQ+Y0R2J6ZN5nl+Z1z4ykIt1ersbGhCIMAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] {
+[8mha:////4Paz07P0sX6XRxkCLpqJi5+/HvACO/7jSZBLPWXzAdikAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] withDockerRegistry
+Using the existing docker config file.Removing blacklisted property: auths$ docker login -u liviorodrigues -p ******** https://index.docker.io/v1/
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/jenkins_home/workspace/aracnos@tmp/89663092-5335-460e-a4cc-e425f8010dde/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4IvHUlXkZ6wlCDW6ySLuT9aReKwqg33AUNB356vJbGVYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] {
+[8mha:////4PdGJ9egA+J3sG4qcdnqleL8SE/y7eHwgZsZZlPXpAUAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN5s4RMC+AAAA[0m[Pipeline] isUnix
+[8mha:////4LVl4DiFSf+zkbyL/QyHX7DiIlfXmys17uuy8mcs4pRDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCA0JCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+LPcATvgAAAA==[0m[Pipeline] sh
++ docker tag liviorodrigues/aracnos:47 liviorodrigues/aracnos:47
+[8mha:////4CTYx3iIzUIck0dzZm1G2bcOxqdIwcyaxlS0XsGpdTKTAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiChASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAygzbCr4AAAA=[0m[Pipeline] isUnix
+[8mha:////4E/MVeBmSctv/tHV1V3bGWGBNV+ur4rrHOYgStiqwVCbAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIYGQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpiFDuDrn22+EDCV/2Ib4AAAA=[0m[Pipeline] sh
++ docker push liviorodrigues/aracnos:47
+The push refers to repository [docker.io/liviorodrigues/aracnos]
+ddb083ec8b54: Preparing
+52e60baf5e5f: Preparing
+ceaf9e1ebef5: Preparing
+9b9b7f3d56a0: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Layer already exists
+9b9b7f3d56a0: Layer already exists
+ceaf9e1ebef5: Layer already exists
+52e60baf5e5f: Layer already exists
+ddb083ec8b54: Pushed
+47: digest: sha256:aa643dc4e17ce1fa6a2322533ee013d9eede9f8415577aac2afe4169dde7f1e5 size: 1367
+[8mha:////4CVbZxwhqqdvGbvmJbyV5UTixuAuWspPHz7AFa9c3LntAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAr6ZuP74AAAA=[0m[Pipeline] }
+[8mha:////4NfvPopDjb+F0ka26Rp5r5I7z4GfwtFXE0rxh/Jz8UiKAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLT8ClQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+Gi9SyvgAAAA==[0m[Pipeline] // withDockerRegistry
+[8mha:////4DVi4WN3xoxiX2C78/Q/5jCyrWXnm7d69+jrJXCXaP4iAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpkgZR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrKpc9XNB7Vojw6+AAAA[0m[Pipeline] }
+[8mha:////4I09tWvlywE9oUQUpR3Xxp51kSfwj2Y49B68OMQBH4/oAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpkgZR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrJpctX1B6FLEhG+AAAA[0m[Pipeline] // withEnv
+[8mha:////4GIyVmuas+7u+zeQ7/CwHxd2cxXAphWeNyT7xE/TcI3ZAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLT8ClQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w+SqEmtvgAAAA==[0m[Pipeline] }
+[8mha:////4PZzaza6vhh9OCc86KXjzoM5ezTIsLaNWzU/2BZ4rwiNAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234A5I97wr4AAAA=[0m[Pipeline] // script
+[8mha:////4Bz1KbS95YOUAMh62Rs+7Q0sujwF64sfD2wJvz/7UeWiAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIYGEUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+0Ou3fYD12wgfr4AAAA=[0m[Pipeline] }
+[8mha:////4OhXXP+LXLWJRczng2O81DIUg2tG5oxe/XcNDh6+bdxVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBaJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw8RZ1FmvgAAAA==[0m[Pipeline] // stage
+[8mha:////4B6Vf2nyhG4diDvtn8WsPDySEN5OKylIt5xmlGUPQxhZAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjGigQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxW7zOZZv6LvKocEAAAA=[0m[Pipeline] stage
+[8mha:////4H/JHYp1h6iLHSSKp3wFW4pdp2xJyRVtD43KaSPsgH20AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7WcRxfCAAAA[0m[Pipeline] { (Deploy)
+[8mha:////4JuoultVvZePywRq/q0EtnA8ul4uGLgn+Eih0l5PUeDLAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgoEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfAARKflFwgAAAA==[0m[Pipeline] script
+[8mha:////4IoC7AzJ04/XeelMoNPtaqgko4ImKRP0pIvlPVX19oSRAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AIkBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfABpxnKZwgAAAA==[0m[Pipeline] {
+[8mha:////4PUkJ/Fkxpkr3A3soYsvZSGg7fiWsKqoXiqrHrvEvPLXAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ATEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD08AFXvCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/aracnos/deploy
+[8mha:////4Goxx0+YBvk6Y8xAsLRPyBuKUa0+raQgnQ3ci8SP3G8fAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxASGtDzzCAAAA[0m[Pipeline] {
+[8mha:////4Non/idvMHKlzfRUFL3ZVJvk2WezpCoQl413Sg4LzKvIAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkQJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fW71ZT74AAAA=[0m[Pipeline] sh
++ ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=47 -vv
+ansible-playbook 2.10.5
+  config file = /var/jenkins_home/workspace/aracnos/deploy/ansible.cfg
+  configured module search path = [u'/usr/share/my_modules']
+  ansible python module location = /usr/local/lib/python2.7/dist-packages/ansible
+  executable location = /usr/local/bin/ansible-playbook
+  python version = 2.7.13 (default, Aug 22 2020, 10:03:02) [GCC 6.3.0 20170516]
+Using /var/jenkins_home/workspace/aracnos/deploy/ansible.cfg as config file
+ERROR! A playbook must be a list of plays, got a <class 'ansible.parsing.yaml.objects.AnsibleMapping'> instead
+
+The error appears to be in '/var/jenkins_home/workspace/aracnos/deploy/app_provisioning.yml': line 1, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+  tasks:
+  ^ here
+[8mha:////4H+Pei6B/bom+MMJ/y+GGI27nuP1LPkPOcQlTZ1iJESXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBpShwci+AAAA[0m[Pipeline] echo
+Exception: hudson.AbortException: script returned exit code 4
+[8mha:////4BRfGT7Iiz19rSvJaYUWK/E5EdQwBcwJiP8WfR6qEj/JAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BvjBDO2+AAAA[0m[Pipeline] }
+[8mha:////4JCs2s5TWtZif/0S0F33KRk4B+qc9FDW7ZC1kOxeY61FAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCg0BCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw9jsUKlvgAAAA==[0m[Pipeline] // dir
+[8mha:////4E1wbPagZC4zxCbYuO2QgQOEC+3alLXHTuhDVUP4WkGKAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUh22u/e4DUFIZGb4AAAA=[0m[Pipeline] }
+[8mha:////4MMcILTJrvD+RjiWNub7CyqOwGmMpqDFlUDFkc+QEVaKAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQQESSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330AXbXpAb4AAAA=[0m[Pipeline] // script
+[8mha:////4CSKSnSBHRUVwkjLdbFPW7VgPHy9o83nZVZQCkpTuXrFAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQQESSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334Ablayvb4AAAA=[0m[Pipeline] }
+[8mha:////4DUkQXGdrFkB499kWL9jhCqoueUoJrtheUr1GvWJOKx0AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUh12u/fYDbDe+Ob4AAAA=[0m[Pipeline] // stage
+[8mha:////4MpEnycXV+EUHuDdJIym7OscDFMaULsgIgkT13fpWbJPAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKpQEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPEZSk070AAAA=[0m[Pipeline] }
+[8mha:////4JUfGzVuZuwJZGW63TcR3Jou3KGzqxiNK3h3WR4IcqYTAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKpQEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPe78NDb0AAAA=[0m[Pipeline] // withEnv
+[8mha:////4ACy0beVXVeFDYYyHUWNJB49S6vpJLckzEsbuCokqjW2AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpkEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+AF2make9AAAA[0m[Pipeline] }
+[8mha:////4KTNoZRroY22PD1OHd3J1a1Mz2oqkq+AejFUnSgGdMJHAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMLiTGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HL6ReW70AAAA=[0m[Pipeline] // node
+[8mha:////4KJjgKOXarMCuqkwhekdFFqvQUk8mvzbI2ttQS6onuPDAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRqECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPCb05Eb0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

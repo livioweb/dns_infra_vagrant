@@ -3,8 +3,13 @@
   <tokenStats>
     <jenkins.security.apitoken.ApiTokenStats_-SingleTokenStats>
       <tokenUuid>99c1cddd-1488-415b-b33b-b2e58dd423b6</tokenUuid>
-      <lastUseDate>2021-03-12 20:45:36.754 UTC</lastUseDate>
-      <useCounter>2</useCounter>
+      <lastUseDate>2021-03-25 16:29:53.281 UTC</lastUseDate>
+      <useCounter>35</useCounter>
+    </jenkins.security.apitoken.ApiTokenStats_-SingleTokenStats>
+    <jenkins.security.apitoken.ApiTokenStats_-SingleTokenStats>
+      <tokenUuid>b91f7bb6-f283-4d4f-910e-6054fdb42606</tokenUuid>
+      <lastUseDate>2021-04-22 14:26:19.273 UTC</lastUseDate>
+      <useCounter>7</useCounter>
     </jenkins.security.apitoken.ApiTokenStats_-SingleTokenStats>
   </tokenStats>
 </jenkins.security.apitoken.ApiTokenStats>

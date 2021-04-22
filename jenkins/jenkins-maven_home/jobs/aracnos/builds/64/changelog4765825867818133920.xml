@@ -1,0 +1,10 @@
+commit 9a120bbd3e7c790980f99a3d9de8a15427a23a1e
+tree c7fea7cf33ac8c5f0a8d166e44fbc335693f1be0
+parent bf6d3e8741237899704d8455c9774d1f6808dfc9
+author jenkis <jenkis@pulse.com> 2021-03-16 15:31:36 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-16 15:31:36 -0300
+
+    Add Roles
+
+
+:100644 100644 9a193899d30f3357a903382a6507ba321c27ceea 820edc83e69b9bed67f3c17e139e6ab57d48bc07 M	roles/deploy_roles-master/defaults/main.yml

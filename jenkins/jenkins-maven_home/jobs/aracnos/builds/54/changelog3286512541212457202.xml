@@ -1,0 +1,20 @@
+commit 387db9966b76e41ede1fc4a50b9a51e5cf3d2146
+tree 8a6d905513cd5cc3186d7ef6d234ab13fb527008
+parent 09b71e64b0c57e2f3f7b94ba37652d57206cf295
+author jenkis <jenkis@pulse.com> 2021-03-16 14:03:28 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-16 14:03:28 -0300
+
+    Add Roles
+
+
+:100644 100644 f91ca55211579bef9dd0f126a0a8606374c34696 a7246c651e263382957047bde033cd976a3fbb26 M	app_provisioning.yml
+commit 38ee442c9494c2c60ec5654198eb37991968f910
+tree 7cb08448163c4d2cb5fb4be125153370b7c7d5f3
+parent 26772898c43f2f8c8ee22e425e8d463106799e7a
+author jenkis <jenkis@pulse.com> 2021-03-16 14:02:26 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-16 14:02:26 -0300
+
+    Add Roles
+
+
+:100644 100644 c315a09cad3ac83446a547a718b1f7de916f3982 f91ca55211579bef9dd0f126a0a8606374c34696 M	app_provisioning.yml

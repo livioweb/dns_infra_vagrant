@@ -1,0 +1,1528 @@
+Started by GitLab push by Administrator
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4MHWUtWpNdBB/ltPgJz0RgBJ0XXH08HnQr/+61A2k11hAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4F+WcnsaDVBljdWGXH+nUPFa9uYg3/BwMSMHn8DNnPknAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4DQkyCqJq9WfolOqmKyxuD41SoGZq5Q9E4Iptday+d63AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/aracnos
+[8mha:////4CLZeuoWtzhRQY+H7lubsyYkxx7l6qmS8klvB+uSfdMmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4IHk6owPPbQqRqD/qCkDpyYDBDihPF7n9T/1+ja9FDJYAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4FhkZqXrLj0LSVmEsbZO4wZdrqvN877RBaxzgAR1edLzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4AGHKk4mb3/AVPm8iuz9yHEZfaM8Ff2KpoOovhCFs/DFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4KHxpyl/V0jr3rQ8pp+NeYH+0/2fxB85CkMd0ypkj/ZfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Clean Workspace)
+[8mha:////4MvzH288TbbbH07JDY0jKIx1qwtgzOZjE60xffJT5DOlAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] sh
++ printenv
+JAVA_URL_VERSION=8u242b08
+gitlabSourceRepoURL=git@gitlab.devops:notrap/aracnos.git
+JENKINS_HOME=/var/jenkins_home
+JENKINS_UC_EXPERIMENTAL=https://updates.jenkins.io/experimental
+RUN_CHANGES_DISPLAY_URL=http://jenkins.devops/job/aracnos/140/display/redirect?page=changes
+gitlabAfter=960b869a7e346f6cb88ff24a4db7abd6c0812f6e
+HOSTNAME=jenkins.docker
+SHLVL=0
+NODE_LABELS=master
+HUDSON_URL=http://jenkins.devops/
+JAVA_BASE_URL=https://github.com/AdoptOpenJDK/openjdk8-upstream-binaries/releases/download/jdk8u242-b08/OpenJDK8U-jdk_
+HOME=/var/jenkins_home
+BUILD_URL=http://jenkins.devops/job/aracnos/140/
+HUDSON_COOKIE=ca99dacb-bd35-483f-a4ce-f3388d2085f0
+gitlabTargetBranch=master
+JENKINS_SERVER_COOKIE=durable-1d48dfc09e8a4729d07aa38b996a6577
+JENKINS_UC=https://updates.jenkins.io
+gitlabSourceRepoHttpUrl=http://gitlab.devops/notrap/aracnos.git
+gitlabUserUsername=root
+WORKSPACE=/var/jenkins_home/workspace/aracnos
+REF=/usr/share/jenkins/ref
+JAVA_VERSION=8u242
+gitlabMergeRequestLastCommit=960b869a7e346f6cb88ff24a4db7abd6c0812f6e
+NODE_NAME=master
+gitlabSourceRepoSshUrl=git@gitlab.devops:notrap/aracnos.git
+RUN_ARTIFACTS_DISPLAY_URL=http://jenkins.devops/job/aracnos/140/display/redirect?page=artifacts
+STAGE_NAME=Clean Workspace
+gitlabSourceRepoHomepage=http://gitlab.devops/notrap/aracnos
+EXECUTOR_NUMBER=1
+gitlabBranch=master
+RUN_TESTS_DISPLAY_URL=http://jenkins.devops/job/aracnos/140/display/redirect?page=tests
+BUILD_DISPLAY_NAME=#140
+gitlabSourceBranch=master
+JENKINS_VERSION=2.263.3
+JENKINS_INCREMENTALS_REPO_MIRROR=https://repo.jenkins-ci.org/incrementals
+HUDSON_HOME=/var/jenkins_home
+JOB_BASE_NAME=aracnos
+PATH=/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+BUILD_ID=140
+registry=liviorodrigues/aracnos
+JENKINS_HOST_HOME=/data/jenkins
+gitlabBefore=960b869a7e346f6cb88ff24a4db7abd6c0812f6e
+BUILD_TAG=jenkins-aracnos-140
+gitlabActionType=PUSH
+JENKINS_URL=http://jenkins.devops/
+dockerImage=aracnos
+LANG=C.UTF-8
+JOB_URL=http://jenkins.devops/job/aracnos/
+gitlabSourceRepoName=Aracnos
+gitlabSourceNamespace=notrap
+BUILD_NUMBER=140
+registryCredential=docker_hub
+JENKINS_NODE_COOKIE=f7a7a012-3e00-45f5-9a54-1c767c7faad6
+RUN_DISPLAY_URL=http://jenkins.devops/job/aracnos/140/display/redirect
+JENKINS_SLAVE_AGENT_PORT=50000
+ROOLBACK=false
+ROOLBACK_BUILDS=Aracnos 103
+HUDSON_SERVER_COOKIE=e4bc0f3f31d9f418
+JOB_DISPLAY_URL=http://jenkins.devops/job/aracnos/display/redirect
+JOB_NAME=aracnos
+COPY_REFERENCE_FILE_LOG=/var/jenkins_home/copy_reference_file.log
+PWD=/var/jenkins_home/workspace/aracnos
+JAVA_HOME=/usr/local/openjdk-8
+gitlabUserName=Administrator
+WORKSPACE_TMP=/var/jenkins_home/workspace/aracnos@tmp
+[8mha:////4FWZs4qpE8BU8pfxFYrpBw8d7FX4V7BAOTCXTakRKOblAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] echo
+Aracnos 103
+[8mha:////4FMCPMW+0yJcvFHLT1IqBbn9KLF1pXrBS3ReAK9MCF1pAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] echo
+103
+[8mha:////4CenZIhKALvCRrt3AxxLnW1b4iwBx5jKiTpbON+9XFCwAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPo1DLpr0AAAA=[0m[Pipeline] deleteDir
+[8mha:////4Hx11QGT7u2HKPvNXpVYovKRkszEbg98BP+nSyZuaaf2AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AH4dU5y9AAAA[0m[Pipeline] }
+[8mha:////4EkWtYA8AY1On4p6qiIQiRWD5zRaodQhbAp9L0ibQb5aAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREhIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A//czL69AAAA[0m[Pipeline] // stage
+[8mha:////4EGSrQD/Q6FWGFRl9enqyhL0lYS/ezKuy6amoV+m0zMVAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjCmgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvxMyLWcEAAAA=[0m[Pipeline] stage
+[8mha:////4BQTXQL5gObaczFHjV8TWyhvHQPf/rsIjR12nsvO3WBcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Clone App)
+[8mha:////4EX9MZY/dKnKrzGeXJDfHSxeWypP8o+uP0gVZpvdOaVXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] git
+The recommended git tool is: NONE
+using credential gitlab_jenkis
+Cloning the remote Git repository
+Cloning repository http://gitlab.devops/notrap/aracnos.git
+ > git init /var/jenkins_home/workspace/aracnos # timeout=10
+Fetching upstream changes from http://gitlab.devops/notrap/aracnos.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_ASKPASS to set credentials gitlab_jenkis
+ > git fetch --tags --progress -- http://gitlab.devops/notrap/aracnos.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://gitlab.devops/notrap/aracnos.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+skipping resolution of commit remotes/origin/master, since it originates from another repository
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 960b869a7e346f6cb88ff24a4db7abd6c0812f6e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 960b869a7e346f6cb88ff24a4db7abd6c0812f6e # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 960b869a7e346f6cb88ff24a4db7abd6c0812f6e # timeout=10
+Commit message: "Developer - first commit"
+ > git rev-list --no-walk 960b869a7e346f6cb88ff24a4db7abd6c0812f6e # timeout=10
+[8mha:////4BfO/XHnZTOUH7xwY5vhWMsb+2cN6OXQkf0aQ/AY08wqAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULAgJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACKOgoTwgAAAA==[0m[Pipeline] script
+[8mha:////4NembqUN+B4r95y8B2x2mSfqmsnFdaJwmALcNoFFJMB0AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4P2r1rOnS/27WTG4pzYFl8+faeEJBjgLVt+5qhaicI4mAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] readMavenPom
+[8mha:////4D3J2D4PG3iFIZ8hYyrusvKGfWjV75VI/6xQAuirWY8yAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] echo
+VERSION: 0.0.1-SNAPSHOT
+[8mha:////4Ii6unahVT6jyG+HFZTM+IvQ4fAaBXTZngUwvrWqxWTaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPoukFhO+AAAA[0m[Pipeline] }
+[8mha:////4In4kiICUECyf8xUOFjpBZEQepcDjLSOLlZyIc0jh0XIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+4R02vvgAAAA==[0m[Pipeline] // script
+[8mha:////4KK+A4hawEhYG8HIwl41VapWhCjG3muwTKYS9hPbU5j6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk95Nrthw/0JdCkvgAAAA==[0m[Pipeline] sh
++ mkdir -p deploy
+[8mha:////4OGUaiVUycN8LoUH+ZwuuuXefzA6pJS6IQmyokj5la3iAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIMGCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wfb7j7P6g3JM3yewgAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/aracnos/deploy
+[8mha:////4OXu9y7gBM0Zd9t6ikubVvRUFbO+ohhUCI11ENDQ7DUhAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] {
+[8mha:////4ATnIP80FBb7clYsJY0kNuePisKwNIzlsuSuSlLc/ruvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHUcXIBvgAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+using credential gitlab_jenkis
+Cloning the remote Git repository
+Cloning repository http://gitlab.devops/notrap/ansible_file_deploy.git
+ > git init /var/jenkins_home/workspace/aracnos/deploy # timeout=10
+Fetching upstream changes from http://gitlab.devops/notrap/ansible_file_deploy.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_ASKPASS to set credentials gitlab_jenkis
+ > git fetch --tags --progress -- http://gitlab.devops/notrap/ansible_file_deploy.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://gitlab.devops/notrap/ansible_file_deploy.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+skipping resolution of commit remotes/origin/master, since it originates from another repository
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision d80c7b8ed4704dcacac7c117a0724a72bc17c98a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d80c7b8ed4704dcacac7c117a0724a72bc17c98a # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master d80c7b8ed4704dcacac7c117a0724a72bc17c98a # timeout=10
+Commit message: "Developer - first commit"
+ > git rev-list --no-walk d80c7b8ed4704dcacac7c117a0724a72bc17c98a # timeout=10
+[8mha:////4DvtYDcndlhyM/paZj5s+wFnhNtji++cgjTs3wTjekPkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2/yR8JvgAAAA==[0m[Pipeline] }
+[8mha:////4GV3mTSGh0JKsjBOnkID7DZZBYlw5c5VlSgHU9N1QQM1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2gS0pbvgAAAA==[0m[Pipeline] // dir
+[8mha:////4CqF7nuPHvBiDhTeoEL0vl0b4/K3UM+E91wrZVrN0y0OAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICQqJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+lExZovgAAAA==[0m[Pipeline] }
+[8mha:////4DeY90dcq4oCV7nPai5ci/17Yo7O+8BeafDIn5RECPQhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiCFEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AG6kUM6vgAAAA==[0m[Pipeline] // stage
+[8mha:////4EI6R4dF0vmJBlIz6qDZatK/Y2KQW0ezqirJLTRbAXGEAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjgUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A1XtEdPBAAAA[0m[Pipeline] stage
+[8mha:////4MvNgAQy9xhsE1fEPJWYhkPiHirtew+SJJ7wFdj5EtLrAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] { (Clone Config)
+[8mha:////4Kpl+Af0rvglpwQkQsBBingQW//m4f7CfAnkjRR0NnguAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] sh
++ mkdir -p deploy
+[8mha:////4CHMJxVJkRs+mESW5aZ9sAMQ0HDbYfUlfVTwp2eId9xYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0qJgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AKAKZ6XCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/aracnos/deploy
+[8mha:////4F07QRcr+J/pEBb4D7w6jawJOCQuEuHZvCCZ7dtCRJqcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] {
+[8mha:////4KVEtrzG8CGF3AAccbzCGkJ/kxFO0T2/qr4lVLI9PFh9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+using credential gitlab_jenkis
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://gitlab.devops/notrap/ansible_file_deploy.git # timeout=10
+Fetching upstream changes from http://gitlab.devops/notrap/ansible_file_deploy.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_ASKPASS to set credentials gitlab_jenkis
+ > git fetch --tags --progress -- http://gitlab.devops/notrap/ansible_file_deploy.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+skipping resolution of commit remotes/origin/master, since it originates from another repository
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision d80c7b8ed4704dcacac7c117a0724a72bc17c98a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d80c7b8ed4704dcacac7c117a0724a72bc17c98a # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master d80c7b8ed4704dcacac7c117a0724a72bc17c98a # timeout=10
+Commit message: "Developer - first commit"
+[8mha:////4Gcxr+Guwgtv+Qx4PfbEBJCnyRwCYrzjy6EHYEi4R4WjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1K83O2vgAAAA==[0m[Pipeline] }
+[8mha:////4NdiwEjcDUKssTu0A3h2HJxb9H+mYAnG7cfX5aY0zXDSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFVcSbkvgAAAA==[0m[Pipeline] // dir
+[8mha:////4I7PqK+l3m2EtOK5ngDb2Lxq7iVpvxu+fc65I+N3PBe7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJBCh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuPya77e++AAAA[0m[Pipeline] }
+[8mha:////4LHA9q3dm8CKS8vAphdSGcL8J2MfvXNk0/3LiWyCZx07AAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIjPh1KRWu54QQmMcaJtRtsB6fiRFyNO2ARiYopRvOmea83LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wEVWLZTvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Gh5EEXQ1dnJi0ObLIXBJV3hM/6eYSyu05npSVM0JeyrAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A9vTthbBAAAA[0m[Pipeline] stage
+[8mha:////4JCWyM+N0vaK41SucQZJFXYE6e/FtXyIdoojlKQtOxbZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] { (SonarQube Analysis)
+[8mha:////4N4XoMOz2BF5vQgJVxyMqTtD+8Snfdo9veT5uiK0QatLAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonar_aracnos_server
+[8mha:////4DMOvGuKRoD4MFAbVLdo63dRig2whe7/QNC/ypGWf7O/AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KRNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPIshjPcIAAAA=[0m[Pipeline] {
+[8mha:////4Is9VED4AW3kthnCSPeX3HuObQnhVsTQnoEJtNzuTewBAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBj0vY+u+AAAA[0m[Pipeline] sh
++ mvn sonar:sonar -Dsonar.projectKey=aracnor_l -Dsonar.host.url=http://sonar.devops -Dsonar.login=******
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.8.0.2131:sonar (default-cli) @ demo ---
+[INFO] User cache: /var/jenkins_home/.sonar/cache
+[INFO] SonarQube version: 8.7.0
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[WARNING] SonarScanner will require Java 11 to run starting in SonarQube 9.x
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=119ms
+[INFO] Server id: BF41A1F2-AXghra5Zn8iYFTECxiK8
+[INFO] User cache: /var/jenkins_home/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=64ms
+[INFO] Load/download plugins (done) | time=240ms
+[INFO] Process project properties
+[INFO] Process project properties (done) | time=15ms
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=3ms
+[INFO] Project key: aracnor_l
+[INFO] Base dir: /var/jenkins_home/workspace/aracnos
+[INFO] Working dir: /var/jenkins_home/workspace/aracnos/target/sonar
+[INFO] Load project settings for component key: 'aracnor_l'
+[INFO] Load project settings for component key: 'aracnor_l' (done) | time=15ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=87ms
+[INFO] Auto-configuring with CI 'Jenkins'
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=1841ms
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 5 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Sonar way
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module demo
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=29ms
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=37ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=35ms
+[INFO] Java Main Files AST scan
+[INFO] 2 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=18ms
+[INFO] 2/2 source files have been analyzed
+[INFO] Java Main Files AST scan (done) | time=1764ms
+[INFO] Java Test Files AST scan
+[INFO] 2 source files to be analyzed
+[INFO] 2/2 source files have been analyzed
+[INFO] Java Test Files AST scan (done) | time=433ms
+[INFO] Java Generated Files AST scan
+[INFO] 0 source files to be analyzed
+[INFO] 0/0 source files have been analyzed
+[INFO] Java Generated Files AST scan (done) | time=1ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=2741ms
+[INFO] Sensor CSS Rules [cssfamily]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor CSS Rules [cssfamily] (done) | time=1ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] Importing 1 report(s). Turn your logs in debug mode in order to see the exhaustive list.
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=86ms
+[INFO] Sensor C# Properties [csharp]
+[INFO] Sensor C# Properties [csharp] (done) | time=1ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/var/jenkins_home/workspace/aracnos/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=47ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] 1 source files to be analyzed
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor JavaXmlSensor [java] (done) | time=166ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=3ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1 source files to be analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=173ms
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor VB.NET Properties [vbnet]
+[INFO] Sensor VB.NET Properties [vbnet] (done) | time=1ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=2ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=29ms
+[INFO] CPD Executor 1 file had no CPD blocks
+[INFO] CPD Executor Calculating CPD for 1 file
+[INFO] CPD Executor CPD calculation finished (done) | time=8ms
+[INFO] Analysis report generated in 114ms, dir size=110 KB
+[INFO] Analysis report compressed in 342ms, zip size=22 KB
+[INFO] Analysis report uploaded in 43ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse http://sonar.devops/dashboard?id=aracnor_l
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at http://sonar.devops/api/ce/task?id=AXj5tezEdbl41XOQP2Rg
+[INFO] Analysis total time: 8.222 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.271 s
+[INFO] Finished at: 2021-04-22T13:12:32+00:00
+[INFO] Final Memory: 50M/354M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4KJ4aav1jDaJCwuuGFonJ/xuKW5RFN10cj9Koo8Pn8bfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N2y4ylS+AAAA[0m[Pipeline] }
+[8mha:////4C0EhP0JeF0+nI0HTDufTcbn7OtPcbPR4XXiFCqd82ivAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSpHDGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DS86m9K+AAAA[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4Nzjf7bkK8efFuPobHnxFkEZD8WemgP9Ii18olDNsFcTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIMQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNyl8o4e+AAAA[0m[Pipeline] }
+[8mha:////4GiLCi13IqKibQZQYdzULUt+SFgdYZMs98N9hH3ADbUTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wHDFtxxvgAAAA==[0m[Pipeline] // stage
+[8mha:////4N4Yy2iGRn++RolQTW/F1vIXVFqJdOtJRpYVSrS91xSIAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjCmgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZvwapVNsEAAAA=[0m[Pipeline] stage
+[8mha:////4MfHI9dttTpAw1JN8NmPs2mqchZr0xMD8kxaZR0DwBWTAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwMT42zCAAAA[0m[Pipeline] { (Quality Gate)
+[8mha:////4L9363a8xVXaCKjgWliKmoDV7WbJ18SoCs4lLqiuOMQ5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD6emXT7CAAAA[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonar_aracnos_server
+[8mha:////4OmupC9Gw8Tyr+PSURfmjh4PO5CGogsz4sZUbG8Ny+uFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] {
+[8mha:////4PfWypmNhV+QJszllYj0CFl3rjQHoxjM0EO/ta72WTtBAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkApR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f4x1Rq74AAAA=[0m[Pipeline] sh
++ mvn -B -X sonar:sonar
+Apache Maven 3.3.9
+Maven home: /usr/share/maven
+Java version: 1.8.0_242, vendor: Oracle Corporation
+Java home: /usr/local/openjdk-8/jre
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "4.15.0-142-generic", arch: "amd64", family: "unix"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from /usr/share/maven/conf/settings.xml
+[DEBUG] Reading user settings from /var/jenkins_home/.m2/settings.xml
+[DEBUG] Reading global toolchains from /usr/share/maven/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /var/jenkins_home/.m2/toolchains.xml
+[DEBUG] Using local repository at /var/jenkins_home/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /var/jenkins_home/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-starter-parent:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-starter-parent:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-starter-parent:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-dependencies:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-dependencies:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-dependencies:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Extension realms for project com.tarefa:demo:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:2.4.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-dependencies:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-dependencies:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-dependencies:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:2.4.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix sonar from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-maven-plugin:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-maven-plugin:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-maven-plugin:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-maven-plugin:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-maven-plugin:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-maven-plugin:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.apache.maven.plugins/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Failure to find org.apache.maven.plugins/maven-metadata.xml in https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.maven.plugins/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.codehaus.mojo/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Failure to find org.codehaus.mojo/maven-metadata.xml in https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.codehaus.mojo/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin prefix sonar to org.codehaus.mojo:sonar-maven-plugin from repository central
+[DEBUG] Resolving plugin version for org.codehaus.mojo:sonar-maven-plugin
+[DEBUG] Could not find metadata org.codehaus.mojo:sonar-maven-plugin/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.codehaus.mojo:sonar-maven-plugin/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Failure to find org.codehaus.mojo:sonar-maven-plugin/maven-metadata.xml in https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.codehaus.mojo:sonar-maven-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.codehaus.mojo:sonar-maven-plugin to 3.8.0.2131 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.tarefa:demo:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [sonar:sonar]
+[DEBUG] Style:   Aggregating
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Resolving plugin prefix sonar from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.apache.maven.plugins/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Failure to find org.apache.maven.plugins/maven-metadata.xml in https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.maven.plugins/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.codehaus.mojo/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Failure to find org.codehaus.mojo/maven-metadata.xml in https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.codehaus.mojo/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin prefix sonar to org.codehaus.mojo:sonar-maven-plugin from repository central
+[DEBUG] Resolving plugin version for org.codehaus.mojo:sonar-maven-plugin
+[DEBUG] Could not find metadata org.codehaus.mojo:sonar-maven-plugin/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.codehaus.mojo:sonar-maven-plugin/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Failure to find org.codehaus.mojo:sonar-maven-plugin/maven-metadata.xml in https://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.codehaus.mojo:sonar-maven-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.codehaus.mojo:sonar-maven-plugin to 3.8.0.2131 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.tarefa:demo:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [spring-milestones (https://repo.spring.io/milestone, default, releases+snapshots), spring-snapshots (https://repo.spring.io/snapshot, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [spring-milestones (https://repo.spring.io/milestone, default, releases+snapshots), spring-snapshots (https://repo.spring.io/snapshot, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.sonarsource.scanner.maven:sonar-maven-plugin:3.8.0.2131:sonar (default-cli)
+[DEBUG] Style:         Aggregating
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${sonar.skip}</skip>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-starter-web:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-starter-web:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-starter-web:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-starter-web:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-starter-web:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-starter-web:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-starter:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-starter:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-starter:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-starter:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-starter:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-starter:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-autoconfigure:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-autoconfigure:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-autoconfigure:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-autoconfigure:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-autoconfigure:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-autoconfigure:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-starter-logging:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-starter-logging:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-starter-logging:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-starter-logging:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-starter-logging:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-starter-logging:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-starter-json:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-starter-json:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-starter-json:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-starter-json:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-starter-json:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-starter-json:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-starter-tomcat:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-starter-tomcat:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-starter-tomcat:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-starter-tomcat:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-starter-tomcat:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-starter-tomcat:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-devtools:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-devtools:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-devtools:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-devtools:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-devtools:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-devtools:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-starter-test:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-starter-test:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-starter-test:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-starter-test:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-starter-test:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-starter-test:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-test:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-test:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-test:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-test:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-test:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-test:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-test-autoconfigure:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-test-autoconfigure:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-test-autoconfigure:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.springframework.boot:spring-boot-test-autoconfigure:2.4.0-SNAPSHOT/maven-metadata.xml in local (/var/jenkins_home/.m2/repository)
+[DEBUG] Failure to find org.springframework.boot:spring-boot-test-autoconfigure:2.4.0-SNAPSHOT/maven-metadata.xml in https://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.springframework.boot:spring-boot-test-autoconfigure:2.4.0-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=1, ConflictMarker.nodeCount=113, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=63, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=9, ConflictResolver.conflictItemCount=112, DefaultDependencyCollector.collectTime=981, DefaultDependencyCollector.transformTime=11}
+[DEBUG] com.tarefa:demo:jar:0.0.1-SNAPSHOT
+[DEBUG]    org.springframework.boot:spring-boot-starter-web:jar:2.4.0-SNAPSHOT:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter:jar:2.4.0-SNAPSHOT:compile
+[DEBUG]          org.springframework.boot:spring-boot-starter-logging:jar:2.4.0-SNAPSHOT:compile
+[DEBUG]             ch.qos.logback:logback-classic:jar:1.2.3:compile
+[DEBUG]                ch.qos.logback:logback-core:jar:1.2.3:compile
+[DEBUG]             org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile
+[DEBUG]                org.apache.logging.log4j:log4j-api:jar:2.13.3:compile
+[DEBUG]             org.slf4j:jul-to-slf4j:jar:1.7.30:compile
+[DEBUG]          jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[DEBUG]          org.yaml:snakeyaml:jar:1.27:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-json:jar:2.4.0-SNAPSHOT:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-databind:jar:2.11.3:compile
+[DEBUG]             com.fasterxml.jackson.core:jackson-annotations:jar:2.11.3:compile
+[DEBUG]             com.fasterxml.jackson.core:jackson-core:jar:2.11.3:compile
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.3:compile
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.3:compile
+[DEBUG]          com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.3:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-tomcat:jar:2.4.0-SNAPSHOT:compile
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.39:compile
+[DEBUG]          org.glassfish:jakarta.el:jar:3.0.3:compile
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.39:compile
+[DEBUG]       org.springframework:spring-web:jar:5.3.1:compile
+[DEBUG]          org.springframework:spring-beans:jar:5.3.1:compile
+[DEBUG]       org.springframework:spring-webmvc:jar:5.3.1:compile
+[DEBUG]          org.springframework:spring-aop:jar:5.3.1:compile
+[DEBUG]          org.springframework:spring-context:jar:5.3.1:compile
+[DEBUG]          org.springframework:spring-expression:jar:5.3.1:compile
+[DEBUG]    org.springframework.boot:spring-boot-devtools:jar:2.4.0-SNAPSHOT:runtime
+[DEBUG]       org.springframework.boot:spring-boot:jar:2.4.0-SNAPSHOT:compile
+[DEBUG]       org.springframework.boot:spring-boot-autoconfigure:jar:2.4.0-SNAPSHOT:compile
+[DEBUG]    org.springframework.boot:spring-boot-starter-test:jar:2.4.0-SNAPSHOT:test
+[DEBUG]       org.springframework.boot:spring-boot-test:jar:2.4.0-SNAPSHOT:test
+[DEBUG]       org.springframework.boot:spring-boot-test-autoconfigure:jar:2.4.0-SNAPSHOT:test
+[DEBUG]       com.jayway.jsonpath:json-path:jar:2.4.0:test
+[DEBUG]          net.minidev:json-smart:jar:2.3:test
+[DEBUG]             net.minidev:accessors-smart:jar:1.2:test
+[DEBUG]                org.ow2.asm:asm:jar:5.0.4:test
+[DEBUG]          org.slf4j:slf4j-api:jar:1.7.30:compile (version managed from 1.7.25 by org.springframework.boot:spring-boot-dependencies:2.4.0-SNAPSHOT)
+[DEBUG]       jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:test
+[DEBUG]          jakarta.activation:jakarta.activation-api:jar:1.2.2:test
+[DEBUG]       org.assertj:assertj-core:jar:3.18.1:test
+[DEBUG]       org.hamcrest:hamcrest:jar:2.2:test
+[DEBUG]       org.junit.jupiter:junit-jupiter:jar:5.7.0:test
+[DEBUG]          org.junit.jupiter:junit-jupiter-api:jar:5.7.0:test
+[DEBUG]             org.apiguardian:apiguardian-api:jar:1.1.0:test
+[DEBUG]             org.opentest4j:opentest4j:jar:1.2.0:test
+[DEBUG]             org.junit.platform:junit-platform-commons:jar:1.7.0:test
+[DEBUG]          org.junit.jupiter:junit-jupiter-params:jar:5.7.0:test
+[DEBUG]          org.junit.jupiter:junit-jupiter-engine:jar:5.7.0:test
+[DEBUG]             org.junit.platform:junit-platform-engine:jar:1.7.0:test
+[DEBUG]       org.mockito:mockito-core:jar:3.6.0:test
+[DEBUG]          net.bytebuddy:byte-buddy:jar:1.10.18:test (version managed from 1.10.15 by org.springframework.boot:spring-boot-dependencies:2.4.0-SNAPSHOT)
+[DEBUG]          net.bytebuddy:byte-buddy-agent:jar:1.10.18:test (version managed from 1.10.15 by org.springframework.boot:spring-boot-dependencies:2.4.0-SNAPSHOT)
+[DEBUG]          org.objenesis:objenesis:jar:3.1:test
+[DEBUG]       org.mockito:mockito-junit-jupiter:jar:3.6.0:test
+[DEBUG]       org.skyscreamer:jsonassert:jar:1.5.0:test
+[DEBUG]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[DEBUG]       org.springframework:spring-core:jar:5.3.1:compile
+[DEBUG]          org.springframework:spring-jcl:jar:5.3.1:compile
+[DEBUG]       org.springframework:spring-test:jar:5.3.1:test
+[DEBUG]       org.xmlunit:xmlunit-core:jar:2.7.0:test
+[DEBUG]    junit:junit:jar:4.12:test
+[DEBUG]       org.hamcrest:hamcrest-core:jar:2.2:test (version managed from 1.3 by org.springframework.boot:spring-boot-dependencies:2.4.0-SNAPSHOT)
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.8.0.2131:sonar (default-cli) @ demo ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=7, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=6, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=7, DefaultDependencyCollector.collectTime=182, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.sonarsource.scanner.maven:sonar-maven-plugin:jar:3.8.0.2131:
+[DEBUG]    org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:compile
+[DEBUG]       org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.2.1:compile
+[DEBUG]    org.sonarsource.scanner.api:sonar-scanner-api:jar:2.16.0.226:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.6:compile
+[DEBUG] Created new class realm plugin>org.codehaus.mojo:sonar-maven-plugin:3.8.0.2131
+[DEBUG] Importing foreign packages into class realm plugin>org.codehaus.mojo:sonar-maven-plugin:3.8.0.2131
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.codehaus.mojo:sonar-maven-plugin:3.8.0.2131
+[DEBUG]   Included: org.sonarsource.scanner.maven:sonar-maven-plugin:jar:3.8.0.2131
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.2.1
+[DEBUG]   Included: org.sonarsource.scanner.api:sonar-scanner-api:jar:2.16.0.226
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG] Configuring mojo org.sonarsource.scanner.maven:sonar-maven-plugin:3.8.0.2131:sonar from plugin realm ClassRealm[plugin>org.codehaus.mojo:sonar-maven-plugin:3.8.0.2131, parent: sun.misc.Launcher$AppClassLoader@7852e922]
+[DEBUG] Configuring mojo 'org.sonarsource.scanner.maven:sonar-maven-plugin:3.8.0.2131:sonar' with basic configurator -->
+[DEBUG]   (f) mojoExecution = org.sonarsource.scanner.maven:sonar-maven-plugin:3.8.0.2131:sonar {execution: default-cli}
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@41382722
+[DEBUG]   (f) skip = false
+[DEBUG] -- end configuration --
+[DEBUG] 13:12:39.319 keyStore is : 
+[DEBUG] 13:12:39.324 keyStore type is : jks
+[DEBUG] 13:12:39.325 keyStore provider is : 
+[DEBUG] 13:12:39.325 init keystore
+[DEBUG] 13:12:39.326 init keymanager of type SunX509
+[DEBUG] 13:12:39.405 Create: /var/jenkins_home/.sonar/cache
+[INFO] 13:12:39.407 User cache: /var/jenkins_home/.sonar/cache
+[DEBUG] 13:12:39.408 Create: /var/jenkins_home/.sonar/cache/_tmp
+[DEBUG] 13:12:39.413 Extract sonar-scanner-api-batch in temp...
+[DEBUG] 13:12:39.416 Get bootstrap index...
+[DEBUG] 13:12:39.417 Download: http://sonar.devops/batch/index
+[DEBUG] 13:12:39.469 Get bootstrap completed
+[DEBUG] 13:12:39.477 Create isolated classloader...
+[DEBUG] 13:12:39.483 Start temp cleaning...
+[DEBUG] 13:12:39.489 Temp cleaning done
+[DEBUG] 13:12:39.490 Execution getVersion
+[INFO] 13:12:39.519 SonarQube version: 8.7.0
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[INFO] 13:12:39.650 Default locale: "en", source code encoding: "UTF-8"
+[DEBUG] 13:12:39.651 Work directory: /var/jenkins_home/workspace/aracnos/target/sonar
+[DEBUG] 13:12:39.652 Execution execute
+[WARNING] 13:12:39.847 SonarScanner will require Java 11 to run starting in SonarQube 9.x
+[DEBUG] 13:12:39.849 Community 8.7.0.41497
+[INFO] 13:12:40.146 Load global settings
+[DEBUG] 13:12:40.258 GET 200 http://sonar.devops/api/settings/values.protobuf | time=109ms
+[INFO] 13:12:40.313 Load global settings (done) | time=167ms
+[INFO] 13:12:40.316 Server id: BF41A1F2-AXghra5Zn8iYFTECxiK8
+[INFO] 13:12:40.321 User cache: /var/jenkins_home/.sonar/cache
+[INFO] 13:12:40.325 Load/download plugins
+[INFO] 13:12:40.326 Load plugins index
+[DEBUG] 13:12:40.340 GET 200 http://sonar.devops/api/plugins/installed | time=10ms
+[INFO] 13:12:40.402 Load plugins index (done) | time=76ms
+[INFO] 13:12:40.613 Load/download plugins (done) | time=288ms
+[DEBUG] 13:12:40.772 Plugins:
+[DEBUG] 13:12:40.772   * Python Code Quality and Security 3.2.0.7856 (python)
+[DEBUG] 13:12:40.772   * CSS Code Quality and Security 1.3.2.1782 (cssfamily)
+[DEBUG] 13:12:40.773   * Go Code Quality and Security 1.8.2.1946 (go)
+[DEBUG] 13:12:40.773   * JaCoCo 1.1.0.898 (jacoco)
+[DEBUG] 13:12:40.773   * Kotlin Code Quality and Security 1.8.2.1946 (kotlin)
+[DEBUG] 13:12:40.773   * JavaScript/TypeScript Code Quality and Security 7.2.0.14938 (javascript)
+[DEBUG] 13:12:40.774   * Ruby Code Quality and Security 1.8.2.1946 (ruby)
+[DEBUG] 13:12:40.774   * Scala Code Quality and Security 1.8.2.1946 (sonarscala)
+[DEBUG] 13:12:40.774   * C# Code Quality and Security 8.18.0.27296 (csharp)
+[DEBUG] 13:12:40.774   * Java Code Quality and Security 6.12.0.24852 (java)
+[DEBUG] 13:12:40.775   * HTML Code Quality and Security 3.3.0.2534 (web)
+[DEBUG] 13:12:40.775   * Flex Code Quality and Security 2.6.0.2294 (flex)
+[DEBUG] 13:12:40.775   * SonarXML 2.0.1.2020 (xml)
+[DEBUG] 13:12:40.775   * PHP Code Quality and Security 3.15.0.7197 (php)
+[DEBUG] 13:12:40.776   * VB.NET Code Quality and Security 8.18.0.27296 (vbnet)
+[INFO] 13:12:41.360 Process project properties
+[INFO] 13:12:41.374 Process project properties (done) | time=14ms
+[INFO] 13:12:41.374 Execute project builders
+[DEBUG] 13:12:41.375 Execute project builder: org.sonar.plugins.csharp.CSharpGlobalProtobufFileProcessor
+[DEBUG] 13:12:41.376 Execute project builder: org.sonar.plugins.vbnet.VbNetGlobalProtobufFileProcessor
+[INFO] 13:12:41.378 Execute project builders (done) | time=4ms
+[INFO] 13:12:41.382 Project key: com.tarefa:demo
+[INFO] 13:12:41.382 Base dir: /var/jenkins_home/workspace/aracnos
+[INFO] 13:12:41.383 Working dir: /var/jenkins_home/workspace/aracnos/target/sonar
+[DEBUG] 13:12:41.383 Project global encoding: UTF-8, default locale: en
+[DEBUG] 13:12:41.385 Creating module hierarchy
+[DEBUG] 13:12:41.385   Init module 'demo'
+[DEBUG] 13:12:41.387     Base dir: /var/jenkins_home/workspace/aracnos
+[DEBUG] 13:12:41.387     Working dir: /var/jenkins_home/workspace/aracnos/target/sonar
+[DEBUG] 13:12:41.387     Module global encoding: UTF-8, default locale: en
+[INFO] 13:12:41.584 Load project settings for component key: 'com.tarefa:demo'
+[DEBUG] 13:12:41.596 GET 200 http://sonar.devops/api/settings/values.protobuf?component=com.tarefa%3Ademo | time=12ms
+[INFO] 13:12:41.598 Load project settings for component key: 'com.tarefa:demo' (done) | time=14ms
+[DEBUG] 13:12:41.627 Available languages:
+[DEBUG] 13:12:41.628   * Python => "py"
+[DEBUG] 13:12:41.630   * CSS => "css"
+[DEBUG] 13:12:41.630   * Go => "go"
+[DEBUG] 13:12:41.631   * Kotlin => "kotlin"
+[DEBUG] 13:12:41.631   * JavaScript => "js"
+[DEBUG] 13:12:41.632   * TypeScript => "ts"
+[DEBUG] 13:12:41.632   * Ruby => "ruby"
+[DEBUG] 13:12:41.632   * Scala => "scala"
+[DEBUG] 13:12:41.633   * C# => "cs"
+[DEBUG] 13:12:41.633   * Java => "java"
+[DEBUG] 13:12:41.633   * HTML => "web"
+[DEBUG] 13:12:41.634   * JSP => "jsp"
+[DEBUG] 13:12:41.634   * Flex => "flex"
+[DEBUG] 13:12:41.634   * XML => "xml"
+[DEBUG] 13:12:41.634   * PHP => "php"
+[DEBUG] 13:12:41.634   * VB.NET => "vbnet"
+[INFO] 13:12:41.637 Load quality profiles
+[DEBUG] 13:12:41.686 GET 200 http://sonar.devops/api/qualityprofiles/search.protobuf?project=com.tarefa%3Ademo | time=48ms
+[INFO] 13:12:41.707 Load quality profiles (done) | time=69ms
+[INFO] 13:12:41.711 Auto-configuring with CI 'Jenkins'
+[INFO] 13:12:41.718 Load active rules
+[DEBUG] 13:12:41.785 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrjNen8iYFTECxlpZ&ps=500&p=1 | time=66ms
+[DEBUG] 13:12:41.922 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrjQ8n8iYFTECxlq1&ps=500&p=1 | time=34ms
+[DEBUG] 13:12:41.952 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrjT7n8iYFTECxlrV&ps=500&p=1 | time=26ms
+[DEBUG] 13:12:41.989 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrjUIn8iYFTECxlsQ&ps=500&p=1 | time=37ms
+[DEBUG] 13:12:42.036 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrjWqn8iYFTECxltx&ps=500&p=1 | time=44ms
+[DEBUG] 13:12:42.143 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrjf0n8iYFTECxlzN&ps=500&p=1 | time=102ms
+[DEBUG] 13:12:42.217 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrjr2n8iYFTECxmC9&ps=500&p=1 | time=59ms
+[DEBUG] 13:12:42.271 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrjxgn8iYFTECxmGE&ps=500&p=1 | time=44ms
+[DEBUG] 13:12:42.408 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrj0_n8iYFTECxmOc&ps=500&p=1 | time=135ms
+[DEBUG] 13:12:42.641 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrj_Wn8iYFTECxmge&ps=500&p=1 | time=217ms
+[DEBUG] 13:12:42.755 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrkHen8iYFTECxmoU&ps=500&p=1 | time=87ms
+[DEBUG] 13:12:42.807 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrkNjn8iYFTECxmqY&ps=500&p=1 | time=51ms
+[DEBUG] 13:12:42.849 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrkSNn8iYFTECxmrR&ps=500&p=1 | time=39ms
+[DEBUG] 13:12:42.949 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrkUin8iYFTECxmvq&ps=500&p=1 | time=99ms
+[DEBUG] 13:12:43.060 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrkhXn8iYFTECxm4C&ps=500&p=1 | time=108ms
+[DEBUG] 13:12:43.157 GET 200 http://sonar.devops/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXghrkmhn8iYFTECxm-c&ps=500&p=1 | time=93ms
+[INFO] 13:12:43.167 Load active rules (done) | time=1449ms
+[DEBUG] 13:12:43.240 Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+[DEBUG] 13:12:43.241 Declared extensions of language CSS were converted to sonar.lang.patterns.css : **/*.css,**/*.less,**/*.scss
+[DEBUG] 13:12:43.241 Declared extensions of language Go were converted to sonar.lang.patterns.go : **/*.go
+[DEBUG] 13:12:43.241 Declared extensions of language Kotlin were converted to sonar.lang.patterns.kotlin : **/*.kt
+[DEBUG] 13:12:43.242 Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.mjs
+[DEBUG] 13:12:43.242 Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx,**/*.vue
+[DEBUG] 13:12:43.242 Declared extensions of language Ruby were converted to sonar.lang.patterns.ruby : **/*.rb
+[DEBUG] 13:12:43.243 Declared extensions of language Scala were converted to sonar.lang.patterns.scala : **/*.scala
+[DEBUG] 13:12:43.243 Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+[DEBUG] 13:12:43.243 Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+[DEBUG] 13:12:43.244 Declared extensions of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml
+[DEBUG] 13:12:43.245 Declared extensions of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp,**/*.jspf,**/*.jspx
+[DEBUG] 13:12:43.246 Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+[DEBUG] 13:12:43.246 Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+[DEBUG] 13:12:43.247 Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+[DEBUG] 13:12:43.248 Declared extensions of language VB.NET were converted to sonar.lang.patterns.vbnet : **/*.vb
+[DEBUG] 13:12:43.251 Will ignore generated code
+[DEBUG] 13:12:43.252 Will ignore generated code
+[INFO] 13:12:43.252 Indexing files...
+[INFO] 13:12:43.253 Project configuration:
+[DEBUG] 13:12:43.272 file=/var/jenkins_home/workspace/aracnos/.git/config, create new FileSnapshot: lastRead=2021-04-22 13:12:43.270000000, lastModified=2021-04-22 13:12:14.786918000, size=202, fileKey=(dev=31,ino=11213)
+[DEBUG] 13:12:43.277 file=null, size changed from -1 to 144 bytes
+[DEBUG] 13:12:43.278 loading config FileBasedConfig[/var/jenkins_home/.config/jgit/config]
+[DEBUG] 13:12:43.279 file=/var/jenkins_home/.config/jgit/config, create new FileSnapshot: lastRead=2021-04-22 13:12:43.279000000, lastModified=2021-03-12 15:46:43.369369000, size=144, fileKey=(dev=31,ino=8844)
+[DEBUG] 13:12:43.282 readpipe [/usr/bin/git, --version],/usr/bin
+[DEBUG] 13:12:43.289 readpipe may return 'git version 2.11.0'
+[DEBUG] 13:12:43.290 remaining output:
+
+[DEBUG] 13:12:43.290 readpipe [/usr/bin/git, config, --system, --edit],/usr/bin
+[DEBUG] 13:12:43.294 readpipe may return '/etc/gitconfig'
+[DEBUG] 13:12:43.296 remaining output:
+
+[DEBUG] 13:12:43.298 file=/var/jenkins_home/.config/jgit/config, isRacyClean=false, read=2021-04-22 13:12:43.279000000, lastModified=2021-03-12 15:46:43.369369000, delta=3533159909631000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.298 file=/var/jenkins_home/.config/jgit/config, is unmodified
+[DEBUG] 13:12:43.299 file=null, size changed from -1 to 126 bytes
+[DEBUG] 13:12:43.299 loading config FileBasedConfig[/etc/gitconfig]
+[DEBUG] 13:12:43.299 file=/etc/gitconfig, create new FileSnapshot: lastRead=2021-04-22 13:12:43.299000000, lastModified=2021-01-25 17:25:17.000000000, size=126, fileKey=(dev=32,ino=784539)
+[DEBUG] 13:12:43.300 file=/var/jenkins_home/.config/jgit/config, isRacyClean=false, read=2021-04-22 13:12:43.279000000, lastModified=2021-03-12 15:46:43.369369000, delta=3533159909631000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.300 file=/var/jenkins_home/.config/jgit/config, is unmodified
+[DEBUG] 13:12:43.301 file=/etc/gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.299000000, lastModified=2021-01-25 17:25:17.000000000, delta=7501646299000000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.301 file=/etc/gitconfig, is unmodified
+[DEBUG] 13:12:43.301 file=null, size changed from -1 to 77 bytes
+[DEBUG] 13:12:43.301 loading config FileBasedConfig[/var/jenkins_home/.gitconfig]
+[DEBUG] 13:12:43.302 file=/var/jenkins_home/.gitconfig, create new FileSnapshot: lastRead=2021-04-22 13:12:43.302000000, lastModified=2021-03-30 19:29:16.027303000, size=77, fileKey=(dev=31,ino=8270)
+[DEBUG] 13:12:43.303 file=/var/jenkins_home/workspace/aracnos/.git/config, create new FileSnapshot: lastRead=2021-04-22 13:12:43.303000000, lastModified=2021-04-22 13:12:14.786918000, size=202, fileKey=(dev=31,ino=11213)
+[DEBUG] 13:12:43.305 file=/var/jenkins_home/.config/jgit/config, isRacyClean=false, read=2021-04-22 13:12:43.279000000, lastModified=2021-03-12 15:46:43.369369000, delta=3533159909631000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.306 file=/var/jenkins_home/.config/jgit/config, is unmodified
+[DEBUG] 13:12:43.306 file=/etc/gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.299000000, lastModified=2021-01-25 17:25:17.000000000, delta=7501646299000000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.306 file=/etc/gitconfig, is unmodified
+[DEBUG] 13:12:43.307 file=/var/jenkins_home/.gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.302000000, lastModified=2021-03-30 19:29:16.027303000, delta=1964607274697000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.307 file=/var/jenkins_home/.gitconfig, is unmodified
+[DEBUG] 13:12:43.307 file=/var/jenkins_home/workspace/aracnos/.git/config, isRacyClean=false, read=2021-04-22 13:12:43.303000000, lastModified=2021-04-22 13:12:14.786918000, delta=28516082000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.308 file=/var/jenkins_home/workspace/aracnos/.git/config, is unmodified
+[DEBUG] 13:12:43.335 file=/var/jenkins_home/.config/jgit/config, isRacyClean=false, read=2021-04-22 13:12:43.279000000, lastModified=2021-03-12 15:46:43.369369000, delta=3533159909631000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.335 file=/var/jenkins_home/.config/jgit/config, is unmodified
+[DEBUG] 13:12:43.335 file=/etc/gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.299000000, lastModified=2021-01-25 17:25:17.000000000, delta=7501646299000000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.335 file=/etc/gitconfig, is unmodified
+[DEBUG] 13:12:43.336 file=/var/jenkins_home/.gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.302000000, lastModified=2021-03-30 19:29:16.027303000, delta=1964607274697000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.336 file=/var/jenkins_home/.gitconfig, is unmodified
+[DEBUG] 13:12:43.337 file=/var/jenkins_home/workspace/aracnos/.git/index, create new FileSnapshot: lastRead=2021-04-22 13:12:43.325000000, lastModified=2021-04-22 13:12:15.138918000, size=9830, fileKey=(dev=31,ino=11335)
+[DEBUG] 13:12:43.353 file=/var/jenkins_home/.config/jgit/config, isRacyClean=false, read=2021-04-22 13:12:43.279000000, lastModified=2021-03-12 15:46:43.369369000, delta=3533159909631000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.353 file=/var/jenkins_home/.config/jgit/config, is unmodified
+[DEBUG] 13:12:43.354 file=/etc/gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.299000000, lastModified=2021-01-25 17:25:17.000000000, delta=7501646299000000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.354 file=/etc/gitconfig, is unmodified
+[DEBUG] 13:12:43.354 file=/var/jenkins_home/.gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.302000000, lastModified=2021-03-30 19:29:16.027303000, delta=1964607274697000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.354 file=/var/jenkins_home/.gitconfig, is unmodified
+[DEBUG] 13:12:43.355 file=/var/jenkins_home/workspace/aracnos/.git/config, isRacyClean=false, read=2021-04-22 13:12:43.303000000, lastModified=2021-04-22 13:12:14.786918000, delta=28516082000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.355 file=/var/jenkins_home/workspace/aracnos/.git/config, is unmodified
+[DEBUG] 13:12:43.358 file=/var/jenkins_home/.config/jgit/config, isRacyClean=false, read=2021-04-22 13:12:43.279000000, lastModified=2021-03-12 15:46:43.369369000, delta=3533159909631000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.359 file=/var/jenkins_home/.config/jgit/config, is unmodified
+[DEBUG] 13:12:43.359 file=/etc/gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.299000000, lastModified=2021-01-25 17:25:17.000000000, delta=7501646299000000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.360 file=/etc/gitconfig, is unmodified
+[DEBUG] 13:12:43.361 file=/var/jenkins_home/.gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.302000000, lastModified=2021-03-30 19:29:16.027303000, delta=1964607274697000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.362 file=/var/jenkins_home/.gitconfig, is unmodified
+[DEBUG] 13:12:43.362 file=/var/jenkins_home/workspace/aracnos/.git/config, isRacyClean=false, read=2021-04-22 13:12:43.303000000, lastModified=2021-04-22 13:12:14.786918000, delta=28516082000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.363 file=/var/jenkins_home/workspace/aracnos/.git/config, is unmodified
+[DEBUG] 13:12:43.386 file=/var/jenkins_home/.config/jgit/config, isRacyClean=false, read=2021-04-22 13:12:43.279000000, lastModified=2021-03-12 15:46:43.369369000, delta=3533159909631000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.386 file=/var/jenkins_home/.config/jgit/config, is unmodified
+[DEBUG] 13:12:43.386 file=/etc/gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.299000000, lastModified=2021-01-25 17:25:17.000000000, delta=7501646299000000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.387 file=/etc/gitconfig, is unmodified
+[DEBUG] 13:12:43.387 file=/var/jenkins_home/.gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.302000000, lastModified=2021-03-30 19:29:16.027303000, delta=1964607274697000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.387 file=/var/jenkins_home/.gitconfig, is unmodified
+[DEBUG] 13:12:43.388 file=/var/jenkins_home/workspace/aracnos/.git/config, isRacyClean=false, read=2021-04-22 13:12:43.303000000, lastModified=2021-04-22 13:12:14.786918000, delta=28516082000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.388 file=/var/jenkins_home/workspace/aracnos/.git/config, is unmodified
+[DEBUG] 13:12:43.390 file=/var/jenkins_home/.config/jgit/config, isRacyClean=false, read=2021-04-22 13:12:43.279000000, lastModified=2021-03-12 15:46:43.369369000, delta=3533159909631000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.391 file=/var/jenkins_home/.config/jgit/config, is unmodified
+[DEBUG] 13:12:43.391 file=/etc/gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.299000000, lastModified=2021-01-25 17:25:17.000000000, delta=7501646299000000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.391 file=/etc/gitconfig, is unmodified
+[DEBUG] 13:12:43.391 file=/var/jenkins_home/.gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.302000000, lastModified=2021-03-30 19:29:16.027303000, delta=1964607274697000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.392 file=/var/jenkins_home/.gitconfig, is unmodified
+[DEBUG] 13:12:43.392 file=/var/jenkins_home/workspace/aracnos/.git/config, isRacyClean=false, read=2021-04-22 13:12:43.303000000, lastModified=2021-04-22 13:12:14.786918000, delta=28516082000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:43.393 file=/var/jenkins_home/workspace/aracnos/.git/config, is unmodified
+[DEBUG] 13:12:43.500 80 non excluded files in this Git repository
+[DEBUG] 13:12:43.514 'pom.xml' indexed with language 'xml'
+[DEBUG] 13:12:43.526 'src/main/java/com/tarefa/demo/DemoApplication.java' indexed with language 'java'
+[DEBUG] 13:12:43.534 'src/main/java/com/tarefa/demo/HelloWorldController.java' indexed with language 'java'
+[DEBUG] 13:12:43.546 'src/test/java/com/tarefa/demo/DemoApplicationTests.java' indexed as test with language 'java'
+[DEBUG] 13:12:43.552 'src/test/java/com/tarefa/demo/HelloWorldControllerTests.java' indexed as test with language 'java'
+[INFO] 13:12:43.553 5 files indexed
+[INFO] 13:12:43.553 0 files ignored because of scm ignore settings
+[INFO] 13:12:43.553 Quality profile for java: Sonar way
+[INFO] 13:12:43.554 Quality profile for xml: Sonar way
+[INFO] 13:12:43.554 ------------- Run sensors on module demo
+[INFO] 13:12:43.639 Load metrics repository
+[DEBUG] 13:12:43.651 GET 200 http://sonar.devops/api/metrics/search?f=name,description,direction,qualitative,custom&ps=500&p=1 | time=12ms
+[INFO] 13:12:43.662 Load metrics repository (done) | time=24ms
+[DEBUG] 13:12:44.661 'Import external issues report' skipped because one of the required properties is missing
+[DEBUG] 13:12:44.662 'Python Sensor' skipped because there is no related file in current project
+[DEBUG] 13:12:44.663 'Cobertura Sensor for Python coverage' skipped because there is no related file in current project
+[DEBUG] 13:12:44.663 'PythonXUnitSensor' skipped because there is no related file in current project
+[DEBUG] 13:12:44.665 'Import of Pylint issues' skipped because there is no related file in current project
+[DEBUG] 13:12:44.666 'Import of Bandit issues' skipped because there is no related file in current project
+[DEBUG] 13:12:44.666 'Import of Flake8 issues' skipped because there is no related file in current project
+[DEBUG] 13:12:44.666 'CSS Metrics' skipped because there is no related file in current project
+[DEBUG] 13:12:44.667 'Import of stylelint issues' skipped because there is no related file in current project
+[DEBUG] 13:12:44.667 'Code Quality and Security for Go' skipped because there is no related file in current project
+[DEBUG] 13:12:44.668 'Go Unit Test Report' skipped because there is no related file in current project
+[DEBUG] 13:12:44.668 'Go Cover sensor for Go coverage' skipped because one of the required properties is missing
+[DEBUG] 13:12:44.669 'Import of go vet issues' skipped because there is no related file in current project
+[DEBUG] 13:12:44.669 'Import of Golint issues' skipped because there is no related file in current project
+[DEBUG] 13:12:44.669 'Import of GoMetaLinter issues' skipped because there is no related file in current project
+[DEBUG] 13:12:44.669 'Import of GolangCI-Lint issues' skipped because there is no related file in current project
+[DEBUG] 13:12:44.670 'Kotlin Sensor' skipped because there is no related file in current project
+[DEBUG] 13:12:44.670 'KotlinSurefireSensor' skipped because there is no related file in current project
+[DEBUG] 13:12:44.671 'Import of detekt issues' skipped because there is no related file in current project
+[DEBUG] 13:12:44.671 'Import of Android Lint issues' skipped because one of the required properties is missing
+[DEBUG] 13:12:44.671 'JavaScript analysis' skipped because there is no related file in current project
+[DEBUG] 13:12:44.672 'TypeScript analysis' skipped because there is no related file in current project
+[DEBUG] 13:12:44.672 'JavaScript/TypeScript Coverage' skipped because there is no related file in current project
+[DEBUG] 13:12:44.673 'Import of ESLint issues' skipped because one of the required properties is missing
+[DEBUG] 13:12:44.673 'Import of TSLint issues' skipped because one of the required properties is missing
+[DEBUG] 13:12:44.673 'Ruby Sensor' skipped because there is no related file in current project
+[DEBUG] 13:12:44.674 'Import of RuboCop issues' skipped because there is no related file in current project
+[DEBUG] 13:12:44.674 'SimpleCov Sensor for Ruby coverage' skipped because there is no related file in current project
+[DEBUG] 13:12:44.674 'Scala Sensor' skipped because there is no related file in current project
+[DEBUG] 13:12:44.675 'Scoverage sensor for Scala coverage' skipped because there is no related file in current project
+[DEBUG] 13:12:44.675 'Import of Scalastyle issues' skipped because there is no related file in current project
+[DEBUG] 13:12:44.676 'Import of Scapegoat issues' skipped because there is no related file in current project
+[DEBUG] 13:12:44.677 'Import of Checkstyle issues' skipped because one of the required properties is missing
+[DEBUG] 13:12:44.678 'Import of PMD issues' skipped because one of the required properties is missing
+[DEBUG] 13:12:44.679 'Import of SpotBugs issues' skipped because one of the required properties is missing
+[DEBUG] 13:12:44.680 'Removed properties sensor' skipped because one of the required properties is missing
+[DEBUG] 13:12:44.682 'Flex' skipped because there is no related file in current project
+[DEBUG] 13:12:44.682 'Flex Cobertura' skipped because there is no related file in current project
+[DEBUG] 13:12:44.683 'PHP sensor' skipped because there is no related file in current project
+[DEBUG] 13:12:44.683 'Analyzer for "php.ini" files' skipped because there is no related file in current project
+[DEBUG] 13:12:44.685 'Generic Test Executions Report' skipped because one of the required properties is missing
+[DEBUG] 13:12:44.685 Sensors : JavaSquidSensor -> CSS Rules -> JaCoCo XML Report Importer -> C# Properties -> SurefireSensor -> JavaXmlSensor -> HTML -> XML Sensor -> VB.NET Properties
+[INFO] 13:12:44.689 Sensor JavaSquidSensor [java]
+[INFO] 13:12:45.160 Configured Java source version (sonar.java.source): 8
+[INFO] 13:12:45.168 JavaClasspath initialization
+[DEBUG] 13:12:45.175 Property 'sonar.java.jdkHome' set with: /usr/local/openjdk-8
+[DEBUG] 13:12:45.187 Property 'sonar.java.jdkHome' resolved with:
+[/usr/local/openjdk-8/jre/lib/rt.jar,
+/usr/local/openjdk-8/jre/lib/management-agent.jar,
+/usr/local/openjdk-8/jre/lib/jsse.jar,
+/usr/local/openjdk-8/jre/lib/resources.jar,
+/usr/local/openjdk-8/jre/lib/jce.jar,
+/usr/local/openjdk-8/jre/lib/charsets.jar,
+/usr/local/openjdk-8/jre/lib/ext/zipfs.jar,
+/usr/local/openjdk-8/jre/lib/ext/sunec.jar,
+/usr/local/openjdk-8/jre/lib/ext/dnsns.jar,
+/usr/local/openjdk-8/jre/lib/ext/nashorn.jar,
+/usr/local/openjdk-8/jre/lib/ext/sunpkcs11.jar,
+/usr/local/openjdk-8/jre/lib/ext/jaccess.jar,
+/usr/local/openjdk-8/jre/lib/ext/cldrdata.jar,
+/usr/local/openjdk-8/jre/lib/ext/sunjce_provider.jar,
+/usr/local/openjdk-8/jre/lib/ext/localedata.jar]
+[DEBUG] 13:12:45.207 Property 'sonar.java.libraries' resolved with:
+[/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.4.0-SNAPSHOT/spring-boot-starter-web-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-starter/2.4.0-SNAPSHOT/spring-boot-starter-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.4.0-SNAPSHOT/spring-boot-starter-logging-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar,
+/var/jenkins_home/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar,
+/var/jenkins_home/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar,
+/var/jenkins_home/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar,
+/var/jenkins_home/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar,
+/var/jenkins_home/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar,
+/var/jenkins_home/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.4.0-SNAPSHOT/spring-boot-starter-json-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar,
+/var/jenkins_home/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar,
+/var/jenkins_home/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar,
+/var/jenkins_home/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.3/jackson-datatype-jdk8-2.11.3.jar,
+/var/jenkins_home/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.3/jackson-datatype-jsr310-2.11.3.jar,
+/var/jenkins_home/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.3/jackson-module-parameter-names-2.11.3.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.4.0-SNAPSHOT/spring-boot-starter-tomcat-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.39/tomcat-embed-core-9.0.39.jar,
+/var/jenkins_home/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar,
+/var/jenkins_home/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.39/tomcat-embed-websocket-9.0.39.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-web/5.3.1/spring-web-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-beans/5.3.1/spring-beans-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-webmvc/5.3.1/spring-webmvc-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-aop/5.3.1/spring-aop-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-context/5.3.1/spring-context-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-expression/5.3.1/spring-expression-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot/2.4.0-SNAPSHOT/spring-boot-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.4.0-SNAPSHOT/spring-boot-autoconfigure-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-core/5.3.1/spring-core-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-jcl/5.3.1/spring-jcl-5.3.1.jar]
+[INFO] 13:12:45.208 JavaClasspath initialization (done) | time=40ms
+[INFO] 13:12:45.208 JavaTestClasspath initialization
+[DEBUG] 13:12:45.210 Property 'sonar.java.jdkHome' set with: /usr/local/openjdk-8
+[DEBUG] 13:12:45.215 Property 'sonar.java.jdkHome' resolved with:
+[/usr/local/openjdk-8/jre/lib/rt.jar,
+/usr/local/openjdk-8/jre/lib/management-agent.jar,
+/usr/local/openjdk-8/jre/lib/jsse.jar,
+/usr/local/openjdk-8/jre/lib/resources.jar,
+/usr/local/openjdk-8/jre/lib/jce.jar,
+/usr/local/openjdk-8/jre/lib/charsets.jar,
+/usr/local/openjdk-8/jre/lib/ext/zipfs.jar,
+/usr/local/openjdk-8/jre/lib/ext/sunec.jar,
+/usr/local/openjdk-8/jre/lib/ext/dnsns.jar,
+/usr/local/openjdk-8/jre/lib/ext/nashorn.jar,
+/usr/local/openjdk-8/jre/lib/ext/sunpkcs11.jar,
+/usr/local/openjdk-8/jre/lib/ext/jaccess.jar,
+/usr/local/openjdk-8/jre/lib/ext/cldrdata.jar,
+/usr/local/openjdk-8/jre/lib/ext/sunjce_provider.jar,
+/usr/local/openjdk-8/jre/lib/ext/localedata.jar]
+[DEBUG] 13:12:45.253 Property 'sonar.java.test.libraries' resolved with:
+[/var/jenkins_home/workspace/aracnos/target/classes,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.4.0-SNAPSHOT/spring-boot-starter-web-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-starter/2.4.0-SNAPSHOT/spring-boot-starter-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.4.0-SNAPSHOT/spring-boot-starter-logging-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar,
+/var/jenkins_home/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar,
+/var/jenkins_home/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar,
+/var/jenkins_home/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar,
+/var/jenkins_home/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar,
+/var/jenkins_home/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar,
+/var/jenkins_home/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.4.0-SNAPSHOT/spring-boot-starter-json-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar,
+/var/jenkins_home/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar,
+/var/jenkins_home/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar,
+/var/jenkins_home/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.3/jackson-datatype-jdk8-2.11.3.jar,
+/var/jenkins_home/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.3/jackson-datatype-jsr310-2.11.3.jar,
+/var/jenkins_home/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.3/jackson-module-parameter-names-2.11.3.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.4.0-SNAPSHOT/spring-boot-starter-tomcat-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.39/tomcat-embed-core-9.0.39.jar,
+/var/jenkins_home/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar,
+/var/jenkins_home/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.39/tomcat-embed-websocket-9.0.39.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-web/5.3.1/spring-web-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-beans/5.3.1/spring-beans-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-webmvc/5.3.1/spring-webmvc-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-aop/5.3.1/spring-aop-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-context/5.3.1/spring-context-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-expression/5.3.1/spring-expression-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-devtools/2.4.0-SNAPSHOT/spring-boot-devtools-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot/2.4.0-SNAPSHOT/spring-boot-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.4.0-SNAPSHOT/spring-boot-autoconfigure-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.4.0-SNAPSHOT/spring-boot-starter-test-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-test/2.4.0-SNAPSHOT/spring-boot-test-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.4.0-SNAPSHOT/spring-boot-test-autoconfigure-2.4.0-SNAPSHOT.jar,
+/var/jenkins_home/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar,
+/var/jenkins_home/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar,
+/var/jenkins_home/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar,
+/var/jenkins_home/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar,
+/var/jenkins_home/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar,
+/var/jenkins_home/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar,
+/var/jenkins_home/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar,
+/var/jenkins_home/.m2/repository/org/assertj/assertj-core/3.18.1/assertj-core-3.18.1.jar,
+/var/jenkins_home/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar,
+/var/jenkins_home/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar,
+/var/jenkins_home/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar,
+/var/jenkins_home/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar,
+/var/jenkins_home/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar,
+/var/jenkins_home/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar,
+/var/jenkins_home/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar,
+/var/jenkins_home/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar,
+/var/jenkins_home/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar,
+/var/jenkins_home/.m2/repository/org/mockito/mockito-core/3.6.0/mockito-core-3.6.0.jar,
+/var/jenkins_home/.m2/repository/net/bytebuddy/byte-buddy/1.10.18/byte-buddy-1.10.18.jar,
+/var/jenkins_home/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.18/byte-buddy-agent-1.10.18.jar,
+/var/jenkins_home/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar,
+/var/jenkins_home/.m2/repository/org/mockito/mockito-junit-jupiter/3.6.0/mockito-junit-jupiter-3.6.0.jar,
+/var/jenkins_home/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar,
+/var/jenkins_home/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-core/5.3.1/spring-core-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-jcl/5.3.1/spring-jcl-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/springframework/spring-test/5.3.1/spring-test-5.3.1.jar,
+/var/jenkins_home/.m2/repository/org/xmlunit/xmlunit-core/2.7.0/xmlunit-core-2.7.0.jar,
+/var/jenkins_home/.m2/repository/junit/junit/4.12/junit-4.12.jar,
+/var/jenkins_home/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar]
+[INFO] 13:12:45.253 JavaTestClasspath initialization (done) | time=45ms
+[INFO] 13:12:45.264 Java Main Files AST scan
+[INFO] 13:12:45.266 2 source files to be analyzed
+[INFO] 13:12:45.281 Load project repositories
+[DEBUG] 13:12:45.290 GET 200 http://sonar.devops/batch/project.protobuf?key=com.tarefa%3Ademo | time=9ms
+[INFO] 13:12:45.306 Load project repositories (done) | time=25ms
+[DEBUG] 13:12:45.308 'src/main/java/com/tarefa/demo/DemoApplication.java' generated metadata with charset 'UTF-8'
+[DEBUG] 13:12:46.602 [SE] Loaded 179 hardcoded method behaviors.
+[DEBUG] 13:12:46.815 Analysis time of src/main/java/com/tarefa/demo/DemoApplication.java (1547ms)
+[DEBUG] 13:12:46.818 'src/main/java/com/tarefa/demo/HelloWorldController.java' generated metadata with charset 'UTF-8'
+[INFO] 13:12:47.085 2/2 source files have been analyzed
+[INFO] 13:12:47.086 Java Main Files AST scan (done) | time=1822ms
+[INFO] 13:12:47.087 Java Test Files AST scan
+[INFO] 13:12:47.087 2 source files to be analyzed
+[DEBUG] 13:12:47.091 'src/test/java/com/tarefa/demo/HelloWorldControllerTests.java' generated metadata as test  with charset 'UTF-8'
+[DEBUG] 13:12:47.421 'src/test/java/com/tarefa/demo/DemoApplicationTests.java' generated metadata as test  with charset 'UTF-8'
+[INFO] 13:12:47.706 2/2 source files have been analyzed
+[INFO] 13:12:47.706 Java Test Files AST scan (done) | time=616ms
+[INFO] 13:12:47.706 Java Generated Files AST scan
+[INFO] 13:12:47.707 0 source files to be analyzed
+[INFO] 13:12:47.707 Java Generated Files AST scan (done) | time=1ms
+[INFO] 13:12:47.707 0/0 source files have been analyzed
+[INFO] 13:12:47.707 Sensor JavaSquidSensor [java] (done) | time=3021ms
+[INFO] 13:12:47.714 Sensor CSS Rules [cssfamily]
+[INFO] 13:12:47.715 No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] 13:12:47.715 Sensor CSS Rules [cssfamily] (done) | time=1ms
+[INFO] 13:12:47.716 Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 13:12:47.718 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] 13:12:47.720 Importing 1 report(s). Turn your logs in debug mode in order to see the exhaustive list.
+[DEBUG] 13:12:47.721 Reading report '/var/jenkins_home/workspace/aracnos/target/site/jacoco/jacoco.xml'
+[INFO] 13:12:47.797 Sensor JaCoCo XML Report Importer [jacoco] (done) | time=81ms
+[INFO] 13:12:47.798 Sensor C# Properties [csharp]
+[DEBUG] 13:12:47.799 Project 'com.tarefa:demo': No Roslyn issues reports have been found.
+[INFO] 13:12:47.799 Sensor C# Properties [csharp] (done) | time=1ms
+[INFO] 13:12:47.799 Sensor SurefireSensor [java]
+[INFO] 13:12:47.801 parsing [/var/jenkins_home/workspace/aracnos/target/surefire-reports]
+[INFO] 13:12:47.851 Sensor SurefireSensor [java] (done) | time=52ms
+[INFO] 13:12:47.851 Sensor JavaXmlSensor [java]
+[INFO] 13:12:47.852 1 source files to be analyzed
+[DEBUG] 13:12:47.856 'pom.xml' generated metadata with charset 'UTF-8'
+[INFO] 13:12:48.040 Sensor JavaXmlSensor [java] (done) | time=189ms
+[INFO] 13:12:48.040 1/1 source files have been analyzed
+[INFO] 13:12:48.040 Sensor HTML [web]
+[INFO] 13:12:48.045 Sensor HTML [web] (done) | time=5ms
+[INFO] 13:12:48.048 Sensor XML Sensor [xml]
+[INFO] 13:12:48.050 1 source files to be analyzed
+[DEBUG] 13:12:48.185 Count lines in file:///var/jenkins_home/workspace/aracnos/pom.xml
+[INFO] 13:12:48.203 Sensor XML Sensor [xml] (done) | time=155ms
+[INFO] 13:12:48.204 1/1 source files have been analyzed
+[INFO] 13:12:48.204 Sensor VB.NET Properties [vbnet]
+[DEBUG] 13:12:48.205 Project 'com.tarefa:demo': No Roslyn issues reports have been found.
+[INFO] 13:12:48.205 Sensor VB.NET Properties [vbnet] (done) | time=1ms
+[INFO] 13:12:48.208 ------------- Run sensors on project
+[DEBUG] 13:12:48.222 'Generic Coverage Report' skipped because one of the required properties is missing
+[DEBUG] 13:12:48.222 'C#' skipped because there is no related file in current project
+[DEBUG] 13:12:48.223 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+[DEBUG] 13:12:48.223 '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+[DEBUG] 13:12:48.223 'C# Unit Test Results Import' skipped because there is no related file in current project
+[DEBUG] 13:12:48.224 'VB.NET' skipped because there is no related file in current project
+[DEBUG] 13:12:48.224 'VB.NET Tests Coverage Report Import' skipped because there is no related file in current project
+[DEBUG] 13:12:48.224 '[Deprecated] VB.NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
+[DEBUG] 13:12:48.225 'VB.NET Unit Test Results Import' skipped because there is no related file in current project
+[DEBUG] 13:12:48.225 Sensors : Zero Coverage Sensor -> Java CPD Block Indexer
+[INFO] 13:12:48.226 Sensor Zero Coverage Sensor
+[INFO] 13:12:48.234 Sensor Zero Coverage Sensor (done) | time=8ms
+[INFO] 13:12:48.234 Sensor Java CPD Block Indexer
+[DEBUG] 13:12:48.242 Populating index from src/main/java/com/tarefa/demo/DemoApplication.java
+[DEBUG] 13:12:48.251 Not enough content in 'src/main/java/com/tarefa/demo/DemoApplication.java' to have CPD blocks, it will not be part of the duplication detection
+[DEBUG] 13:12:48.252 Populating index from src/main/java/com/tarefa/demo/HelloWorldController.java
+[INFO] 13:12:48.255 Sensor Java CPD Block Indexer (done) | time=21ms
+[INFO] 13:12:48.269 CPD Executor 1 file had no CPD blocks
+[INFO] 13:12:48.269 CPD Executor Calculating CPD for 1 file
+[DEBUG] 13:12:48.269 Detection of duplications for /var/jenkins_home/workspace/aracnos/src/main/java/com/tarefa/demo/HelloWorldController.java
+[INFO] 13:12:48.283 CPD Executor CPD calculation finished (done) | time=14ms
+[DEBUG] 13:12:48.293 file=/var/jenkins_home/workspace/aracnos/.git/config, create new FileSnapshot: lastRead=2021-04-22 13:12:48.292000000, lastModified=2021-04-22 13:12:14.786918000, size=202, fileKey=(dev=31,ino=11213)
+[DEBUG] 13:12:48.296 file=/var/jenkins_home/.config/jgit/config, isRacyClean=false, read=2021-04-22 13:12:43.279000000, lastModified=2021-03-12 15:46:43.369369000, delta=3533159909631000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:48.297 file=/var/jenkins_home/.config/jgit/config, is unmodified
+[DEBUG] 13:12:48.297 file=/etc/gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.299000000, lastModified=2021-01-25 17:25:17.000000000, delta=7501646299000000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:48.298 file=/etc/gitconfig, is unmodified
+[DEBUG] 13:12:48.299 file=/var/jenkins_home/.gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.302000000, lastModified=2021-03-30 19:29:16.027303000, delta=1964607274697000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:48.299 file=/var/jenkins_home/.gitconfig, is unmodified
+[DEBUG] 13:12:48.300 file=/var/jenkins_home/workspace/aracnos/.git/config, create new FileSnapshot: lastRead=2021-04-22 13:12:48.299000000, lastModified=2021-04-22 13:12:14.786918000, size=202, fileKey=(dev=31,ino=11213)
+[DEBUG] 13:12:48.301 file=/var/jenkins_home/.config/jgit/config, isRacyClean=false, read=2021-04-22 13:12:43.279000000, lastModified=2021-03-12 15:46:43.369369000, delta=3533159909631000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:48.302 file=/var/jenkins_home/.config/jgit/config, is unmodified
+[DEBUG] 13:12:48.302 file=/etc/gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.299000000, lastModified=2021-01-25 17:25:17.000000000, delta=7501646299000000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:48.302 file=/etc/gitconfig, is unmodified
+[DEBUG] 13:12:48.302 file=/var/jenkins_home/.gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.302000000, lastModified=2021-03-30 19:29:16.027303000, delta=1964607274697000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:48.302 file=/var/jenkins_home/.gitconfig, is unmodified
+[DEBUG] 13:12:48.303 file=/var/jenkins_home/workspace/aracnos/.git/config, isRacyClean=false, read=2021-04-22 13:12:48.299000000, lastModified=2021-04-22 13:12:14.786918000, delta=33512082000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:48.303 file=/var/jenkins_home/workspace/aracnos/.git/config, is unmodified
+[DEBUG] 13:12:48.304 file=/var/jenkins_home/workspace/aracnos/.git/index, create new FileSnapshot: lastRead=2021-04-22 13:12:48.303000000, lastModified=2021-04-22 13:12:15.138918000, size=9830, fileKey=(dev=31,ino=11335)
+[DEBUG] 13:12:48.305 file=/var/jenkins_home/.config/jgit/config, isRacyClean=false, read=2021-04-22 13:12:43.279000000, lastModified=2021-03-12 15:46:43.369369000, delta=3533159909631000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:48.305 file=/var/jenkins_home/.config/jgit/config, is unmodified
+[DEBUG] 13:12:48.305 file=/etc/gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.299000000, lastModified=2021-01-25 17:25:17.000000000, delta=7501646299000000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:48.305 file=/etc/gitconfig, is unmodified
+[DEBUG] 13:12:48.306 file=/var/jenkins_home/.gitconfig, isRacyClean=false, read=2021-04-22 13:12:43.302000000, lastModified=2021-03-30 19:29:16.027303000, delta=1964607274697000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:48.306 file=/var/jenkins_home/.gitconfig, is unmodified
+[DEBUG] 13:12:48.306 file=/var/jenkins_home/workspace/aracnos/.git/config, isRacyClean=false, read=2021-04-22 13:12:48.299000000, lastModified=2021-04-22 13:12:14.786918000, delta=33512082000 ns, racy<=2500000000 ns
+[DEBUG] 13:12:48.306 file=/var/jenkins_home/workspace/aracnos/.git/config, is unmodified
+[DEBUG] 13:12:48.307 file=/var/jenkins_home/workspace/aracnos/.git/HEAD, create new FileSnapshot: lastRead=2021-04-22 13:12:48.307000000, lastModified=2021-04-22 13:12:15.154918000, size=23, fileKey=(dev=31,ino=11339)
+[DEBUG] 13:12:48.316 file=/var/jenkins_home/workspace/aracnos/.git/refs/heads/master, create new FileSnapshot: lastRead=2021-04-22 13:12:48.312000000, lastModified=2021-04-22 13:12:15.146918000, size=41, fileKey=(dev=31,ino=11336)
+[DEBUG] 13:12:48.317 SCM revision ID '960b869a7e346f6cb88ff24a4db7abd6c0812f6e'
+[INFO] 13:12:48.474 Analysis report generated in 136ms, dir size=110 KB
+[INFO] 13:12:48.838 Analysis report compressed in 363ms, zip size=22 KB
+[INFO] 13:12:48.839 Analysis report generated in /var/jenkins_home/workspace/aracnos/target/sonar/scanner-report
+[DEBUG] 13:12:48.839 Upload report
+[DEBUG] 13:12:48.861 POST 200 http://sonar.devops/api/ce/submit?projectKey=com.tarefa%3Ademo&projectName=demo | time=21ms
+[INFO] 13:12:48.865 Analysis report uploaded in 26ms
+[DEBUG] 13:12:48.868 Report metadata written to /var/jenkins_home/workspace/aracnos/target/sonar/report-task.txt
+[INFO] 13:12:48.869 ANALYSIS SUCCESSFUL, you can browse http://sonar.devops/dashboard?id=com.tarefa%3Ademo
+[INFO] 13:12:48.869 Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] 13:12:48.869 More about the report processing at http://sonar.devops/api/ce/task?id=AXj5tivWdbl41XOQP2Rh
+[DEBUG] 13:12:48.872 Post-jobs : 
+[INFO] 13:12:48.882 Analysis total time: 8.090 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.929 s
+[INFO] Finished at: 2021-04-22T13:12:48+00:00
+[INFO] Final Memory: 41M/330M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4D7J2Dsn4OBTMLFeVC+r/1T6221fNhXP8Q+hLLl3Rj+MAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAVf9JYbCAAAA[0m[Pipeline] timeout
+Timeout set to expire in 10 min
+[8mha:////4Paz07P0sX6XRxkCLpqJi5+/HvACO/7jSZBLPWXzAdikAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] {
+[8mha:////4Ch6WNDyfekIlhPg5YoWjQ57uBFILsMk6nfkFJEaUBxyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzN5Fy++AAAA[0m[Pipeline] waitForQualityGate
+Checking status of SonarQube task 'AXj5tezEdbl41XOQP2Rg' on server 'sonar_aracnos_server'
+SonarQube task 'AXj5tezEdbl41XOQP2Rg' status is 'SUCCESS'
+SonarQube task 'AXj5tezEdbl41XOQP2Rg' completed. Quality gate is 'OK'
+[8mha:////4AumjzRxhXf8pyQV8f3zw33jROGD4Hu4wLC3D2TjS3ACAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8WCoj++AAAA[0m[Pipeline] }
+[8mha:////4NtdkRtO7SOahWl7Z1zd1q2A24MYbISvzvOafOa8ec8eAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQxpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoPwb5Ql6+AAAA[0m[Pipeline] // timeout
+[8mha:////4PoM7c1GhEqT2qHD8Cw2TqHi7RWk+NyJDDeRfDfRV8R6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw+PSxB7vgAAAA==[0m[Pipeline] }
+[8mha:////4HegwQB6MCxJoF5GfkKzar+24fg6xg+wWRFg6GGEhrZEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw+CrOBjvgAAAA==[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4LmO12QzNrYtkUYBReuvo1zBqrunqOclPw4VSGfNjuppAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w+xT7vfvgAAAA==[0m[Pipeline] }
+[8mha:////4BGMIgJpK3A6ONCn6Z99VxQQRPA6UR4QqdXOPeZFvelYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w+zLrdbvgAAAA==[0m[Pipeline] // stage
+[8mha:////4AS2ZhLQpMaBH2XpJhWh/+SlRDz1t126UaSVM9kkXUU0AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTkQZR0VpueIFJjHFi3QX7QlLxIr7GHzBEomKrnZVW83xBmSIcKDrZWew9psbLIYwuNzlR7C+BJtnRWTaEiYKV2k6aWntcUBNbWCIKWClYW2wCJY+OYaM6czdVMOiqE8e87RUUvr3BA4TKZjaRvzBH2F7HNhH+PH8FMA8MomYo6t3nWL4BSvIsnMEAAAA=[0m[Pipeline] stage
+[8mha:////4JahCOOz1unBEzlI6OmFu6zFU+rp7w2hXcbF1PFuNPaNAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0ogtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+urdAcIAAAA=[0m[Pipeline] { (Build JAR)
+[8mha:////4ObzQD0Baw0MIlEuarDlmh5Djv7IMpAj1L3cTrci5HUIAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxcKxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4N8tcxgr4AAAA=[0m[Pipeline] sh
++ mvn -B -DskipTests clean package
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ demo ---
+[INFO] Deleting /var/jenkins_home/workspace/aracnos/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:prepare-agent (default) @ demo ---
+[INFO] argLine set to -javaagent:/var/jenkins_home/.m2/repository/org/jacoco/org.jacoco.agent/0.8.2/org.jacoco.agent-0.8.2-runtime.jar=destfile=/var/jenkins_home/workspace/aracnos/target/jacoco.exec -Xmx128m
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /var/jenkins_home/workspace/aracnos/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/aracnos/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /var/jenkins_home/workspace/aracnos/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ demo ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:report (report) @ demo ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ demo ---
+[INFO] Building jar: /var/jenkins_home/workspace/aracnos/target/demo-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.4.0-SNAPSHOT:repackage (repackage) @ demo ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.872 s
+[INFO] Finished at: 2021-04-22T13:13:02+00:00
+[INFO] Final Memory: 36M/151M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4ObCY0UL81ufP7u+w2nFu2CARshVoWKMUJjeqNzOslZFAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/Qi6NSbGyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+AagoPJm+AAAA[0m[Pipeline] }
+[8mha:////4B3PS7PHsUKest+N9GHKtg5JFumH5SvJuglLfWYO2IfwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN7eqacu+AAAA[0m[Pipeline] // stage
+[8mha:////4MKm1VuF3BTazcQA0fqKDddfWSQmatS7V6g54wexyHHsAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRDBQWiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxJah2G0+x/INTWiWasEAAAA=[0m[Pipeline] stage
+[8mha:////4Hi170rZz3HwesfmyAEDRlYFMy1thjQykVWFEd2mYKsvAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdsxXVDCAAAA[0m[Pipeline] { (Test)
+[8mha:////4IQKkn9WX6mFmIBD/zQPm4tzc150BWxTy4F5yR74xxqXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5B3ife+AAAA[0m[Pipeline] sh
++ mvn test
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:prepare-agent (default) @ demo ---
+[INFO] argLine set to -javaagent:/var/jenkins_home/.m2/repository/org/jacoco/org.jacoco.agent/0.8.2/org.jacoco.agent-0.8.2-runtime.jar=destfile=/var/jenkins_home/workspace/aracnos/target/jacoco.exec -Xmx128m
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/aracnos/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ demo ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.tarefa.demo.HelloWorldControllerTests
+13:13:13.539 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:13:13.610 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:13:13.743 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.tarefa.demo.HelloWorldControllerTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:13:13.790 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tarefa.demo.HelloWorldControllerTests], using SpringBootContextLoader
+13:13:13.809 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tarefa.demo.HelloWorldControllerTests]: class path resource [com/tarefa/demo/HelloWorldControllerTests-context.xml] does not exist
+13:13:13.811 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tarefa.demo.HelloWorldControllerTests]: class path resource [com/tarefa/demo/HelloWorldControllerTestsContext.groovy] does not exist
+13:13:13.812 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.tarefa.demo.HelloWorldControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:13:13.815 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.tarefa.demo.HelloWorldControllerTests]: HelloWorldControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:13:13.995 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.tarefa.demo.HelloWorldControllerTests]
+13:13:14.284 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/jenkins_home/workspace/aracnos/target/classes/com/tarefa/demo/DemoApplication.class]
+13:13:14.316 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.tarefa.demo.DemoApplication for test class com.tarefa.demo.HelloWorldControllerTests
+13:13:14.776 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.tarefa.demo.HelloWorldControllerTests]: using defaults.
+13:13:14.778 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+13:13:14.824 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+13:13:14.825 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+13:13:14.826 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@278de2b2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1fc1c7e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@75cacb3e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@61957d9c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@29c59b6e, org.springframework.test.context.event.EventPublishingTestExecutionListener@483b7dc4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6b8bdcc6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@213835b6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@24a3d414, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@37e55819, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2bdcfcf, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6248cfab]
+13:13:14.840 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@702096ef testClass = HelloWorldControllerTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5f0d8937 testClass = HelloWorldControllerTests, locations = '{}', classes = '{class com.tarefa.demo.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@306f6f1d, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3ae126d1, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5f95f1e1, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@5edc70ed, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@14998e21, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5115f590, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4426bff1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+13:13:14.986 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v2.4.0-SNAPSHOT)
+
+2021-04-22 13:13:16.103  INFO 1660 --- [           main] c.tarefa.demo.HelloWorldControllerTests  : Starting HelloWorldControllerTests using Java 1.8.0_242 with PID 1660 (started by jenkins in /var/jenkins_home/workspace/aracnos)
+2021-04-22 13:13:16.119  INFO 1660 --- [           main] c.tarefa.demo.HelloWorldControllerTests  : No active profile set, falling back to default profiles: default
+2021-04-22 13:13:19.368  INFO 1660 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-22 13:13:20.858  INFO 1660 --- [           main] c.tarefa.demo.HelloWorldControllerTests  : Started HelloWorldControllerTests in 5.849 seconds (JVM running for 9.314)
+2021-04-22 13:13:21.668  INFO 1660 --- [           main] com.tarefa.demo.HelloWorldController     : 200 OK
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.394 s - in com.tarefa.demo.HelloWorldControllerTests
+[INFO] Running com.tarefa.demo.DemoApplicationTests
+2021-04-22 13:13:21.681  INFO 1660 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tarefa.demo.DemoApplicationTests], using SpringBootContextLoader
+2021-04-22 13:13:21.684  INFO 1660 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.tarefa.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-04-22 13:13:21.685  INFO 1660 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.tarefa.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-04-22 13:13:21.687  INFO 1660 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.tarefa.demo.DemoApplication for test class com.tarefa.demo.DemoApplicationTests
+2021-04-22 13:13:21.692  INFO 1660 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-04-22 13:13:21.698  INFO 1660 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7094c7e9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@89ebacd, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4eb016a7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6b907f80, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3d6d5694, org.springframework.test.context.event.EventPublishingTestExecutionListener@40d8cb26, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@e93f8b4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6617fa99, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3199d939, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@371ea5d7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2659add8, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7f4358b8]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v2.4.0-SNAPSHOT)
+
+2021-04-22 13:13:21.841  INFO 1660 --- [           main] com.tarefa.demo.DemoApplication          : Starting DemoApplication using Java 1.8.0_242 with PID 1660 (started by jenkins in /var/jenkins_home/workspace/aracnos)
+2021-04-22 13:13:21.842  INFO 1660 --- [           main] com.tarefa.demo.DemoApplication          : No active profile set, falling back to default profiles: default
+2021-04-22 13:13:22.640  INFO 1660 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-22 13:13:22.672  INFO 1660 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-22 13:13:22.673  INFO 1660 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-22 13:13:22.938  INFO 1660 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-22 13:13:22.939  INFO 1660 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1081 ms
+2021-04-22 13:13:23.155  INFO 1660 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-22 13:13:23.255  INFO 1660 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-22 13:13:23.259  INFO 1660 --- [           main] com.tarefa.demo.DemoApplication          : Started DemoApplication in 1.525 seconds (JVM running for 11.715)
+Soma
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.564 s - in com.tarefa.demo.DemoApplicationTests
+2021-04-22 13:13:23.305  INFO 1660 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-22 13:13:25.205  INFO 1660 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:report (report) @ demo ---
+[INFO] Loading execution data file /var/jenkins_home/workspace/aracnos/target/jacoco.exec
+[INFO] Analyzed bundle 'demo' with 2 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 21.684 s
+[INFO] Finished at: 2021-04-22T13:13:26+00:00
+[INFO] Final Memory: 26M/308M
+[INFO] ------------------------------------------------------------------------
+Post stage
+[8mha:////4LGDdiJ0KY01juuzxBoRAyrnXmr57+9afa3oVglMDqgKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAHRRpLuvgAAAA==[0m[Pipeline] junit
+Recording test results
+[Checks API] No suitable checks publisher found.
+[8mha:////4BRX3njssFZrZOxc80BLDbqQcCoNuzRGEr0SDZK3v2cbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g2FR/bPvgAAAA==[0m[Pipeline] }
+[8mha:////4IOcStoSR92KP/wrnGfmJrX5SddUC9jiUh1wkRBpP3eRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgygQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN7akrXO+AAAA[0m[Pipeline] // stage
+[8mha:////4FWLJr4M5HiQTPOo6QcOVFfWNdSnKufCgcyA7Bq9rt7pAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYTThQJR0VpueIGJjXFi3QX7QlLxIr7GHzBEomKrnZVW83xBlSIcKDrRWew9ptaLIYwuNzFR7C+BJtHRWbSEiYIVyk6KjD0uqIgtLClKWElYW2wDJY+OYSM7fdd10OjqE8e87SWU3tzgAYXMZtaRvzBH2F5Hkwh/nr8CmAeGomEod83nWL0BUIvPvMEAAAA=[0m[Pipeline] stage
+[8mha:////4CfZ09tPtuSQVXvBOIlZ2y9aSA1MhueEVpYIfobuhxT5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0owNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPhRixbsIAAAA=[0m[Pipeline] { (Building image)
+[8mha:////4FOuWgvkW80yRupkrINbPeLkqTOU+7b3yCd+cg2fL4LgAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0LBJiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPkHVpXsIAAAA=[0m[Pipeline] script
+[8mha:////4JWjtZ0E9jWRdM+LetpDUO6RSSXSoFHiRMyR29oHSz1eAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0BISYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+81LNBsIAAAA=[0m[Pipeline] {
+[8mha:////4GaAxUh/iCP3W7sqSuKQ90TaHYZQ6gZHQg1HdrLqcWiOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBwilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPkgcDP2+AAAA[0m[Pipeline] isUnix
+[8mha:////4KfC3u0TF1PQ+2eZSU0YkJbWaKRqa72nSrG+XE3JnjlwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKkAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AEJLRfkvgAAAA==[0m[Pipeline] sh
++ docker build -t liviorodrigues/aracnos:140 .
+Sending build context to Docker daemon  18.53MB
+Step 1/6 : FROM openjdk:8-jdk-alpine
+ ---> a3562aa0b991
+Step 2/6 : RUN addgroup -S spring && adduser -S spring -G spring
+ ---> Using cache
+ ---> d31c799ae6d8
+Step 3/6 : USER spring:spring
+ ---> Using cache
+ ---> 1d8ca9245fda
+Step 4/6 : ARG JAR_FILE=target/*.jar
+ ---> Using cache
+ ---> b9243f73f8b3
+Step 5/6 : COPY ${JAR_FILE} app.jar
+ ---> afc36ba55aa3
+Step 6/6 : ENTRYPOINT ["java","-jar","/app.jar"]
+ ---> Running in f648e039eb22
+Removing intermediate container f648e039eb22
+ ---> a5d56f0b6aef
+Successfully built a5d56f0b6aef
+Successfully tagged liviorodrigues/aracnos:140
+[8mha:////4BXILRmDECiKJLJAdj59kFpkputBMOb5ipIC3GpTznvxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0QBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/KfjrPvgAAAA==[0m[Pipeline] sh
++ docker build -t liviorodrigues/aracnos:140 .
+Sending build context to Docker daemon  18.53MB
+Step 1/6 : FROM openjdk:8-jdk-alpine
+ ---> a3562aa0b991
+Step 2/6 : RUN addgroup -S spring && adduser -S spring -G spring
+ ---> Using cache
+ ---> d31c799ae6d8
+Step 3/6 : USER spring:spring
+ ---> Using cache
+ ---> 1d8ca9245fda
+Step 4/6 : ARG JAR_FILE=target/*.jar
+ ---> Using cache
+ ---> b9243f73f8b3
+Step 5/6 : COPY ${JAR_FILE} app.jar
+ ---> Using cache
+ ---> afc36ba55aa3
+Step 6/6 : ENTRYPOINT ["java","-jar","/app.jar"]
+ ---> Using cache
+ ---> a5d56f0b6aef
+Successfully built a5d56f0b6aef
+Successfully tagged liviorodrigues/aracnos:140
+[8mha:////4FMmzKK7PrKx3WhZd/hunFvT5l//RDcPYOD4hl3xAZbIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUABCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/mj2AqvgAAAA==[0m[Pipeline] }
+[8mha:////4Jn9ZN3IIgNs0bHgNQvTaBee1MkfHJGztktfxh022doyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIBEJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g/Ij2JAvgAAAA==[0m[Pipeline] // script
+[8mha:////4PmlGkRH5H4vTtjdLEBCjhAvgrfNhaWZRzpGZs126V5aAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpUJAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygP+1x1/QH8QYEbvgAAAA==[0m[Pipeline] }
+[8mha:////4DfteVc2cPu1jiLV/YfzX6mNIPEe+m7es4GHMFO1boLCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBSREldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP8QDEuq+AAAA[0m[Pipeline] // stage
+[8mha:////4LE+WOaIbMXS/6Ha8859qAOho0eMsQawevCyvb53sFHDAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTARKiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxIah2G0/x/INHCjbgcEAAAA=[0m[Pipeline] stage
+[8mha:////4FCppBOdu4lUd0t9IZNKPzI2jOJV0p179ZQeoeSl/DyjAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0pBJiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPCJq12sIAAAA=[0m[Pipeline] { (Register Image)
+[8mha:////4FG83jEyg+ZNy+bAm7YsMCXV3o/A1pr2oJ1mf7kQVIl4AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0LUJMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBa70RgsIAAAA=[0m[Pipeline] script
+[8mha:////4BvZLJKF5dwuPaB937Rkc5mHbeKcWfkOC1DILNKtBMo2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUkQoxdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnLfZGt2n2f1Btc458LCAAAA[0m[Pipeline] {
+[8mha:////4Kv3UwXm961gU3u/tuBNZRMWXYzNlO28wkL4mAh5RC4JAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogURoSYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+mJlT6cIAAAA=[0m[Pipeline] withEnv
+[8mha:////4O9dWvvQ25ObD624fYgtcLWXBW6aBLMCtCAnZjdQwG31AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsCHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAfY0Sa7CAAAA[0m[Pipeline] {
+[8mha:////4PHFX9uDiSBssOySWVfp3L1QFhFn0BpkzD54/4wvwK+EAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD1KB9/zCAAAA[0m[Pipeline] withDockerRegistry
+Using the existing docker config file.Removing blacklisted property: auths$ docker login -u liviorodrigues -p ******** https://index.docker.io/v1/
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/jenkins_home/workspace/aracnos@tmp/d211c157-6904-42e4-8d94-374cd0a2c123/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4ASz55uULoThlhTXHrJ8NXAvOlcIiFw7nleQ14FHo/SGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAUhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDypufCDCAAAA[0m[Pipeline] {
+[8mha:////4Gz5a5D6T/OlvYKb60GvrVs+MbrdqvuDw2XUAzUwWIqTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQIEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN8jx5PW+AAAA[0m[Pipeline] isUnix
+[8mha:////4NGeC5MeQk4eU0Lc3alD9P+NGSEZ64DX75ObLkcn/3gLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAELosnevgAAAA==[0m[Pipeline] sh
++ docker tag liviorodrigues/aracnos:140 liviorodrigues/aracnos:140
+[8mha:////4BFEdh1n4XTAcpMtHArSX/Yyxuh2+not7R2Zv5E+3Df+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAFKk9LHvgAAAA==[0m[Pipeline] isUnix
+[8mha:////4CZ9ikTopSa3MEt/YklIGWnrUr26b7Dvr8nxabev03yAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSUIAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN4WPSkC+AAAA[0m[Pipeline] sh
++ docker push liviorodrigues/aracnos:140
+The push refers to repository [docker.io/liviorodrigues/aracnos]
+8964cd7de0f8: Preparing
+52e60baf5e5f: Preparing
+ceaf9e1ebef5: Preparing
+9b9b7f3d56a0: Preparing
+f1b5933fe4b5: Preparing
+9b9b7f3d56a0: Layer already exists
+ceaf9e1ebef5: Layer already exists
+f1b5933fe4b5: Layer already exists
+52e60baf5e5f: Layer already exists
+8964cd7de0f8: Pushed
+140: digest: sha256:a982da0b3825297945fbabdfe2e098405075fa6e686d52c30aead04ffca547eb size: 1367
+[8mha:////4It+MXk0gnzeqhh70FeXalqEKtABR8JEFZJJ5n8zNaRyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLS0ESIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/Bgf2vs2+AAAA[0m[Pipeline] }
+[8mha:////4E1Ps8C5zFhX8n3BNoRDO7lcUPbYJwuGb+mbc5g2Ckq5AAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxFwrByHyjZD4wliiDGQ2cVkESpP5NW8gxmZsfJX/73mvd6wigFqClZ0BnuHUTsx+NGmJyYK/dXTJDq6CE0YyRvRmKmh1pwWbIgNLMtyKCSsDWpP0aFl2MhOPVTpFdryzCG5o4TctXd4QiZTmVXgL8wBtrexjYS/zt8AzMPAUOyqiiE/7D8pXX8NvwAAAA==[0m[Pipeline] // withDockerRegistry
+[8mha:////4GW0DHPcIZE6zuDmWDsNwopvW1MZSSP352bNux5QgaSfAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxHEznGobDM0niCSGAOZXUwWofJEXs07mJEZK3/132ve6w2rGKCmYEVnsHcYWycGP9r0xEShv3qaREcX0RJG8kY0ZmpIm9OCDbGBZVkOhYS1wdZTdGgZNrJTD1V6hbY8c0juKCF3+g5PyGQqswr8hTnA9jbqSPjr/A3APAwMRbWrGPLD/gMaviSxvwAAAA==[0m[Pipeline] }
+[8mha:////4E1cUoLIuP5JlO2B7hVKs4a2EKSu8LwLMEp8D5KXEAwTAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxHEznGobDM0niCSGAOZXUwWofJEXs07mJEZK3/132ve6w2rGKCmYEVnsHcYWycGP9r0xEShv3qaREcX0RJG8kY0ZmpIm9OCDbGBZVkOhYS1wdZTdGgZNrJTD1V6hbY8c0juKCF3+g5PyGQqswr8hTnA9jbqSPjr/A3APAwMRbXbM+SH6gMOnbmuvwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4EJy/D/3SFuQtYprRtwpgY7m4UdTdewVsGV6isc5d5jlAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxFwrByHyjZD4wliiDGQ2cVkESpP5NW8gxmZsfJX/73mvd6wigFqClZ0BnuHUTsx+NGmJyYK/dXTJDq6CE0YyRvRmKmh1pwWbIgNLMtyKCSsDWpP0aFl2MhOPVTpFdryzCG5o4TctXd4QiZTmVXgL8wBtrexjYS/zt8AzMPAUOyqPUN+qD49fuISvwAAAA==[0m[Pipeline] }
+[8mha:////4LuyF6utZanL9IikKIn6rjYPV17wjMJRJO1tPUarrA8xAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDEgUooqK10vACExvjxLoL9oWk4kV8jT9gEYmKrXammdcbFjHAkYIVrcHOYWyc6P1g0xMjhe7qaRQtXURDGMkbUZuxJm1OM9bEBuZlORQSlgYbT9GhZVjJVj1U6RXa8swhuUpC7vQdnpDJVGYV+AtTgPVt0JHw1/kbgKnvGYrtZseQ7w8fYMcgb78AAAA=[0m[Pipeline] // script
+[8mha:////4LgUrIv40hYA94520nHOpWPeQUC8udsHMyvvlbRz/8t8AAAAph+LCAAAAAAAAP9tjbEOgjAURR8lDq6OfkTRwYTEMLk2LH5BLbUWmvewfQiTX+Sv+Q8SSZy80z1nOa83rFKEiqKTrcXOYzJe9mFw85Mjxe4aaJQtXaQhTBSsrO1YU2NPC9bEFpZlAnIFa4smUPLoGDaq1Q9dBI2uOHOc3VGB8M0dnpCpucw68hemCNvb0CTCX+dvAKa+Z8j3uwODKMsPUyR7078AAAA=[0m[Pipeline] }
+[8mha:////4Cq69ZSKNG5hAQ2NsS9MENEzQ3YpDsml5ArR000paM3vAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDDSBFVLRWGl5gYmOcWHfBvpBUvIiv8QcsIlGx1c4083rDIgY4UrCiNdg5jI0TvR9semKk0F09jaKli2gII3kjajPWpM1pxprYwLwsh0LC0mDjKTq0DCvZqocqvUJbnjkkV0nInb7DEzKZyqwCf2EKsL4NOhL+On8DMPU9Q7Hd7Bjyw/4DbEtQxb8AAAA=[0m[Pipeline] // stage
+[8mha:////4JJ9uJFTX2NXQwjWdlcTqnFEEDwBLJ/2aPts+eWr/XEtAAAApx+LCAAAAAAAAP9tjTEOwjAQBM+JUtBS8ggHGigQFa2VhheYxBgn1l2wLzgVL+Jr/IFAJCq22llpNc8XFDHAgYKVrcHOYayd7P1gpyYThe7iKcmWzrImjOSNrEyqqDHHGStiA3NEBrmChcHaU3RoGZaq1Xddeo22PHGYtr2CzDU3eIBQk5l14C+MAVbXoYmEP89fAYw9g9gy5Jv17vMs3j3rMM7CAAAA[0m[Pipeline] stage
+[8mha:////4HP+rBZvZheAYa5MZBlimWRm4bYsNttWBcPUtQXHSPwMAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApTCChTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5Qdi1BftxAAAAA==[0m[Pipeline] { (Deploy: ${tag_number} )
+[8mha:////4GUIsgHkroffamiMkC4rtA+2dM34MiBAZTXdDpfaOuMfAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApbCDUiTXqwglCEkLS6P+SpLQTJ+Jq3IHSSkx4sGxL1nu9oYwBagqGOY2txSgt63xvpsQGCu3V08AcXZgkjOQ1a/TQkNKnpTaUNCzKcig4rDRKT9GiSbDmTjxE5QWa6pzCtB055Fbd4QkZn8hJhDSXMcDm1qtI+OP8BcDYJSh22/3sh++3/AC2mN9UxAAAAA==[0m[Pipeline] script
+[8mha:////4HtN3IZ1cm8S7iQk2McpjgVxWNtKhHy2vu5KqljveDFCAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSB0Rgn14bFJ6htrYXm/7Etlskn8tV8B0ESJ2+43F1y+V5vKIOHI3nDOo29xSAtG9xo5sQS+f7qKLGOLkwSBnKatTq1pPRprS1FDauyHAoOG43SUbBoImx5Jx6icgJNdY5+3g4ccqvu8ISMz+QofPyWycPuNqpA+OP8BcA0RCiaer94Uy/f8gOljgJOxAAAAA==[0m[Pipeline] {
+[8mha:////4CX1g01sIi3I4Pk75Tt9qC6dTYhMpFKqDiarsIH4GV/JAAAAph+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApnRETa5SFE4QkhLTR/yVJaSdOxNW4A6GVmPBg2Zas93pDHQMcKVjWGewdRuXY4EebE5so9FdPE+vowhRhJG+YMJMgbU5rFZQMrCpKqDhsDCpP0aFNsOWdfMjGS7TNOYW8HTiUTt/hCQXP5CRDWsocYHcbdST8cf4CYB4SVG27X7z9fusPFL5hxcQAAAA=[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/aracnos/deploy
+[8mha:////4M2RaPiy6N+riZC086IPdgaq39wXpjqBXTRW9apB3ty/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpwoqYWKMunCA0ISSN/i9JSjtxIq7GHQitxIQHy7Zkvdcb6hjgSMEwp7G3GDvLBj+anNhEob96mpijC+sII3nNWj21pPRprS0lDauKEioBG42dp2jRJNgKJx+y8RJNc04hbwcBpVV3eEIhMjnJkJYyB9jdRhUJf5y/AJiHBBXnfPH991t/ANWAUNjEAAAA[0m[Pipeline] {
+[8mha:////4PQaAglXtJA/q7FK3WoQi7PcWuhVZuMl+HwVloswwTGFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjQImo0lppeIGJjbFj3RnbIal4EV/jD1iJRMUWq51t5v2BTQxwpqCZVTgYjL1h3o06LzZRGG6OJmbpynrCSE6xTk0dSdWu2FFSsKYooeKwVdg7igZ1gh234ilqJ1DXlxTyd+JQGvmAFxQ8m5MIaYE5wP4+ykj48/wVwOwTVE1zWProv374VhvAAAAA[0m[Pipeline] sh
++ ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=140 -vv
+ansible-playbook 2.10.5
+  config file = /var/jenkins_home/workspace/aracnos/deploy/ansible.cfg
+  configured module search path = [u'/usr/share/my_modules']
+  ansible python module location = /usr/local/lib/python2.7/dist-packages/ansible
+  executable location = /usr/local/bin/ansible-playbook
+  python version = 2.7.13 (default, Aug 22 2020, 10:03:02) [GCC 6.3.0 20170516]
+Using /var/jenkins_home/workspace/aracnos/deploy/ansible.cfg as config file
+redirecting (type: modules) ansible.builtin.docker_container to community.general.docker_container
+Skipping callback 'default', as we already have a stdout callback.
+Skipping callback 'minimal', as we already have a stdout callback.
+Skipping callback 'oneline', as we already have a stdout callback.
+
+PLAYBOOK: app_provisioning.yml *************************************************
+1 plays in app_provisioning.yml
+
+PLAY [all] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+task path: /var/jenkins_home/workspace/aracnos/deploy/app_provisioning.yml:2
+<172.17.177.203> ssh_retry: attempt: 1, ssh return code is 255. cmd (['sshpass', '-d9', 'ssh', '-C', '-o', 'ControlMaster=auto', '-o', 'ControlPersist=60s', '-o', 'ControlPath=/dev/shm/cp%h-%p-%r', '-o', 'StrictHostKeyChecking=no', '-o', 'Port=22', '-o', 'IdentityFile="/var/jenkins_home/.ssh/id_rsa"', '-o', 'User="vagrant"', '-o', 'ConnectTimeout=10', '172.17.177.203', "/bin/bash -c 'echo ~vagrant && sleep 0'"]...), pausing for 0 seconds
+<172.17.177.203> ssh_retry: attempt: 2, ssh return code is 255. cmd (['sshpass', '-d9', 'ssh', '-C', '-o', 'ControlMaster=auto', '-o', 'ControlPersist=60s', '-o', 'ControlPath=/dev/shm/cp%h-%p-%r', '-o', 'StrictHostKeyChecking=no', '-o', 'Port=22', '-o', 'IdentityFile="/var/jenkins_home/.ssh/id_rsa"', '-o', 'User="vagrant"', '-o', 'ConnectTimeout=10', '172.17.177.203', "/bin/bash -c 'echo ~vagrant && sleep 0'"]...), pausing for 1 seconds
+<172.17.177.203> ssh_retry: attempt: 3, ssh return code is 255. cmd (['sshpass', '-d9', 'ssh', '-C', '-o', 'ControlMaster=auto', '-o', 'ControlPersist=60s', '-o', 'ControlPath=/dev/shm/cp%h-%p-%r', '-o', 'StrictHostKeyChecking=no', '-o', 'Port=22', '-o', 'IdentityFile="/var/jenkins_home/.ssh/id_rsa"', '-o', 'User="vagrant"', '-o', 'ConnectTimeout=10', '172.17.177.203', "/bin/bash -c 'echo ~vagrant && sleep 0'"]...), pausing for 3 seconds
+ok: [172.17.177.201]
+ok: [172.17.177.202]
+fatal: [172.17.177.203]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\n@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @\r\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\nIT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!\r\nSomeone could be eavesdropping on you right now (man-in-the-middle attack)!\r\nIt is also possible that a host key has just been changed.\r\nThe fingerprint for the ECDSA key sent by the remote host is\nSHA256:jY9TdfEQZMv9cFb8MUXggf2qMUuDpDBG/mXWFfYkC7s.\r\nPlease contact your system administrator.\r\nAdd correct host key in /var/jenkins_home/.ssh/known_hosts to get rid of this message.\r\nOffending ECDSA key in /var/jenkins_home/.ssh/known_hosts:8\r\n  remove with:\r\n  ssh-keygen -f \"/var/jenkins_home/.ssh/known_hosts\" -R 172.17.177.203\r\nPassword authentication is disabled to avoid man-in-the-middle attacks.\r\nKeyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.\r\nPermission denied (publickey).", "unreachable": true}
+
+TASK [Set discovered Ansible Python interpreter.] ******************************
+task path: /var/jenkins_home/workspace/aracnos/deploy/app_provisioning.yml:10
+ok: [172.17.177.201] => {"ansible_facts": {"ansible_python_interpreter": "/usr/bin/python3"}, "changed": false}
+ok: [172.17.177.202] => {"ansible_facts": {"ansible_python_interpreter": "/usr/bin/python3"}, "changed": false}
+META: ran handlers
+
+TASK [Deploy With Ansible] *****************************************************
+task path: /var/jenkins_home/workspace/aracnos/deploy/app_provisioning.yml:17
+redirecting (type: modules) ansible.builtin.docker_container to community.general.docker_container
+redirecting (type: modules) ansible.builtin.docker_container to community.general.docker_container
+fatal: [172.17.177.201]: FAILED! => {"changed": false, "msg": "Error pulling image liviorodrigues/apimyhome:140 - 404 Client Error for http+docker://localhost/v1.41/images/create?tag=140&fromImage=liviorodrigues%2Fapimyhome: Not Found (\"pull access denied for liviorodrigues/apimyhome, repository does not exist or may require 'docker login': denied: requested access to the resource is denied\")"}
+fatal: [172.17.177.202]: FAILED! => {"changed": false, "msg": "Error pulling image liviorodrigues/apimyhome:140 - 404 Client Error for http+docker://localhost/v1.41/images/create?tag=140&fromImage=liviorodrigues%2Fapimyhome: Not Found (\"pull access denied for liviorodrigues/apimyhome, repository does not exist or may require 'docker login': denied: requested access to the resource is denied\")"}
+
+PLAY RECAP *********************************************************************
+172.17.177.201             : ok=2    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+172.17.177.202             : ok=2    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+172.17.177.203             : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+
+[8mha:////4PbYzpaHuJaIqHIvixtMl7Iyx5n/T9D5B4Gm0yS30WhKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjIDpEldZKwwtMbIwd687YDknFi/gaf8BKJCq2WO1sM+8PbGKAMwXNrMLBYOwN827UebGJwnBzNDFLV9YTRnKKdWrqSKp2xY6SgjVFCRWHrcLeUTSoE+y4FU9RO4G6vqSQvxOH0sgHvKDg2ZxESAvMAfb3UUbCn+evAGafoGqaw9JH/wW5bhdUwAAAAA==[0m[Pipeline] echo
+Exception: hudson.AbortException: script returned exit code 4
+[8mha:////4KHPBb39n0XkGBxS2d0uY7sfr5vHZszkpHB0DS3vBro6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjIFEhqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTB7n6BqmuPShy9aImFCwAAAAA==[0m[Pipeline] }
+[8mha:////4IWqe8s5z14+ThDuDvil69w6N3WAW2tlQXm6nOEE3uxsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjNDSIitZKwwtMYowd686cHZKKF/E1/oCVSFRssdrZZt4f2ESGE7ERTuNgMXZWBD+avMREPNw8TcLRVXSEkbwWrZ5a6vV5xZaShjVFCZWErcbOU7RoEuykU09Ve4WmviTO31FCafsHvKCQ2ZwUpwVmhv197CPhz/NXAHMICaqmOSzdfAF9aYDqwAAAAA==[0m[Pipeline] // dir
+[8mha:////4OcvTpwGYKTVCALp2xDUQn2PZCwwRex0eTu9tfms47w8AAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7FIZeFY0WbSeIIYYgxkdjEJQuWJvJp3kIEZK3/x57/fvPcHNjHAmYPF1lDnKGqHvR/svHDk0N08j9jyFTVTZG9QmlFyY+oVJScDa7IcCgFbQ9pzdGQT7ESrnqr0imx5SWH+TgJy1zzgBZmYzUmFtMAUYH8fmsj08/wVwNT3CYqqOi59+AJfUvA7wAAAAA==[0m[Pipeline] }
+[8mha:////4N3XE5ftfxRL9IeMEFkajSEHZ9OicprbY5A+bHIGFd/zAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDOhCiorXS8AKTGGPHujP2haTiRXyNPxCIRMUWq51t5vmCRYpwoGiE09hZTI0VwfdmWmKg2F08DcLRWTSEibwWtR5qavVxxppYw5wsh0LCUmPjKVk0DCvp1F2VXqEpTxynby8ht+0NHpDJycwq8hfGCOtr3ybCn+evAMYQGIqq2n56s3sDU6t/rcAAAAA=[0m[Pipeline] // script
+[8mha:////4BiITn5FhZ3pF6FdGHINwgTqbMK84hcqHCPTFUUpQaRUAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDOhCiorXS8AKTGGPHujP2haTiRXyNPxCIRMUWq51t5vmCRYpwoGiE09hZTI0VwfdmWmKg2F08DcLRWTSEibwWtR5qavVxxppYw5wsh0LCUmPjKVk0DCvp1F2VXqEpTxynby8ht+0NHpDJycwq8hfGCOtr3ybCn+evAMYQGIqq2n16s30DcZAPfMAAAAA=[0m[Pipeline] }
+[8mha:////4LZrKe15aBHEUEixYTt3o5RmNsswDlfBFv6df1oA1hzeAAAAph+LCAAAAAAAAP9tjTESwiAURH+SsbC19BAk2lg4VrYMjSdAQCRh/o9AJJUn8mrewWhmrNxiZ9827/mCRQxwoGBZa7BzGJVjvR/stFim0F08ZdbSmSnCSN4wYbIgbY4zCkoG5hQlVByWBpWn6NAmWPFW3mXtJdr6lML07TmUTt/gAQWfzEmG9IUxwPo66Ej48/wVwNj3CarNtvl0s3sD0M+n98AAAAA=[0m[Pipeline] // stage
+[8mha:////4D1sKSCcMm9dIw9sQVmRBBLW+d6ywAYSZ9Qg4SX8H5FOAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8ghHoaBBVLRWGl5gHGOcWHfBvuBUvIiv8QcCkajYamel1TxfUMYABwpWdAZ7h1E7MfjRzk0kCv3FUxIdnYUmjOSNaExqqDXHBRtiA0uyHAoJK4PaU3RoGdayU3dVeYW2OnGYt72E3LU3eEAmZzOrwF+YAmyuYxsJf56/ApgGhmzHUNTb+vMs3wkZ9o/CAAAA[0m[Pipeline] stage
+[8mha:////4FYpKhffyyBtq9PWKTklLrdq8DaK1Ml8ws1PA+r5hmUVAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJrMbJteniE1Raa0vz/9AWYfKJfDXfQYTEyRsud5dcvtcbyhjgRMEwp7GzGFvLej+aJbGJQnfzNDFHV9YSRvKaCT0JUvq8VUFJw6Ysh4LDTmPrKVo0CfbcyYesvERTXVJYtiOH3KoBnpDxhZxkSGuZAxzuo4qEP85fAMx9gqJu6tWb77f8AIb2clTEAAAA[0m[Pipeline] { (TAGs)
+[8mha:////4FRkZxUvrkeZWoEFW16ExEUJSzhDH01yWESKOtv96OX6AAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSJOBon1obFJ6il1kLz/9gWy+QT+Wq+gxUSJ2+43F1y+V5vKL2DEznNeoWDQS8NG+2kU2KR3HC1FFlPFyYJPVnFWhVb6lSz1paCglVZDgWHjUJpyRvUAba8Fw9RWYG6OgeXtiOH3HR3eELGEzkIF5YyO9jdps4T/jh/ATCPAYp9XS9++H7LD9P3sOjEAAAA[0m[Pipeline] script
+[8mha:////4OJZqvrIEyHflf6JS1PQD/v/TGP6XVA91JFTi6ezgOo6AAAAqB+LCAAAAAAAAP9tjT0OwjAUg19bdWBl5BCp+NlQJ9aoCycISQhJo/dKktJOnIircQdKKzHhwbItWd/rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx3e1nP3y/5QcEixBuxAAAAA==[0m[Pipeline] {
+[8mha:////4BGRVW0nSY09WrgyhiH5pJbw0LrLeQrRSV/Ds74tTVnBAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpQDChTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx3e1nP3y/5QcusdTRxAAAAA==[0m[Pipeline] withCredentials
+Masking supported pattern matches of $GIT_AUTHOR_NAME or $GIT_PASSWORD
+[8mha:////4Itasnj2PNqxsaKvNTwHOsEI8r5rqRoZyOtil2Z3RNfwAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpQIIFdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK7W4/++H7LT/vj+XMxAAAAA==[0m[Pipeline] {
+[8mha:////4FHhgEbKBa4ThJTI4dD4znBix50jhwXJwaBO8FAZskKVAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjKKBAqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7BNVuf5j72H8BHLG7wMAAAAA=[0m[Pipeline] sh
++ git config --global user.email aracnos@jenkins.com
+[8mha:////4AgyEa4EmqhknbIOx4AmHuDvc9ydO02/4HBaFBD9kV22AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjKBASSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDYJ6h2+8Pcx/4L060jR8AAAAA=[0m[Pipeline] sh
++ git config --global user.name Jenkins
+[8mha:////4E75zALNphkaFwtucXbltabhlGINjpmtvssZGXWPV9MVAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjKJAQSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDYJ6h2+8Pcx/4Lkpw4XsAAAAA=[0m[Pipeline] sh
++ git config --global push.default simple
+[8mha:////4PcskdAOeFTQzPQH7luD2EwPE5Gv4n5nCZsiNHRULcJ6AAAApx+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYTDR6JBVLSWG05gbGOcWLvBdkgqTsTVuAOGSFRMMZo3zXu+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2Car1Zvfp7ap7A+xNOI7AAAAA[0m[Pipeline] sh
++ git tag -a v140.0.0.1-SNAPSHOT -m CREATE: date: 04/22/2021 13:12:12 
+[8mha:////4KmlE3Rzb5TJ3MTzPAomqS2KWV+swlMa4kgN1UUr4n3wAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjgESDqGgtN7zA2MY4se6C7eBUvIiv8QcCkajYYrWzzTxfsIgBDhQsaw12DqNyrPeDnRbLFLqLp8xaOjNFGMkbJkwWpM1xRkHJwJyihIrD0qDyFB3aBCveyrusvURbn1KYvj2H0ukbPKDgkznJkL4wBlhfBx0Jf56/Ahj7BFWz2X162/RvrXwjl8AAAAA=[0m[Pipeline] sh
++ git push http://****:****@gitlab.devops/gitlab/aracnos.git --tags -f --no-verify
+fatal: unable to access 'http://****:****@gitlab.devops/gitlab/aracnos.git/': Could not resolve host: ssw0rd@gitlab.devops
+[8mha:////4HLaCjbkS6J+ix5QXTMV94luuiLcuGZaKGIZs8uVh9vFAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjgkSDqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIZis60+Xe3ec4yj6cAAAAA=[0m[Pipeline] }
+[8mha:////4AC+mqcX7TZmzpvs4HoSOBblwxS7ZV49olZhxVarhQM7AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjiKgQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTCGwFBsqurT290bfdbd1sAAAAA=[0m[Pipeline] // withCredentials
+[8mha:////4O+q9kHVLuVIPC021Z26WdPBprwcXyWfncrtQnoj2C7TAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjIB2iorXS8AKTGGPHujP2haTiRXyNPxCIRMUWq51t5vmCRYpwoGiE09hZTI0VwfdmWmKg2F08DcLRWTSEibwWtR5qavVxxppYw5wsh0LCUmPjKVk0DCvp1F2VXqEpTxynby8ht+0NHpDJycwq8hfGCOtr3ybCn+evAMYQGIrNrvr0tnoDZdh9ZMAAAAA=[0m[Pipeline] }
+[8mha:////4NAS7xHaDAGosrkltvhGFe78WUH/y/MorDuM56xn28uWAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjiKgQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTCGwFBsqt2nt9UbckZuXMAAAAA=[0m[Pipeline] // script
+[8mha:////4FAg+wzqXQDyYE0feujJW0qGLzhdrn3kZ3Yoz/VwEZRaAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjgkSDqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIZis919uqreeWyBGsAAAAA=[0m[Pipeline] }
+[8mha:////4IF3WP7N9R/5PrfpMkAUpIz9vNY1L44+O9HvDRqFoZ2NAAAAph+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBkooWFY2XL0HgCBEQS5v8IRFJ5Iq/mHYxmxsotdvZt854vWMQABwqWtQY7h1E51vvBTotlCt3FU2YtnZkijOQNEyYL0uY4o6BkYE5RQsVhaVB5ig5tghVv5V3WXqKtTylM355D6fQNHlDwyZxkSF8YA6yvg46EP89fAYx9n6BqtrtPb5o3dzb/JcAAAAA=[0m[Pipeline] // stage
+[8mha:////4J7PIrlj+pqe+zmMfPt7lb03LOY1aj+yccuo4uz3iSRKAAAAph+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjhISQEBWtlYYXGMcYJ9ZdsC84FS/ia/yBiEhUbLUzzbzesEgRjhSdbC12HpPxsg+Dm57MFLtroCxbukhDmChYWdtcU2NPM9bEFuaJAkoFS4smUPLoGFaq1Q9dBY2uOnOc3EFB4Zs7PEGoqcw68hfGCOvb0CTCX+dvAMa+Zyg32z2D2H0AohArEL4AAAA=[0m[Pipeline] }
+[8mha:////4IFs2uXFsrrvJ6xFkAOj/1/3quo4oYjCrul7UwokvL7uAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjhCgQoqK10vAC4xjjxLoL9gWn4kV8jT8QEYmKrXammdcbFinCkaKTrcXOYzJe9mFw05OZYncNlGVLF2kIEwUra5trauxpxprYwjxRQKlgadEESh4dw0q1+qGroNFVZ46TOygofHOHJwg1lVlH/sIYYX0bmkT46/wNwNj3DOVmu2cQuw+oaEK0vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4EehPyCAyeCI0SqB1ZQFgL/PiFWEVtDgABBRVnuaEXSqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDUjpERWul4QUmNsaJdWfsC07Fi/gafyAiEhVb7UwzrzesUoQjRSt6g4PD1DkR/GjnJzLF4eopi54uoiNM5I1oTW5Jm9OCLbGBZUUJlYS1wc5TcmgZNrJXD1V7hbY+c5zdQULp9B2eUMi5zCryF6YI29uoE+Gv8zcAUwgM1b7ZMRTNB/cKUNO+AAAA[0m[Pipeline] }
+[8mha:////4PdRb8ap1qVh2st0rIY1AtUJ3asiSQAL88EeggB39shjAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjCDpERWul4QUmNsaJdRfsC07Fi/gafyAiEhVb7UwzrzesUoQjRSc7i73H1Ho5hNHNT2aK/TVQlh1dZEuYKFjZ2NyQsacFG2ILy0QBpYK1xTZQ8ugYNqrTD10Fja46c5zdQUHhzR2eINRcZh35C1OE7W00ifDX+RuAaRgYynpfM4jdB+S2VHC+AAAA[0m[Pipeline] // node
+[8mha:////4LoKm2OpNNKHT4JUy9SlBQPsHhY5WywzIANeinTKVm6EAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjIjpERWul4QUmNsaJdWfsC07Fi/gafyAiEhVb7UwzrzesUoQjRSt6g4PD1DkR/GjnJzLF4eopi54uoiNM5I1oTW5Jm9OCLbGBZUUJlYS1wc5TcmgZNrJXD1V7hbY+c5zdQULp9B2eUMi5zCryF6YI29uoE+Gv8zcAUwgM1W7fMBTNB6L880C+AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 128
+Finished: FAILURE

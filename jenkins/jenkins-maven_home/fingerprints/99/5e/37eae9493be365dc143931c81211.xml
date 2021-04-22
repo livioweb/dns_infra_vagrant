@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-04-22 14:22:33.415 UTC</timestamp>
+  <md5sum>995e37eae9493be365dc143931c81211</md5sum>
+  <fileName>Credential id=gitlab_jenkis name=root/****** (gitlab_jenkis)</fileName>
+  <usages>
+    <entry>
+      <string>roles_colections</string>
+      <ranges>64-65</ranges>
+    </entry>
+    <entry>
+      <string>aracnos</string>
+      <ranges>146-147</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

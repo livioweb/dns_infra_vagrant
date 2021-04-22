@@ -7,10 +7,10 @@ def body = get.getInputStream().getText();
 def object = jsonSlurper.parseText(body)
 println(getRC);
 
-def process = "ls -l".execute()
+/*def process = "ls -l".execute()
 process.in.eachLine { line ->
     println line
-}
+}*/
 
 if(getRC.equals(200)) {
     object.results.forEach(){line->

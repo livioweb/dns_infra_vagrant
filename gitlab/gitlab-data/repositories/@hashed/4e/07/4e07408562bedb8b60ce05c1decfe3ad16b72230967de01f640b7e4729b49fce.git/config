@@ -3,4 +3,4 @@
 	filemode = true
 	bare = true
 [gitlab]
-	fullpath = livio/teste
+	fullpath = notrap/ansible_file_deploy

@@ -1,0 +1,10 @@
+commit 7087581a83ee2f7cc86ed5fa1fdc0ac35292b6fc
+tree fc77c3dab251d081cb97b429ea7cd48e01ce1a0c
+parent 15dd109802ba49b19f926472ea85cf4e778678c2
+author jenkis <jenkis@pulse.com> 2021-03-25 11:30:24 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-25 11:30:24 -0300
+
+    Add saida com roles
+
+
+:100644 100644 9a193899d30f3357a903382a6507ba321c27ceea a2c25a566def0f2fc70ab819c0f3771427749616 M	main.yml

@@ -20,7 +20,7 @@
         name: apimyhome
         state: started
         restart: yes
-        image: liviorodrigues/aracnos:{{REGISTER}}
+        image: liviorodrigues/apimyhome:{{REGISTER}}
         cpu_quota: 100000
         memory: "512MB"
         exposed_ports:

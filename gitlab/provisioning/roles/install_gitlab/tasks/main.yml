@@ -3,7 +3,8 @@
     docker_container:
       docker_host: unix://var/run/docker.sock
       name: gitlab
-      image: sameersbn/gitlab:13.7.1
+      #image: sameersbn/gitlab:13.7.1 
+      image: sameersbn/gitlab:13.10.3 
       state: started
       recreate: yes
       ports:
@@ -110,3 +111,4 @@
          OAUTH_AZURE_API_SECRET: ""
          OAUTH_AZURE_TENANT_ID: ""
 
+http://jenkins:1167817ff0dae008198be58549701d8796@jenkins.devops/project/aracnos/

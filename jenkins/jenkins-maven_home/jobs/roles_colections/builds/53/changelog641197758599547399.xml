@@ -1,0 +1,10 @@
+commit b56b0db00805585f2e99993c2f5f6aa9f5f8fc99
+tree 5dadf5fbde10552ec1b490303c7e2fb2d4116b69
+parent 8f68baa2f7032d47db598e638732c5e7ee6b36d9
+author gitlab <user@test.com> 2021-03-17 15:13:13 +0000
+committer Jenkins <user@test.com> 2021-03-17 15:13:13 +0000
+
+    52
+
+
+:100644 100644 793d2662ceb5178a34bfb190eb274798430fbebe f745f14f565a792daea77cabed10d763c094b78c M	roles/deploy_roles/meta/.galaxy_install_info

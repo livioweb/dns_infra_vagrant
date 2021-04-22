@@ -1,0 +1,20 @@
+commit 1081e2d3d0c8e9846a5496075f33e07cd3e094f4
+tree b97e1996243b56177984440aa8aaad060cd7a21f
+parent 9a120bbd3e7c790980f99a3d9de8a15427a23a1e
+author jenkis <jenkis@pulse.com> 2021-03-16 16:10:39 -0300
+committer jenkis <jenkis@pulse.com> 2021-03-16 16:10:39 -0300
+
+    Add Roles
+
+
+:100644 100644 9db0b37107ce7c48aaad3bdd214f2182b84de0df 35e5efd514e4ac67160f54329a973daae76ee1b7 M	requirements.yml
+commit da61234f680ee5d4a05f313e5709a6cfba9fd2f1
+tree 1ac38704939c43f49e92ccf43d60c42ebfd98bb0
+parent 36e976b0d13e34e945bfb1334d53d62c63d7f9f0
+author gitlab <user@test.com> 2021-03-16 19:07:18 +0000
+committer Jenkins <user@test.com> 2021-03-16 19:07:18 +0000
+
+    32
+
+
+:100644 100644 31a713bbc685c7c3175d184be81edebbc3fad251 4fc94a386ee57404c993d74d2de7ba77e4951ef4 M	roles/deploy_roles-master/meta/.galaxy_install_info

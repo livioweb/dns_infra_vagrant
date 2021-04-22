@@ -5,8 +5,12 @@
   <fileName>Credential id=gitlab_jenkis name=gitlab/****** (gitlab_jenkis)</fileName>
   <usages>
     <entry>
+      <string>roles_colections</string>
+      <ranges>6-15,18-44,46,49-62</ranges>
+    </entry>
+    <entry>
       <string>aracnos</string>
-      <ranges>8-21,26-28,33-34,36-38</ranges>
+      <ranges>8-21,26-28,33-34,36-80,82-95,103,106-123,125-133,136-137</ranges>
     </entry>
   </usages>
   <facets>

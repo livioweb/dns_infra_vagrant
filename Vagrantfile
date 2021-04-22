@@ -8,6 +8,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.ssh.insert_key = true
   #config.disksize.size = '20GB'
 
+  config.vm.provision "file", source: "resolv.conf", destination: "/tmp/resolv.conf"
+  config.vm.provision "shell", inline: "mv /tmp/resolv.conf /etc/resolv.conf"
+
   config.vm.define :bb8 do |bb8|
 
     bb8.vm.provider :virtualbox do |v|
@@ -58,6 +61,7 @@ end
         xwings.vm.network :private_network, ip: "172.17.177.20#{i}"
         xwings.ssh.forward_agent = true
         xwings.vm.synced_folder "./", "/vagrant", :nfs => true, :mount_options => ['vers=3','noatime','actimeo=2', 'tcp', 'fsc']
+        #type: 'nfs', mount_options: ["vers=4,tcp"]
         xwings.vm.hostname = "xwing-#{i}"
         xwings.vm.provision "shell", path: "xwings/script.sh"
 
@@ -72,7 +76,7 @@ end
                 node_ip: "172.17.177.20#{i}",
             }
         end
-
+        
     xwings.vm.provision "shell", inline: <<-SHELL
       echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDoXmBHMI+z1YOx+B/tSWQu8yF5WgIRjdxvTkEOx+I+U6MCL6YnvyJgMAG4gSAh8I9/pAiOpn/JpmXYgwhgWBV6yr8zon4hd5qJM9XJK6MlKJwDD4ag6Qtg/orG3gflf7KObINpjrwyq+LphJf/evs7z34JQoX1qzqg3SkFtesjs9s/qMykwpTaDe4Fr31FMCdyuZEebL51fGBjUZT9XmW0hBKPedaQdGWWpYYRQ1wSIBEt20aWhu1JfdKrr498wjbdLcCOqQ4cS07UcroH7wRPQp/NjYKMD3xYvPFvCUg/BuGK8cenH+aH3Uv9AjYS5CyAYYbNbRN+SzdOaQohUzQv anakin@r2d2" >> /home/vagrant/.ssh/authorized_keys
       echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCv/qDz53vlV7ix5npgjcDr+VZNTlGuhnQzEZxfL833fMq3Jq2MhFk5lAsG6wVtkLlfO899aF8jinXsYPPqqjSE/f7vrSiBE+1UwgvAWuzie8GmT3/4Zbbxl8VGOU7T3vUDxl1NCUOxXx+ewSMwx8uUpfcUwJ1A1FQKnIcoeDZiOjo+lRWKWankN/MlCzU+YdZVLxWcw8qLFSeNqaj+WT0bZpI2lYyJLQiamjL6Izh56zsY1njqc4QZxXiUiLpeMc3kw1mcs6d0KpTLxTaYP/fpfI4nMccNTkHudKA/aXQDD8+iwIs7WEnZY8OybP9g2stUH/L7i3CYotKKbHmUNihD jenkins@jenkins.docker" >> /home/vagrant/.ssh/authorized_keys
@@ -109,6 +113,7 @@ end
   config.vm.define "gitlab" do |gitlab|
     gitlab.vm.box = "ubuntu/bionic64"
     gitlab.vm.network "private_network", ip: "172.17.177.120"
+    gitlab.disksize.size = '20GB'
 
     gitlab.vm.hostname = "gitlab"
     gitlab.vm.synced_folder "gitlab/", "/home/vagrant/gitlab"
@@ -175,11 +180,11 @@ end
 
 
         endor1.vm.provision "shell", inline: <<-SHELL
-           # rm /etc/bind/named.conf.options
-           # rm /etc/bind/named.conf.local
-           # rm /etc/default/bind9
-           # rm -r /etc/bind/zones
-           # rm /etc/netplan/00-private-nameservers.yaml
+            rm /etc/bind/named.conf.options
+            rm /etc/bind/named.conf.local
+            rm /etc/default/bind9
+            rm -r /etc/bind/zones
+            rm /etc/netplan/00-private-nameservers.yaml
         SHELL
 
 
@@ -232,10 +237,10 @@ end
 
 
       endor2.vm.provision "shell", inline: <<-SHELL
-            #rm /etc/bind/named.conf.options
-            #rm /etc/bind/named.conf.local
-            #rm /etc/default/bind9
-            #rm /etc/netplan/00-private-nameservers.yaml
+            rm /etc/bind/named.conf.options
+            rm /etc/bind/named.conf.local
+            rm /etc/default/bind9
+            rm /etc/netplan/00-private-nameservers.yaml
         SHELL
 
 

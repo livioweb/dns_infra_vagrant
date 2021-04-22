@@ -89,3 +89,208 @@ docker login
 docker login
 docker ps
 exit
+docker login
+docker login
+docker login
+exit
+docker login
+cd /var/jenkins_home/workspace/roles\ colections
+ls
+ls
+cd ..
+cd  roles\ colections
+ls
+ls
+cd ..
+cd roles\ colections
+ls
+ansible-galaxy install -r requirements.yml --force -p roles
+cd ..
+ls
+cd roles_colections
+ls
+ansible-galaxy install -r requirements.yml --force -p roles
+ls
+cd ..
+cd roles_colections
+ls
+ansible-galaxy install -r requirements.yml --force -p roles
+ansible-galaxy install -r requirements.yml --force -p roles -vv
+cd ..
+cd roles_colections
+ls
+ansible-galaxy install -r requirements.yml --force -p roles -vv
+ls
+cd roles/
+ls
+cd ..
+cd ..
+cd roles_colections
+ls
+ansible-galaxy install -r requirements.yml --force -p roles -vvvv
+cd ..
+cd roles_colections
+ls
+cat requirements.yml 
+cd ..
+cd roles_colections
+ls
+ansible-galaxy install -r requirements.yml --force -p roles -vvvv
+cd ..
+ls
+rm -Rf roles\ colections
+ls
+rm -Rf roles\ colections\@tmp/
+ls
+cd roles_colections
+ls
+cd ..
+cd roles_colections
+ls
+cd roles/
+ls
+cd ..
+ls
+cd ..
+cd roles_colections
+cd roles/
+ls
+cd ..
+cd roles/
+ls
+cd ..
+ls
+git status
+cd ..
+cd roles_colections/de
+cd aracnos
+ls
+cd deploy
+ls
+cat app_provisioning.yml 
+ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=59 -vv
+ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=59 -vvvv
+cd ..
+ls
+cd deploy
+ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=61 -vv
+cat a
+cat app_provisioning.yml 
+ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=61 -vv
+ls
+cd ..
+cd ..
+cd aracnos
+ls
+cd deploy
+ls
+cd roles/
+ls
+de deploy_roles-master/
+ls
+pwd
+ls
+cd deploy_roles-master/
+ls
+cat defaults/main.yml 
+vim  defaults/main.yml 
+cd ..
+cd ..
+ls
+cd roles/
+ls
+de deploy_roles-master/
+ls
+cat deploy_roles-master/defaults/main.yml 
+cd ../../../roles_colections
+ls
+cd roles/
+ls
+cd deploy_roles-master/
+ls
+cat defaults/main.yml 
+cd ..
+ls
+cd deploy_roles-master/
+ls
+cat defaults/main.yml 
+cd ..
+;s
+ls
+cd ..
+ansible-galaxy install -r requirements.yml --force -p roles -vvvv
+cd ..
+cd roles_colections
+ls
+cd roles/
+ls
+cd deploy_roles-master/
+de defaults/
+cat ma
+cat defaults/main.yml 
+cd ../../../aracnos
+ls
+cd deploy
+ls
+ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=67 -vv
+cd ..
+cd ..
+cd roles_colections
+ls
+cd roles/
+ls
+cd deploy_roles/
+ls
+cat defaults/main.yml 
+exit
+cd /var/jenkins_home/workspace/roles_colections
+ls
+cd roles/
+ls
+cd deploy_roles/
+ls
+cd deploy_roles/
+ls
+cd ..
+cd ..
+cd ..
+cd ..
+cd aracnos
+ls
+ls
+cd deploy
+ls
+ ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=67 -vv
+ ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=67 -vv
+cd ..
+cd deploy
+ls
+ ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=67 -vv
+echo "" >> /var/jenkins_home/.ssh/known_hosts
+ ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=67 -vv
+ cat ~/.ssh/id_rsa.pub 
+ ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=67 -vv
+ ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=67 -vv
+ ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=67 -vv
+ ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=67 -vv
+exit
+cd /var/jenkins_home/workspace/aracnos
+ls
+cd deploy
+ls
+ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=61 -vv
+exit
+cd /var/jenkins_home/workspace/aracnos
+ls
+docker build -t liviorodrigues/aracnos:139 .
+ls -lha /var/run/docker.sock
+exit
+cd /var/jenkins_home/workspace/aracnos
+ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=61 -vv
+ls
+cd deploy
+ls
+ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=61 -vv
+ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=61 -vv
+ansible-playbook -i hosts app_provisioning.yml --extra-vars REGISTER=61 -vv
+exit
